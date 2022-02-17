@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <home />
+    <div v-if="viewport==1">AD</div>
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Home from "./views/Home.vue";
+import Footer from "./components/footer.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
+    Footer,
   },
 };
 </script>
@@ -22,22 +24,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  /* margin-top: 60px; */
+  margin-bottom: 90px;
 }
-/* CODE FOR SCROLLING GALLERY */
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
+
+@media only screen and (min-width: 1000px) {
+  body {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
-::-webkit-scrollbar {
-  display: none;
-}
-.viewport {
-  width: 100%;
-  overflow: scroll;
-  padding: 5px;
-}
-/* END CODE FOR SCROLLING GALLERY */
 </style>

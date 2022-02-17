@@ -2,7 +2,7 @@
   {
     "_id": "614977acd02ea55591d253d1",
     "restaurant": "EXOVENT",
-    "street": "Bank Street",
+    "location": "Bank location",
     "city": "Rowe",
     "state": "Iowa",
     "picture": "http://placehold.it/32x32",
@@ -318,7 +318,7 @@
   {
     "_id": "614977acc2726de156850479",
     "restaurant": "QUANTALIA",
-    "street": "Bethel Loop",
+    "location": "Bethel Loop",
     "city": "Twilight",
     "state": "Pennsylvania",
     "picture": "http://placehold.it/32x32",
@@ -634,7 +634,7 @@
   {
     "_id": "614977ac130c086f09dd16c9",
     "restaurant": "MAGNAFONE",
-    "street": "Seagate Avenue",
+    "location": "Seagate Avenue",
     "city": "Gorst",
     "state": "New York",
     "picture": "http://placehold.it/32x32",
@@ -862,7 +862,7 @@
   {
     "_id": "614977ac5db00ff5837565df",
     "restaurant": "LYRICHORD",
-    "street": "Brooklyn Road",
+    "location": "Brooklyn Road",
     "city": "Islandia",
     "state": "District Of Columbia",
     "picture": "http://placehold.it/32x32",
@@ -1130,7 +1130,7 @@
   {
     "_id": "614977acfd69570ccb82966a",
     "restaurant": "CALCULA",
-    "street": "Jackson Court",
+    "location": "Jackson Court",
     "city": "Laurelton",
     "state": "Louisiana",
     "picture": "http://placehold.it/32x32",
@@ -1474,7 +1474,7 @@
   {
     "_id": "614977ace11a163f14cef62f",
     "restaurant": "QUILTIGEN",
-    "street": "Oxford Street",
+    "location": "Oxford location",
     "city": "Beechmont",
     "state": "Michigan",
     "picture": "http://placehold.it/32x32",
@@ -1784,7 +1784,7 @@
   {
     "_id": "614977ac3c718508e0ff01dd",
     "restaurant": "KONGLE",
-    "street": "Falmouth Street",
+    "location": "Falmouth location",
     "city": "Brookfield",
     "state": "Tennessee",
     "picture": "http://placehold.it/32x32",
@@ -2078,7 +2078,7 @@
   {
     "_id": "614977ace64ad2f85dd71163",
     "restaurant": "INCUBUS",
-    "street": "Seacoast Terrace",
+    "location": "Seacoast Terrace",
     "city": "Rosedale",
     "state": "Maine",
     "picture": "http://placehold.it/32x32",
@@ -2464,7 +2464,7 @@
   {
     "_id": "614977ac36c66213251cd95e",
     "restaurant": "GRONK",
-    "street": "Charles Place",
+    "location": "Charles Place",
     "city": "Fingerville",
     "state": "Virgin Islands",
     "picture": "http://placehold.it/32x32",
@@ -2826,7 +2826,7 @@
   {
     "_id": "614977ac698012175234a885",
     "restaurant": "ZERBINA",
-    "street": "Euclid Avenue",
+    "location": "Euclid Avenue",
     "city": "Bainbridge",
     "state": "Utah",
     "picture": "http://placehold.it/32x32",
@@ -3084,7 +3084,7 @@
   {
     "_id": "614977ac621dcdb4888c4037",
     "restaurant": "DEMINIMUM",
-    "street": "Grace Court",
+    "location": "Grace Court",
     "city": "Hachita",
     "state": "Palau",
     "picture": "http://placehold.it/32x32",
@@ -3360,7 +3360,7 @@
   {
     "_id": "614977ac8a4e19ac13cbf5c9",
     "restaurant": "RONBERT",
-    "street": "Taaffe Place",
+    "location": "Taaffe Place",
     "city": "Stonybrook",
     "state": "Indiana",
     "picture": "http://placehold.it/32x32",
@@ -3728,7 +3728,7 @@
   {
     "_id": "614977ac7bd9e37de87d7eb8",
     "restaurant": "IDEALIS",
-    "street": "Llama Court",
+    "location": "Llama Court",
     "city": "Edenburg",
     "state": "Connecticut",
     "picture": "http://placehold.it/32x32",
@@ -4048,7 +4048,7 @@
   {
     "_id": "614977acca69409ffa14bf2f",
     "restaurant": "SLUMBERIA",
-    "street": "Barbey Street",
+    "location": "Barbey location",
     "city": "Cutter",
     "state": "South Carolina",
     "picture": "http://placehold.it/32x32",
@@ -4446,7 +4446,7 @@
   {
     "_id": "614977ac72880d5d72660b60",
     "restaurant": "MACRONAUT",
-    "street": "Lacon Court",
+    "location": "Lacon Court",
     "city": "Brewster",
     "state": "Florida",
     "picture": "http://placehold.it/32x32",
@@ -4728,7 +4728,7 @@
   {
     "_id": "614977ac624ced968d8b49a8",
     "restaurant": "DELPHIDE",
-    "street": "Doughty Street",
+    "location": "Doughty location",
     "city": "Madaket",
     "state": "Ohio",
     "picture": "http://placehold.it/32x32",
@@ -4990,7 +4990,7 @@
   {
     "_id": "614977aca5154b4466537cd8",
     "restaurant": "GAZAK",
-    "street": "Girard Street",
+    "location": "Girard location",
     "city": "Drummond",
     "state": "Oklahoma",
     "picture": "http://placehold.it/32x32",
@@ -5254,7 +5254,7 @@
   {
     "_id": "614977ac61e65ee6b41a27b7",
     "restaurant": "CORIANDER",
-    "street": "Columbia Place",
+    "location": "Columbia Place",
     "city": "Germanton",
     "state": "American Samoa",
     "picture": "http://placehold.it/32x32",
@@ -5470,7 +5470,7 @@
   {
     "_id": "614977ac6a8ea7152ee37048",
     "restaurant": "GRUPOLI",
-    "street": "Luquer Street",
+    "location": "Luquer location",
     "city": "Oley",
     "state": "Nebraska",
     "picture": "http://placehold.it/32x32",
@@ -5746,7 +5746,7 @@
   {
     "_id": "614977ac614aeb37e955fc55",
     "restaurant": "SPEEDBOLT",
-    "street": "Ira Court",
+    "location": "Ira Court",
     "city": "Ryderwood",
     "state": "Massachusetts",
     "picture": "http://placehold.it/32x32",
