@@ -2,27 +2,39 @@
   <div>
     <Header />
     <Carousel /> 
-    <h1>Category 1</h1>
-    <Gallery />
-    <h1>Category 2</h1>
-    <Gallery />
+    <h1>Popular</h1>
+    <Popular />
+    <h1>Near Me</h1>
+    <NearMe />
+    <h1>Shortest Time</h1>
+    <ShortestTime />
     <Carousel /> 
-    <h1>Category 3</h1>
-    <Gallery />
+    <h1>Cuisines</h1>
+    <Cuisine />
+    <h1>Test Gallery</h1>
+    <Test />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue"
 import Carousel from "../components/Carousel.vue";
-import Gallery from "../components/Gallery.vue";
+import Popular from "../components/Popular.vue"
+import NearMe from "../components/NearMe.vue"
+import ShortestTime from "../components/ShortestTime.vue"
+import Cuisine from "../components/Cuisine.vue"
+import Test from "../components/Test.vue"
 
 export default {
   name: "Home",
   components: {
       Carousel,
-      Gallery,
+      Popular,
+      NearMe,
+      ShortestTime,
       Header,
+      Cuisine,
+      Test,
   },
 }
 </script>

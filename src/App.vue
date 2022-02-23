@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-if="viewport==1">AD</div>
+    <!-- <div v-if="viewport==1">AD</div> -->
     <router-view />
     <Footer />
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Favourited</h1>
+    <h1>isFavourited</h1>
     <div
       data-aos="flip-left"
       data-aos-duration="1500"

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from "../views/Home.vue"
-import Favourited from "../views/Favourited.vue"
+import isFavourited from "../views/Favourited.vue"
 import Account from "../views/Account.vue"
 
 Vue.use(VueRouter)
@@ -14,9 +14,9 @@ const routes = [
         component: Home
     },
     {
-        path: '/favourited',
-        name: 'Favourited',
-        component: Favourited
+        path: '/isFavourited',
+        name: 'isFavourited',
+        component: isFavourited
     },
     {
         path: '/account',

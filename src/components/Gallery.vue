@@ -9,7 +9,7 @@
           v-for="restaurant in restaurants"
           v-bind:key="restaurant._id"
         >
-          <md-ripple>
+          <!-- <md-ripple> -->
             <!-- the card is from bootstrap library with a touch of vue -->
             <div class="card">
               <b class="card-title">{{
@@ -24,7 +24,7 @@
                 <b class="card-text">{{ restaurant.location }}</b>
                 <p>rating: {{ restaurant.rating }}</p>
               </div>
-              <div
+              <!-- <div
                 style="
                   display: flex;
                   flex-direction: row;
@@ -34,9 +34,9 @@
                 <div v-for="tag in restaurant.tags" v-bind:key="tag._id">
                   <a :href="tag.promo" target="blank">{{ promo }}</a>
                 </div>
-              </div>
+              </div> -->
             </div>
-          </md-ripple>
+          <!-- </md-ripple> -->
         </div>
         <!-- end of card -->
       </div>
