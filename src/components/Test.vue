@@ -1,31 +1,90 @@
 <template>
   <div>
     <div class="cards-wrapper">
+      <button v-if="page === 'gallery'" v-on:click="NavigateTo('cart')">
+        view favorited ({{ cart.length }})
+      </button>
       <!-- AOS (Animation on Scroll) is a library imported in main.js -->
-      <div class="cards" v-for="fds in aggregatedFds" :key="fds.id">
-        <div class="cards" v-for="merchant in fds.searchMerchants" :key="merchant.id">
-          <!-- the card is from bootstrap library with a touch of vue -->
-          <div class="card">
-            <b class="card-title">{{ merchant.name.toUpperCase().split('-')[0] }}</b>
-            <img
-              :src="merchant.photoHref" 
-              alt="food"
-              style="width: 100%; height: auto; object-fit: cover;"
-            />
-            <h1 v-if="merchant.isFavourited==false" @click="isFavourited == true">♡</h1>
-            <h1 v-else>♥</h1>
-            <div class="card-body">
-              <b class="card-text">
-                <b class="card-title">📍{{ merchant.name.toUpperCase().split('-')[1] }}</b>
-                <p style="color:gray; margin:0;">{{ merchant.estimatedDeliveryTime }}min | {{ merchant.distanceInKm.toFixed(2) }}km | {{ merchant.rating }}✰</p>                
-                <p v-if="merchant.halal==true" style="color:cadetblue;">halal</p>
-                <p v-else style="color:salmon;">non-halal</p>
-              </b>
+      <div v-if="page === 'gallery'">
+        <div class="cards" v-for="fds in aggregatedFds" :key="fds.id">
+          <div
+            class="cards"
+            v-for="(merchant, index) in fds.searchMerchants"
+            :key="index"
+          >
+            <!-- the card is from bootstrap library with a touch of vue -->
+            <div class="card">
+              <b class="card-title">{{
+                merchant.name.toUpperCase().split("-")[0]
+              }}</b>
+              <img
+                :src="merchant.photoHref"
+                alt="food"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+              <button v-on:click="addToFav(merchant)">Add to favourites</button>
+              <div class="card-body">
+                <b class="card-text">
+                  <b class="card-title"
+                    >📍{{ merchant.name.toUpperCase().split("-")[1] }}</b
+                  >
+                  <p style="color: gray; margin: 0">
+                    {{ merchant.estimatedDeliveryTime }}min |
+                    {{ merchant.distanceInKm.toFixed(2) }}km |
+                    {{ merchant.rating }}✰
+                  </p>
+                  <p v-if="merchant.halal == true" style="color: cadetblue">
+                    halal
+                  </p>
+                  <p v-else style="color: salmon">non-halal</p>
+                </b>
+              </div>
             </div>
           </div>
         </div>
+        <!-- end of card -->
       </div>
-      <!-- end of card -->
+
+      <div v-if="page === 'cart'">
+        <button v-on:click="NavigateTo('gallery')">continue shopping</button>
+        <!-- <div class="cards" v-for="fds in cart" :key="fds.id"> -->
+          <div
+            class="cards"
+            v-for="(merchant, index) in cart"
+            :key="index"
+          >
+            <!-- the card is from bootstrap library with a touch of vue -->
+            <div class="card">
+              <b class="card-title">{{
+                merchant.name.toUpperCase().split("-")[0]
+              }}</b>
+              <img
+                :src="merchant.photoHref"
+                alt="food"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+
+              <button v-on:click="RemoveFromFav(merchant)">Remove from favourites</button>
+              <div class="card-body">
+                <b class="card-text">
+                  <b class="card-title"
+                    >📍{{ merchant.name.toUpperCase().split("-")[1] }}</b
+                  >
+                  <p style="color: gray; margin: 0">
+                    {{ merchant.estimatedDeliveryTime }}min |
+                    {{ merchant.distanceInKm.toFixed(2) }}km |
+                    {{ merchant.rating }}✰
+                  </p>
+                  <p v-if="merchant.halal == true" style="color: cadetblue">
+                    halal
+                  </p>
+                  <p v-else style="color: salmon">non-halal</p>
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
     </div>
     <!-- end of wrapper -->
   </div>
@@ -40,23 +99,28 @@ export default {
   components: {},
   data() {
     return {
+      page: "gallery",
+      cart: [],
       aggregatedFds: fdsData,
     };
   },
-    methods: {
+  methods: {
+    addToFav(merchant) {
+      this.cart.push(merchant);
+      console.log(this.cart);
+    },
+    RemoveFromFav(merchant) {
+      this.cart.splice(this.cart.indexOf(merchant));
+      console.log(this.cart);
+    },
+    NavigateTo(page) {
+      this.page = page;
+    },
   },
 };
 </script>
 
 <style scoped>
-h1 {
-  font-size: 2.5rem;
-  position:relative;
-  top:-50px;
-  right:-70px;
-  z-index: 500;
-  height:0px;
-}
 .cards-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -69,8 +133,8 @@ h1 {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .cards-wrapper {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .cards {
@@ -82,15 +146,14 @@ h1 {
   margin-left: 10px;
   box-shadow: 1px 1px 3px gray;
   overflow: hidden;
-  
 }
 @media screen and (max-width: 1000px) {
   .card {
     min-width: 30vw;
     font-size: 0.5rem;
   }
-  div.card-body{
-    padding:0;
+  div.card-body {
+    padding: 0;
   }
 }
 </style>
