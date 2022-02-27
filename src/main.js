@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Vuex from 'vuex'
 import router from './router'
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -22,7 +21,6 @@ const firebaseConfig = {
 
 // Make the imported packages available throughout the project 
 Vue.use(BootstrapVue)
-Vue.use(Vuex)
 Vue.use(firebaseConfig)
 
 // Preventing production start message used for instructions.
