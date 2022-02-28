@@ -6,6 +6,14 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+``` 
+cmd 
+```
+
+``` 
+FOR /F %i in (process.env) do set %i 
+```
+
 ```
 npm run serve
 ```
