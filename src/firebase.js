@@ -17,7 +17,7 @@ const firebaseConfig = {
 }
 
 // connect to firebase
-firebase.initializeApp(firebaseConfig)
+export const app=firebase.initializeApp(firebaseConfig);
 // connect to firestore and set up a reference point connection
 const db = firestore.getFirestore();
 // ignore timestamp warning in console that comes with Google Firebase update

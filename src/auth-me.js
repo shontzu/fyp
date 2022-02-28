@@ -1,7 +1,8 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {app} from './firebase.js'
 
 const provider = new GoogleAuthProvider();
-const auth = getAuth();
+const auth = getAuth(app);
 
 export async function tryToAuth(){
   let result=auth.currentUser??await signInWithPopup(auth, provider);
