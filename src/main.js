@@ -18,8 +18,7 @@ const firebaseConfig = {
   appId: process.env.appId,
   measurementId: process.env.measurementId
 };
-
-// Make the imported packages available throughout the project 
+// Make the imported packages available throughout the project
 Vue.use(BootstrapVue)
 Vue.use(firebaseConfig)
 

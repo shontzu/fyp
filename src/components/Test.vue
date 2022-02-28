@@ -51,7 +51,7 @@
       <div v-if="page === 'cart'">
         <button v-on:click="NavigateTo('gallery')">continue shopping</button>
         <!-- <div class="cards" v-for="fds in cart" :key="fds.id"> -->
-        <div class="cards" v-for="(merchant, index) in cart" :key="index">
+        <div class="cards" v-for="(merchant) in cart" :key="merchant.id">
           <!-- the card is from bootstrap library with a touch of vue -->
           <div class="card">
             <b class="card-title">{{
@@ -94,16 +94,18 @@
 
 <script>
 import fdsData from "../data/GrabFoodData.json";
-import dbUsers from "../firebase.js";
-
+import db,{replicatedArray,dbPrototypes} from "../firebase.js";
+import * as authentication from "../auth-me.js"
 export default {
   name: "Test",
   components: {},
   data() {
     return {
       page: "gallery",
-      cart: [],
+      cart:[],
       aggregatedFds: fdsData,
+      cartLength:0,
+      dataUp:false
     };
   },
   methods: {
@@ -111,24 +113,29 @@ export default {
       this.$router.replace({ path: '/compare', params: { merchant } });
     },
     bookmark(merchant) {
-      this.cart.push(merchant);
+      const self=this;
+      if(!authentication.loggedIn()){
+        authentication.tryToAuth().then(async e=>{
+          replicatedArray(dbPrototypes.doc(db,e.uid),this.cart);
+          await self.cart.fromRemote();
+          self.dataUp=true;
+        });
+        return;
+      }
+      if(!this.cart._push){
+        replicatedArray(dbPrototypes.doc(db,authentication.getUID()),this.cart);
+        this.cart.fromRemote().then(()=>self.dataUp=true);
+      }
+      if(!this.dataUp){
+        alert("Please wait until the data loaded");
+        return;
+      }
+      this.cart._push(merchant);
       console.log(this.cart);
       console.log("added succesfully");
-      // Add a new document with a generated id.
-      dbUsers.add({
-          username: "shon tzu",
-          password: "shon tzu",
-        })
-        .then((docRef) => {
-          console.log("Document written with ID: ", docRef.id);
-        })
-        .catch((error) => {
-          console.error("Error adding document: ", error);
-        });
-        console.log('end');
     },
     RemoveFromFav(merchant) {
-      this.cart.splice(this.cart.indexOf(merchant),1);
+      this.cart._splice(this.cart.indexOf(merchant),1);
       console.log(this.cart);
       console.log('removed successfully');
     },
