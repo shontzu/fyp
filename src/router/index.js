@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Home from "../views/Home.vue"
 import isFavourited from "../views/Favourited.vue"
 import Account from "../views/Account.vue"
+import Compare from "../views/Compare.vue"
 
 Vue.use(VueRouter)
 
@@ -22,7 +23,12 @@ const routes = [
         path: '/account',
         name: 'Account',
         component: Account
-    }    
+    },
+    {
+        path: '/compare',
+        name: 'Compare',
+        component: Compare
+    }     
 ]
 
 const router = new VueRouter({

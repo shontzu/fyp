@@ -22,7 +22,10 @@
                 alt="food"
                 style="width: 100%; height: auto; object-fit: cover"
               />
-              <button v-on:click="addToFav(merchant)">Add to favourites</button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" @click="findDeals(merchant)">Find deals</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(merchant)">Bookmark</button>
+              </div>
               <div class="card-body">
                 <b class="card-text">
                   <b class="card-title"
@@ -48,42 +51,40 @@
       <div v-if="page === 'cart'">
         <button v-on:click="NavigateTo('gallery')">continue shopping</button>
         <!-- <div class="cards" v-for="fds in cart" :key="fds.id"> -->
-          <div
-            class="cards"
-            v-for="(merchant, index) in cart"
-            :key="index"
-          >
-            <!-- the card is from bootstrap library with a touch of vue -->
-            <div class="card">
-              <b class="card-title">{{
-                merchant.name.toUpperCase().split("-")[0]
-              }}</b>
-              <img
-                :src="merchant.photoHref"
-                alt="food"
-                style="width: 100%; height: auto; object-fit: cover"
-              />
+        <div class="cards" v-for="(merchant, index) in cart" :key="index">
+          <!-- the card is from bootstrap library with a touch of vue -->
+          <div class="card">
+            <b class="card-title">{{
+              merchant.name.toUpperCase().split("-")[0]
+            }}</b>
+            <img
+              :src="merchant.photoHref"
+              alt="food"
+              style="width: 100%; height: auto; object-fit: cover"
+            />
 
-              <button v-on:click="RemoveFromFav(merchant)">Remove from favourites</button>
-              <div class="card-body">
-                <b class="card-text">
-                  <b class="card-title"
-                    >📍{{ merchant.name.toUpperCase().split("-")[1] }}</b
-                  >
-                  <p style="color: gray; margin: 0">
-                    {{ merchant.estimatedDeliveryTime }}min |
-                    {{ merchant.distanceInKm.toFixed(2) }}km |
-                    {{ merchant.rating }}✰
-                  </p>
-                  <p v-if="merchant.halal == true" style="color: cadetblue">
-                    halal
-                  </p>
-                  <p v-else style="color: salmon">non-halal</p>
-                </b>
-              </div>
+            <button v-on:click="RemoveFromFav(merchant)">
+              Remove from favourites
+            </button>
+            <div class="card-body">
+              <b class="card-text">
+                <b class="card-title"
+                  >📍{{ merchant.name.toUpperCase().split("-")[1] }}</b
+                >
+                <p style="color: gray; margin: 0">
+                  {{ merchant.estimatedDeliveryTime }}min |
+                  {{ merchant.distanceInKm.toFixed(2) }}km |
+                  {{ merchant.rating }}✰
+                </p>
+                <p v-if="merchant.halal == true" style="color: cadetblue">
+                  halal
+                </p>
+                <p v-else style="color: salmon">non-halal</p>
+              </b>
             </div>
           </div>
         </div>
+      </div>
       <!-- </div> -->
     </div>
     <!-- end of wrapper -->
@@ -93,6 +94,7 @@
 
 <script>
 import fdsData from "../data/GrabFoodData.json";
+import dbUsers from "../firebase.js";
 
 export default {
   name: "Test",
@@ -105,13 +107,30 @@ export default {
     };
   },
   methods: {
-    addToFav(merchant) {
+    findDeals(merchant){
+      this.$router.replace({ path: '/compare', params: { merchant } });
+    },
+    bookmark(merchant) {
       this.cart.push(merchant);
       console.log(this.cart);
+      console.log("added succesfully");
+      // Add a new document with a generated id.
+      dbUsers.add({
+          username: "shon tzu",
+          password: "shon tzu",
+        })
+        .then((docRef) => {
+          console.log("Document written with ID: ", docRef.id);
+        })
+        .catch((error) => {
+          console.error("Error adding document: ", error);
+        });
+        console.log('end');
     },
     RemoveFromFav(merchant) {
-      this.cart.splice(this.cart.indexOf(merchant));
+      this.cart.splice(this.cart.indexOf(merchant),1);
       console.log(this.cart);
+      console.log('removed successfully');
     },
     NavigateTo(page) {
       this.page = page;
@@ -147,6 +166,11 @@ export default {
   box-shadow: 1px 1px 3px gray;
   overflow: hidden;
 }
+
+button{
+  font-size:0.5rem;
+}
+
 @media screen and (max-width: 1000px) {
   .card {
     min-width: 30vw;

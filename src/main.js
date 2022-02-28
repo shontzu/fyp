@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, /* IconsPlugin */ } from 'bootstrap-vue'
 // import { getFirestore } from "firebase/firestore";
+// Import the functions you need from the SDKs you need
 
 const firebaseConfig = {
   apiKey:process.env.apiKey,
@@ -17,7 +18,6 @@ const firebaseConfig = {
   appId: process.env.appId,
   measurementId: process.env.measurementId
 };
-
 
 // Make the imported packages available throughout the project 
 Vue.use(BootstrapVue)
