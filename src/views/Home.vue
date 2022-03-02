@@ -3,6 +3,7 @@
     <Header v-on:search_query_updated="onSearchQueryUpdated"/>
     <!-- <h1>Test Gallery</h1> -->
     <Test />
+    <List :fdsData="fdsData" :query="query" />
     <Carousel />
     <h1>Popular</h1>
     <List :fdsData="fdsData" :query="query" type="rating"/>
