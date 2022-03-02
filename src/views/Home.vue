@@ -1,6 +1,8 @@
 <template>
   <div>
     <Header />
+    <!-- <h1>Test Gallery</h1> -->
+    <Test />
     <Carousel /> 
     <h1>Popular</h1>
     <Popular />
@@ -11,8 +13,6 @@
     <Carousel /> 
     <h1>Cuisines</h1>
     <Cuisine />
-    <h1>Test Gallery</h1>
-    <Test />
   </div>
 </template>
 

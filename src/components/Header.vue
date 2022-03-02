@@ -3,7 +3,6 @@
     <h1>AppName</h1>
     <div>
       <input type="text" placeholder="search" />
-      <button>O</button>
     </div>
   </header>
 </template>

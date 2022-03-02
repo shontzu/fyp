@@ -25,9 +25,10 @@ const routes = [
         component: Account
     },
     {
-        path: '/compare',
+        path: '/compare/:merchant',
         name: 'Compare',
-        component: Compare
+        component: Compare,
+        props: true,
     }     
 ]
 
