@@ -1,4 +1,11 @@
 const fs=require("fs");
+const counter=(function*(){
+  let i=(Math.round(Math.floor(Math.random() * 5) + 1));
+  while(true){
+    yield i++;
+  }
+})();
+
 function perElement(data /**site pd */,result/**out array of merchantsv2 */){
     let merchants=data.searchMerchants;
     //iterate those
@@ -24,6 +31,7 @@ function perElement(data /**site pd */,result/**out array of merchantsv2 */){
         }
         else{
             let base={
+                merchantId:counter.next().value,
                 name,
                 providers:[] //as per provider and also array dd
             }; //base data
