@@ -1,16 +1,20 @@
 <template>
-  <header>
-    <h1>AppName</h1>
-    <div>
+  <div>
+    <header>
+      <h1>AppName</h1>
       <input type="text" placeholder="search" />
-      <button>O</button>
-    </div>
-  </header>
+    </header>
+    <Test />
+  </div>
 </template>
 
 <script>
+import Test from "../components/Test.vue";
 export default {
   name: "Header",
+  components: {
+    Test,
+  },
 };
 </script>
 
@@ -20,18 +24,8 @@ header {
   padding: 10px;
   box-shadow: -1px -5px 5px black;
 }
-input,
-button {
+input {
   border: 0;
-  background-color: white;
-}
-div {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
   background-color: white;
   border-radius: 10px;
 }

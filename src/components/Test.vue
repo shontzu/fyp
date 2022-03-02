@@ -23,8 +23,20 @@
                 style="width: 100%; height: auto; object-fit: cover"
               />
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" @click="findDeals(merchant)">Find deals</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(merchant)">Bookmark</button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  @click="findDeals(merchant)"
+                >
+                  Find deals
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  @click="bookmark(merchant)"
+                >
+                  Bookmark
+                </button>
               </div>
               <div class="card-body">
                 <b class="card-text">
@@ -51,7 +63,7 @@
       <div v-if="page === 'cart'">
         <button v-on:click="NavigateTo('gallery')">continue shopping</button>
         <!-- <div class="cards" v-for="fds in cart" :key="fds.id"> -->
-        <div class="cards" v-for="(merchant) in cart" :key="merchant.id">
+        <div class="cards" v-for="merchant in cart" :key="merchant.id">
           <!-- the card is from bootstrap library with a touch of vue -->
           <div class="card">
             <b class="card-title">{{
@@ -94,39 +106,43 @@
 
 <script>
 import fdsData from "../data/GrabFoodData.json";
-import db,{replicatedArray,dbPrototypes} from "../firebase.js";
-import * as authentication from "../auth-me.js"
+import db, { replicatedArray, dbPrototypes } from "../firebase.js";
+import * as authentication from "../auth-me.js";
+
 export default {
   name: "Test",
   components: {},
   data() {
     return {
       page: "gallery",
-      cart:[],
+      cart: [],
       aggregatedFds: fdsData,
-      cartLength:0,
-      dataUp:false
+      cartLength: 0,
+      dataUp: false,
     };
   },
   methods: {
-    findDeals(merchant){
-      this.$router.replace({ path: '/compare', params: { merchant } });
+    findDeals(merchant) {
+      this.$router.replace({ path: "/compare", params: { merchant } });
     },
     bookmark(merchant) {
-      const self=this;
-      if(!authentication.loggedIn()){
-        authentication.tryToAuth().then(async e=>{
-          replicatedArray(dbPrototypes.doc(db,e.uid),this.cart);
+      const self = this;
+      if (!authentication.loggedIn()) {
+        authentication.tryToAuth().then(async (e) => {
+          replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
           await self.cart.fromRemote();
-          self.dataUp=true;
+          self.dataUp = true;
         });
         return;
       }
-      if(!this.cart._push){
-        replicatedArray(dbPrototypes.doc(db,authentication.getUID()),this.cart);
-        this.cart.fromRemote().then(()=>self.dataUp=true);
+      if (!this.cart._push) {
+        replicatedArray(
+          dbPrototypes.doc(db, authentication.getUID()),
+          this.cart
+        );
+        this.cart.fromRemote().then(() => (self.dataUp = true));
       }
-      if(!this.dataUp){
+      if (!this.dataUp) {
         alert("Please wait until the data loaded");
         return;
       }
@@ -135,9 +151,9 @@ export default {
       console.log("added succesfully");
     },
     RemoveFromFav(merchant) {
-      this.cart._splice(this.cart.indexOf(merchant),1);
+      this.cart._splice(this.cart.indexOf(merchant), 1);
       console.log(this.cart);
-      console.log('removed successfully');
+      console.log("removed successfully");
     },
     NavigateTo(page) {
       this.page = page;
@@ -174,8 +190,8 @@ export default {
   overflow: hidden;
 }
 
-button{
-  font-size:0.5rem;
+button {
+  font-size: 0.5rem;
 }
 
 @media screen and (max-width: 1000px) {
