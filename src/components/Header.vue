@@ -2,7 +2,7 @@
   <header>
     <h1>AppName</h1>
     <div>
-      <input type="text" placeholder="search" />
+      <input type="text" placeholder="search" role="searchbar" @keyup="onKeyup" v-model="query"/>
     </div>
   </header>
 </template>
@@ -10,6 +10,16 @@
 <script>
 export default {
   name: "Header",
+  data(){
+    return {
+      query:""
+    }
+  },
+  methods:{
+    onKeyup(){
+      this.$emit('search_query_updated', this.query);
+    }
+  }
 };
 </script>
 
@@ -33,5 +43,8 @@ div {
   padding: 5px;
   background-color: white;
   border-radius: 10px;
+}
+input[role=searchbar]{
+  width:100%;
 }
 </style>
