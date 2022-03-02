@@ -5,7 +5,7 @@ const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
 export async function tryToAuth(){
-  let result=auth.currentUser??await signInWithPopup(auth, provider);
+  let result=auth.currentUser??(await signInWithPopup(auth, provider)).user;
   return {
     uid:result.uid
   }
