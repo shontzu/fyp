@@ -1,9 +1,7 @@
 <template>
-  <header>
-    <h1>AppName</h1>
-    <div>
-      <input type="text" placeholder="search" role="searchbar" @keyup="onKeyup" v-model="query"/>
-    </div>
+  <header class="navbar navbar-light bg-warning">
+    <img src="../assets/Foodio.png" alt="Foodio Logo">
+    <input type="text" placeholder="search" role="searchbar" @keyup="onKeyup" v-model="query"/>
   </header>
 </template>
 
@@ -26,23 +24,21 @@ export default {
 <style scoped>
 header {
   background-color: darkorange;
-  padding: 10px;
+  padding: 15px;
   box-shadow: -1px -5px 5px black;
 }
-input,
-button {
+img{
+  margin-left:auto;
+  margin-right: auto;
+  width:40%;
+  height:auto;
+}
+input {
   border: 0;
   background-color: white;
-}
-div {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  background-color: white;
   border-radius: 10px;
+  text-align: center;
+  padding:5px;
 }
 input[role=searchbar]{
   width:100%;

@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="cards-wrapper">
-      <!-- AOS (Animation on Scroll) is a library imported in main.js -->
       <div
         class="cards"
         v-for="merchant in fdsData.filter(
@@ -9,12 +8,6 @@
         )"
         :key="merchant.id"
       >
-        <!-- <div
-          class="cards"
-          v-for="provider in merchant.providers"
-          :key="`${provider.name}#${merchant.name}#${type}`"
-        > -->
-        <!-- the card is from bootstrap library with a touch of vue -->
         <div class="card" v-if="shouldRender(merchant.providers[0])">
           <h5 class="card-title">
             <!-- {{ merchant.name.toUpperCase().split("-")[0] }} -->
@@ -24,22 +17,6 @@
             alt="food"
             style="width: 100%; height: auto"
           />
-          <div class="btn-group">
-            <button
-              type="button"
-              class="btn btn-sm btn-outline-secondary"
-              @click="findDeals(merchant)"
-            >
-              Find deals
-            </button>
-            <button
-              type="button"
-              class="btn btn-sm btn-outline-secondary"
-              @click="bookmark(merchant)"
-            >
-              Bookmark
-            </button>
-          </div>
           <div class="card-body">
             <b class="card-text">
               <b class="card-title">{{
@@ -50,25 +27,24 @@
                 {{ merchant.providers[0].distanceInKm.toFixed(2) }}km |
                 {{ merchant.providers[0].rating }}✰
               </p>
-              <!-- <p v-if="merchant.halal == true" style="color: cadetblue">halal</p>
-                <p v-else style="color: salmon">non-halal</p> -->
-              <!-- <p v-if="provider.name=='GrabFood'" style="color: darkgreen">{{ provider.name }}</p>
-                <p v-if="provider.name=='Food Panda'" style="color: hotpink">{{ provider.name }}</p>
-                <p v-if="provider.name=='Air Asia Eats'" style="color: red">{{ provider.name }}</p> -->
             </b>
           </div>
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-secondary"
+            @click="findDeals(merchant)"
+          >
+            Find deals
+          </button>
         </div>
       </div>
     </div>
-    <!-- end of card -->
   </div>
-  <!-- </div> -->
-  <!-- end of template -->
 </template>
 
 <script>
-import db, { replicatedArray, dbPrototypes } from "../firebase.js";
-import * as authentication from "../auth-me.js";
+// import db, { replicatedArray, dbPrototypes } from "../firebase.js";
+// import * as authentication from "../auth-me.js";
 
 export default {
   name: "List",
@@ -105,31 +81,31 @@ export default {
         },
       });
     },
-    bookmark(merchant) {
-      const self = this;
-      if (!authentication.loggedIn()) {
-        authentication.tryToAuth().then(async (e) => {
-          replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
-          await self.cart.fromRemote();
-          self.dataUp = true;
-        });
-        return;
-      }
-      if (!this.cart._push) {
-        replicatedArray(
-          dbPrototypes.doc(db, authentication.getUID()),
-          this.cart
-        );
-        this.cart.fromRemote().then(() => (self.dataUp = true));
-      }
-      if (!this.dataUp) {
-        alert("Please wait until the data loaded");
-        return;
-      }
-      this.cart._push(merchant);
-      console.log(this.cart);
-      console.log("added succesfully");
-    },
+    // bookmark(merchant) {
+    //   const self = this;
+    //   if (!authentication.loggedIn()) {
+    //     authentication.tryToAuth().then(async (e) => {
+    //       replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
+    //       await self.cart.fromRemote();
+    //       self.dataUp = true;
+    //     });
+    //     return;
+    //   }
+    //   if (!this.cart._push) {
+    //     replicatedArray(
+    //       dbPrototypes.doc(db, authentication.getUID()),
+    //       this.cart
+    //     );
+    //     this.cart.fromRemote().then(() => (self.dataUp = true));
+    //   }
+    //   if (!this.dataUp) {
+    //     alert("Please wait until the data loaded");
+    //     return;
+    //   }
+    //   this.cart._push(merchant);
+    //   console.log(this.cart);
+    //   console.log("added succesfully");
+    // },
     RemoveFromFav(merchant) {
       this.cart._splice(this.cart.indexOf(merchant), 1);
       console.log(this.cart);

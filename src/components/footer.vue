@@ -18,9 +18,9 @@ footer {
   width: 100%;
   bottom: 0;
   left:0;
-  background-color: lightgrey;
+  background-color: white;
   box-shadow: 1px 1px 10px black;
-  height: 7vh;
+  height: 6vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -35,7 +35,9 @@ footer {
 }
 
 img{
-  width:50px;
-  height:50px;
+  /* width:2rem;
+  height:2rem; */
+  width:40px;
+  height:40px;
 }
 </style>
