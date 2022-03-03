@@ -2,7 +2,7 @@
   <div>
     <Header v-on:search_query_updated="onSearchQueryUpdated"/>
     <!-- <h1>Test Gallery</h1> -->
-    <Test />
+    <!-- <Test /> -->
     <List :fdsData="fdsData" :query="query" />
     <Carousel />
     <h1>Popular</h1>
@@ -31,7 +31,7 @@ import Cuisine from "../components/Cuisine.vue"
 import Header from "../components/Header.vue"
 import Carousel from "../components/Carousel.vue";
 import List from "../components/List.vue";
-import Test from "../components/Test.vue";
+// import Test from "../components/Test.vue";
 import fdsData from "../data/FdsAggregated.json";
 
 export default {
@@ -45,7 +45,7 @@ export default {
       Cuisine,
       */
       Header,
-      Test,
+      // Test,
       List
   },
   data(){

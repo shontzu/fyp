@@ -9,13 +9,13 @@
       <button type="button" class="btn btn-warning" @click="byPrice()">by price</button>
     </div>
     <div>
-      <div v-for="merchant in aggregatedFds" :key="merchant.id">
+      <div v-for="merchant in effectiveFdsData" :key="merchant.id">
         <!-- <div v-if="fds.name.includes(merchant)"> -->
           <b>{{merchant.name}}</b>
           <div v-for="provider in merchant.providers" :key="provider.id">
             <span v-if="provider.name=='GrabFood'"><img src="../assets/grabfood.png" alt="grab food"></span>
-            <span v-if="provider.name=='Food Panda'"><img src="../assets/foodpanda.png" alt="grab food"></span>
-            <span v-if="provider.name=='Air Asia Eats'"><img src="../assets/airasia.png" alt="grab food"></span>
+            <span v-else-if="provider.name=='Food Panda'"><img src="../assets/foodpanda.png" alt="grab food"></span>
+            <span v-else-if="provider.name=='Air Asia Eats'"><img src="../assets/airasia.png" alt="grab food"></span>
             {{provider.estimatedDeliveryTime}}mins 
             {{provider.distanceInKm}}km
             {{provider.rating}}✰
@@ -41,14 +41,10 @@ export default {
   components: {},
   data() {
     return {
-      aggregatedFds: fdsData,
-      merchant: this.$route.params,
+      cart: [],
+      fdsData: fdsData,
+      merchant: this.$route.params.merchant,
     };
-  },
-  created() {
-    this.$http.get(this.merchant).then(function (data) {
-      console.log(data.body);
-    });
   },
   methods: {
     back() {
@@ -85,6 +81,13 @@ export default {
       console.log("added succesfully");
     },
   },
+    computed:{
+    effectiveFdsData:function(){
+      return this.fdsData.filter(
+          (y) => y.name.split("-")[0].toUpperCase().includes(this.merchant.toUpperCase())
+        );
+    }
+  }
 };
 </script>
 

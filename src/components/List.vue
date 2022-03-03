@@ -3,21 +3,19 @@
     <div class="cards-wrapper">
       <div
         class="cards"
-        v-for="merchant in fdsData.filter(
-          (y) => !query || y.name.toUpperCase().includes(query.toUpperCase())
-        )"
+        v-for="merchant in effectiveFdsData"
         :key="merchant.id"
       >
         <div class="card" v-if="shouldRender(merchant.providers[0])">
           <h5 class="card-title">
-            <!-- {{ merchant.name.toUpperCase().split("-")[0] }} -->
+            {{ merchant.name.toUpperCase().split("-")[0] }}
           </h5>
           <img
             :src="merchant.providers[0].photoHref"
             alt="food"
             style="width: 100%; height: auto"
           />
-          <div class="card-body">
+          <!-- <div class="card-body">
             <b class="card-text">
               <b class="card-title">{{
                 merchant.providers[0].name.toUpperCase().split("-")[1]
@@ -28,7 +26,7 @@
                 {{ merchant.providers[0].rating }}✰
               </p>
             </b>
-          </div>
+          </div> -->
           <button
             type="button"
             class="btn btn-sm btn-outline-secondary"
@@ -115,6 +113,24 @@ export default {
       this.page = page;
     },
   },
+  computed:{
+    effectiveFdsData:function(){
+      //construct the aggregated one with names merged
+      //name
+      let names=this.fdsData.map(y=>y.name.split("-")[0].trim()).reduce((p,v)=>{p.indexOf(v)==-1&&p.push(v);return p;},[]);
+      names=names.filter(y=>!this.query||y.toUpperCase().includes(this.query.toUpperCase())).map(name=>{
+        for(const data of this.fdsData){
+          if(data.name.split("-")[0].trim()==name){
+            return data;
+          }
+        }
+      })
+      return names;
+      // return this.fdsData.filter(
+      //     (y) => !this.query || y.name.toUpperCase().includes(this.query.toUpperCase())
+      //   );
+    }
+  }
 };
 </script>
 
@@ -123,6 +139,8 @@ export default {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  display:flex;
+  align-items: center;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
