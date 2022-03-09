@@ -3,19 +3,19 @@
     <div class="cards-wrapper">
       <div
         class="cards"
-        v-for="merchant in effectiveFdsData"
+        v-for="merchant in effectiveFdsData.slice(0,10)"
         :key="merchant.id"
       >
         <div class="card" v-if="shouldRender(merchant.providers[0])">
-          <h5 class="card-title">
+          <b class="card-title">
             {{ merchant.name.toUpperCase().split("-")[0] }}
-          </h5>
+          </b>
           <img
             :src="merchant.providers[0].photoHref"
             alt="food"
             style="width: 100%; height: auto"
           />
-          <!-- <div class="card-body">
+          <div class="card-body">
             <b class="card-text">
               <b class="card-title">{{
                 merchant.providers[0].name.toUpperCase().split("-")[1]
@@ -26,7 +26,7 @@
                 {{ merchant.providers[0].rating }}✰
               </p>
             </b>
-          </div> -->
+          </div>
           <button
             type="button"
             class="btn btn-sm btn-outline-secondary"
@@ -36,6 +36,7 @@
           </button>
         </div>
       </div>
+      <button type="button" @click="SeeAll()" class="btn btn-outline-secondary" id="see-all">see all</button>
     </div>
   </div>
 </template>
@@ -112,6 +113,9 @@ export default {
     NavigateTo(page) {
       this.page = page;
     },
+    SeeAll() {
+      this.$router.push('/seeAll');
+    },
   },
   computed:{
     effectiveFdsData:function(){
@@ -168,6 +172,7 @@ p,
 button {
   font-size: 0.6rem;
 }
+
 @media screen and (max-width: 1000px) {
   .card {
     min-width: 30vw;

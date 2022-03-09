@@ -1,58 +1,55 @@
 <template>
   <div>
-    <h1>isFavourited</h1>
-    <div
-      data-aos="flip-left"
-      data-aos-duration="1500"
-      v-for="restaurant in restaurants"
-      v-bind:key="restaurant._id"
-    >
-      <!-- CARD -->
-      <md-ripple>
-        <!-- the card is from bootstrap library with a touch of vue -->
-        <div class="card">
-          <b class="card-title">{{ restaurant.restaurant.toUpperCase() }}</b>
-          <img
-            src="https://picsum.photos/600/300/?image=25"
-            alt="member"
-            style="width: 100%; min-height: 120px"
-          />
-          <div class="card-body">
-            <b class="card-text">{{ restaurant.location }}</b>
-            <p>rating: {{ restaurant.rating }}</p>
+    <header class="navbar navbar-light bg-warning">
+      <img
+        src="../assets/Bookmark.png"
+        alt="Bookmark"
+        style="width: 50%; height: auto"
+      />
+      RM0.00
+    </header>
+    <div v-for="index in 10" :key="index">
+      <div class="card">
+        <div class="card-body">
+          <img src="" alt="" />
+          <div class="card-title">
+            <p class="card-text">MERCHANT: Lorem ipsum dolor sit amet.</p>
+            <p class="card-text">FDS</p>
+            <p class="card-text">RM0.00</p>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: row;
-              justify-content: space-evenly;
-            "
-          >
-            <div v-for="tag in restaurant.tags" v-bind:key="tag._id">
-              <a :href="tag.promo" target="blank">{{ promo }}</a>
-            </div>
-          </div>
+          <button class="btn btn-outline-danger">remove</button>
         </div>
-      </md-ripple>
-      <!-- END CARD -->
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import restaurantsData from "../data/restaurants.json";
+// import { QuerySnapshot } from '@firebase/firestore';
+import { firebase, db } from "../firebase.js";
+// import * as authentication from "../auth-me.js";
 
 export default {
   name: "Gallery",
-  components: {},
-  data() {
-    return {
-      restaurants: restaurantsData,
-    };
+  created() {
+    db.collection("user")
+      .doc(firebase.auth().currentUser.uid)
+      .onSnapshot(function (doc) {
+        console.log(doc.id + " : " + doc.data());
+      });
   },
 };
 </script>
 
-<style>
+<style scoped>
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.card-body > div,
+.card-body > img {
+  width: 40%;
+}
 </style>

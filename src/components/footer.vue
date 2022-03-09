@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <router-link to="/isFavourited"><img src="../assets/icon-fav.png" alt="isFavourited"></router-link>
+    <router-link to="/isFavourited"><img src="../assets/icon-bookmark.png" alt="isFavourited"></router-link>
     <router-link to="/"><img src="../assets/icon-home.png" alt="Home"></router-link>
     <router-link to="/Account"><img src="../assets/icon-acc.png" alt="Account"></router-link>
   </footer>

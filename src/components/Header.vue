@@ -22,11 +22,6 @@ export default {
 </script>
 
 <style scoped>
-header {
-  background-color: darkorange;
-  padding: 15px;
-  box-shadow: -1px -5px 5px black;
-}
 img{
   margin-left:auto;
   margin-right: auto;

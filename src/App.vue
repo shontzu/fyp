@@ -26,7 +26,12 @@ export default {
   color: #2c3e50;
   margin-bottom: 90px;
 }
-
+header {
+  display:flex;
+  flex-direction:column;
+  padding: 15px;
+  box-shadow: -1px -5px 5px black;
+}
 @media only screen and (min-width: 1000px) {
   body {
     padding-left: 20%;

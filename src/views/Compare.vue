@@ -9,22 +9,22 @@
       <button type="button" class="btn btn-warning" @click="byPrice()">by price</button>
     </div>
     <div>
-      <div v-for="merchant in effectiveFdsData" :key="merchant.id">
-        <!-- <div v-if="fds.name.includes(merchant)"> -->
-          <b>{{merchant.name}}</b>
-          <div v-for="provider in merchant.providers" :key="provider.id">
+      <div v-for="merchant in effectiveFdsData" :key="merchant.id" class="card">
+          <h3 class="card-title">{{merchant.name.split("-")[1]}}</h3>
+          <div v-for="provider in merchant.providers" :key="provider.id"  class="card-body">
             <span v-if="provider.name=='GrabFood'"><img src="../assets/grabfood.png" alt="grab food"></span>
             <span v-else-if="provider.name=='Food Panda'"><img src="../assets/foodpanda.png" alt="grab food"></span>
             <span v-else-if="provider.name=='Air Asia Eats'"><img src="../assets/airasia.png" alt="grab food"></span>
-            {{provider.estimatedDeliveryTime}}mins 
-            {{provider.distanceInKm}}km
-            {{provider.rating}}✰
-            RM{{provider.price.toFixed(2)}}
+            <div>
+              {{provider.estimatedDeliveryTime}}mins 
+              {{provider.distanceInKm}}km
+              {{provider.rating}}✰
+              RM{{provider.price.toFixed(2)}}
+            </div>
             <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(merchant)">
               Bookmark
             </button>
           </div>
-        <!-- </div> -->
       </div>
     </div>        
     
@@ -51,10 +51,14 @@ export default {
       this.$router.push("/");
     },
     byRating() {
-      console.log(this.$route.params);
+      console.log(this.effectiveFdsData);
+   },
+    byTime() {
+      console.log(this.effectiveFdsData);
     },
-    byTime() {},
-    byPrice() {},
+    byPrice() {
+      console.log(this.effectiveFdsData);
+      },
     bookmark(merchant) {
       const self = this;
       if (!authentication.loggedIn()) {
@@ -100,5 +104,11 @@ p{
 img{
   width:100px;
   height:auto;
+}
+
+.card-body{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
 }
 </style>

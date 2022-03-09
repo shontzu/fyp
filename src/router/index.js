@@ -5,6 +5,7 @@ import Home from "../views/Home.vue"
 import isFavourited from "../views/Favourited.vue"
 import Account from "../views/Account.vue"
 import Compare from "../views/Compare.vue"
+import SeeAll from "../views/SeeAll.vue"
 
 Vue.use(VueRouter)
 
@@ -29,7 +30,12 @@ const routes = [
         name: 'Compare',
         component: Compare,
         props: true,
-    }     
+    },
+    {
+        path: '/seeAll',
+        name: 'seeAll',
+        component: SeeAll
+    }  
 ]
 
 const router = new VueRouter({
