@@ -16,7 +16,7 @@
             <span v-else-if="provider.name=='Food Panda'"><img src="../assets/foodpanda.png" alt="grab food"></span>
             <span v-else-if="provider.name=='Air Asia Eats'"><img src="../assets/airasia.png" alt="grab food"></span>
             <div>
-              {{provider.estimatedDeliveryTime}}mins 
+              {{provider.estimatedDeliveryTime}}mins
               {{provider.distanceInKm}}km
               {{provider.rating}}✰
               RM{{provider.price.toFixed(2)}}
@@ -26,8 +26,8 @@
             </button>
           </div>
       </div>
-    </div>        
-    
+    </div>
+
   </div>
 </template>
 
@@ -69,13 +69,6 @@ export default {
         });
         return;
       }
-      if (!this.cart._push) {
-        replicatedArray(
-          dbPrototypes.doc(db, authentication.getUID()),
-          this.cart
-        );
-        this.cart.fromRemote().then(() => (self.dataUp = true));
-      }
       if (!this.dataUp) {
         alert("Please wait until the data loaded");
         return;
@@ -91,6 +84,14 @@ export default {
           (y) => y.name.split("-")[0].toUpperCase().includes(this.merchant.toUpperCase())
         );
     }
+  },
+  created:function(){
+    const self=this;
+    replicatedArray(
+      dbPrototypes.doc(db, authentication.getUID()),
+      this.cart
+    );
+    this.cart.fromRemote().then(() => (self.dataUp = true));
   }
 };
 </script>

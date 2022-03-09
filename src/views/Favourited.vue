@@ -8,36 +8,49 @@
       />
       RM0.00
     </header>
-    <div v-for="index in 10" :key="index">
-      <div class="card">
-        <div class="card-body">
-          <img src="" alt="" />
-          <div class="card-title">
-            <p class="card-text">MERCHANT: Lorem ipsum dolor sit amet.</p>
-            <p class="card-text">FDS</p>
-            <p class="card-text">RM0.00</p>
-          </div>
-          <button class="btn btn-outline-danger">remove</button>
-        </div>
+    <div v-if="(authenticated && ready)">
+      Bookmarks goes here <br>
+      <div v-for="(entry) in bookmarks" :key="entry.__idx">
+        <b style="color:pink;background:blue">{{entry.name}}</b>
       </div>
+    </div>
+    <div v-else-if="authenticated">
+      Loading
+    </div>
+    <div v-else>
+      Login first suckers
     </div>
   </div>
 </template>
 
 <script>
 // import { QuerySnapshot } from '@firebase/firestore';
-import { firebase, db } from "../firebase.js";
+import db,{ replicatedArray,dbPrototypes} from "../firebase.js";
+import * as Authentication from "../auth-me.js";
 // import * as authentication from "../auth-me.js";
 
 export default {
   name: "Gallery",
-  created() {
-    db.collection("user")
-      .doc(firebase.auth().currentUser.uid)
-      .onSnapshot(function (doc) {
-        console.log(doc.id + " : " + doc.data());
-      });
+  data:function(){
+    return {
+      authenticated:false,
+      bookmarks:[],
+      ready:false
+    }
   },
+  created:function(){
+    //try to perform authentication
+    this.authenticated=Authentication.loggedIn();
+    if(this.authenticated){
+      const self=this;
+      //load the data
+      replicatedArray(
+        dbPrototypes.doc(db, Authentication.getUID()),
+        this.bookmarks
+      );
+      this.bookmarks.fromRemote().then(()=>self.ready=true);
+    }
+  }
 };
 </script>
 
