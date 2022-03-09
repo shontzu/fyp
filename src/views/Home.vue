@@ -50,7 +50,11 @@ export default {
 
 <style scoped>
 h1{
-  margin-top:1rem;
   color:gray;
+}
+
+div{
+  margin-top: 1rem;
+  margin-bottom:1rem;
 }
 </style>

@@ -7,7 +7,7 @@
       <div v-for="fds in effectiveFdsData" :key="fds.id" class="card">
         <p class="card-title ">{{ fds.name.split("-")[0] }}</p>
         <div class="card-body">
-          <img :src="fds.providers[0].photoHref" alt="restaurants" style="width:100%;" />
+          <img :src="fds.providers[0].photoHref" alt="restaurants" style="width:100%; height:auto;" />
         </div>
           <button
             type="button"
@@ -69,5 +69,15 @@ export default {
   grid-template-columns: repeat(3, 30vw);
   column-gap: 5vw;
   justify-content: center;
+}
+.card {
+  box-shadow: 1px 1px 3px gray;
+}
+.card-body{
+  padding:0;
+}
+p,
+button {
+  font-size: 0.6rem;
 }
 </style>

@@ -8,59 +8,85 @@
       />
       RM0.00
     </header>
-    <div v-if="(authenticated && ready)">
-      Bookmarks goes here <br>
-      <div v-for="(entry) in bookmarks" :key="entry.__idx">
-        <b style="color:pink;background:blue">{{entry.name}}</b>
+    <div v-if="authenticated && ready">
+      <!-- Bookmarks goes here -->
+      <div v-for="entry in bookmarks" :key="entry.__idx" class="cards">
+        <img :src="entry.smallPhotoHref" alt="restaurants" />
+        {{ entry.name }} <br />
+        {{ entry.distanceInKm }}km {{ entry.rating }}✰
+        <button
+          class="btn btn-sm btn-outline-danger"
+          @click="RemoveFromFav(entry)"
+        >
+          Remove
+        </button>
       </div>
     </div>
-    <div v-else-if="authenticated">
-      Loading
-    </div>
+    <div v-else-if="authenticated">Loading</div>
     <div v-else>
-      Login first suckers
+      <button @click="login()" class="btn btn-outline-danger">
+        Please log in first :)
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-import db,{ replicatedArray,dbPrototypes} from "../firebase.js";
+import db, { replicatedArray, dbPrototypes } from "../firebase.js";
 import * as Authentication from "../auth-me.js";
 
 export default {
   name: "Gallery",
-  data:function(){
+  data: function () {
     return {
-      authenticated:false,
-      bookmarks:[],
-      ready:false
-    }
+      authenticated: false,
+      bookmarks: [],
+      ready: false,
+    };
   },
-  created:function(){
+  created: function () {
     //try to perform authentication
-    this.authenticated=Authentication.loggedIn();
-    if(this.authenticated){
-      const self=this;
+    this.authenticated = Authentication.loggedIn();
+    if (this.authenticated) {
+      const self = this;
       //load the data
       replicatedArray(
         dbPrototypes.doc(db, Authentication.getUID()),
         this.bookmarks
       );
-      this.bookmarks.fromRemote().then(()=>self.ready=true);
+      this.bookmarks.fromRemote().then(() => (self.ready = true));
     }
-  }
+  },
+  methods: {
+    login() {
+      const self = this;
+      if (!Authentication.loggedIn()) {
+        Authentication.tryToAuth().then(async (e) => {
+          replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
+          await self.cart.fromRemote();
+          self.dataUp = true;
+        });
+        return;
+      }
+    },
+    RemoveFromFav(entry) {
+      this.bookmarks._splice(this.bookmarks.indexOf(entry), 1);
+      console.log(this.bookmarks);
+      console.log("removed successfully");
+    },
+  },
 };
 </script>
 
 <style scoped>
-.card-body {
+.cards {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px gray;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-
-.card-body > div,
-.card-body > img {
-  width: 40%;
+  align-items: center;
+  font-size: 0.6rem;
 }
 </style>
