@@ -1,19 +1,24 @@
-//import firebase from 'firebase/compat/app'
-// do not remove manually import firestore DB because
-// firebase core library does not include firestore library
-//import 'firebase/compat/firestore'
-// import '@firebase/auth';
 import * as firebase from "firebase/app";
 import * as firestore from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.VUE_APP_apiKey,
-  authDomain: process.env.VUE_APP_authDomain,
-  projectId: process.env.VUE_APP_projectId,
-  storageBucket: process.env.VUE_APP_storageBucket,
-  messagingSenderId: process.env.VUE_APP_messagingSenderId,
-  appId: process.env.VUE_APP_appId,
-  measurementId: process.env.VUE_APP_measurementId,
+  // apiKey: process.env.VUE_APP_apiKey,
+  // authDomain: process.env.VUE_APP_authDomain,
+  // projectId: process.env.VUE_APP_projectId,
+  // storageBucket: process.env.VUE_APP_storageBucket,
+  // messagingSenderId: process.env.VUE_APP_messagingSenderId,
+  // appId: process.env.VUE_APP_appId,
+  // measurementId: process.env.VUE_APP_measurementId,
+
+  //somehow need to hardcode the configs, otherwise a lot of errors -_- !!!!!!
+  apiKey: "AIzaSyD4yq1pQ04n6cWLEhXUbtdCKCvQMtQ8R68",
+  authDomain: "fyp-897147.firebaseapp.com",
+  databaseURL: "https://fyp-897147-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "fyp-897147",
+  storageBucket: "fyp-897147.appspot.com",
+  messagingSenderId: "1045657372241",
+  appId: "1:1045657372241:web:b90930da4bb62312989a70",
+  measurementId: "G-Y0MN7F2ZKV"
 }
 
 // connect to firebase
