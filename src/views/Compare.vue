@@ -5,7 +5,6 @@
       <button type="button" class="btn btn-outline-warning" @click="back()">back</button>
       <button type="button" class="btn btn-warning" @click="byRating()">by rating</button>
       <button type="button" class="btn btn-warning" @click="byTime()">by time</button>
-      <!-- <button type="button" class="btn btn-warning" @click="byDistance()">by distance</button> -->
       <button type="button" class="btn btn-warning" @click="byPrice()">by price</button>
     </div>
     <div>

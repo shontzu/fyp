@@ -24,10 +24,8 @@
 </template>
 
 <script>
-// import { QuerySnapshot } from '@firebase/firestore';
 import db,{ replicatedArray,dbPrototypes} from "../firebase.js";
 import * as Authentication from "../auth-me.js";
-// import * as authentication from "../auth-me.js";
 
 export default {
   name: "Gallery",

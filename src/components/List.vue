@@ -42,9 +42,6 @@
 </template>
 
 <script>
-// import db, { replicatedArray, dbPrototypes } from "../firebase.js";
-// import * as authentication from "../auth-me.js";
-
 export default {
   name: "List",
   props: {
@@ -75,36 +72,8 @@ export default {
     findDeals(merchant) {
       this.$router.push({
         path: "/compare/" + merchant.name.split("-")[0],
-        params: {
-          /* merchant: merchant */
-        },
       });
     },
-    // bookmark(merchant) {
-    //   const self = this;
-    //   if (!authentication.loggedIn()) {
-    //     authentication.tryToAuth().then(async (e) => {
-    //       replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
-    //       await self.cart.fromRemote();
-    //       self.dataUp = true;
-    //     });
-    //     return;
-    //   }
-    //   if (!this.cart._push) {
-    //     replicatedArray(
-    //       dbPrototypes.doc(db, authentication.getUID()),
-    //       this.cart
-    //     );
-    //     this.cart.fromRemote().then(() => (self.dataUp = true));
-    //   }
-    //   if (!this.dataUp) {
-    //     alert("Please wait until the data loaded");
-    //     return;
-    //   }
-    //   this.cart._push(merchant);
-    //   console.log(this.cart);
-    //   console.log("added succesfully");
-    // },
     RemoveFromFav(merchant) {
       this.cart._splice(this.cart.indexOf(merchant), 1);
       console.log(this.cart);
