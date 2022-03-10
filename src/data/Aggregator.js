@@ -7,7 +7,8 @@ const counter=(function*(){
 })();
 
 function perElementGrab(data /**site pd */,result/**out array of merchantsv2 */){
-    let merchants=data.searchMerchants;
+  let merchants=data.searchMerchants;
+  console.log(merchants)
     //iterate those
     merchants.forEach(function generate(merchant,_parent){
         //we key those using  chainName
@@ -18,7 +19,7 @@ function perElementGrab(data /**site pd */,result/**out array of merchantsv2 */)
         Object.assign(dataW,merchant);
         dataW.estimatedDeliveryTime=(Math.floor(Math.random() * 120) + 10); // between 10 - 120 minutes
         dataW.distanceInKm=(Math.floor(Math.random() * 5) + 1); //between 1 - 10 km
-        dataW.price=(Math.floor(Math.random() * 15) + 5); //between 1 - 10 km
+        dataW.price=(dataW.distanceInKm*5) // distance * RM5
         dataW.rating=(Math.round(Math.floor(Math.random() * 5) + 1)); //between 1 - 5 rating
         dataW.id=(Math.round(Math.floor(Math.random() * 5000000000000) + 1)); //between 1 - 5 rating
         dataW.branchMerchants?.splice(0,1);
@@ -50,7 +51,7 @@ function perElementAirAsia(data /**site pd */,result/**out array of merchantsv2 
       let dataW=Object.assign({},merchant);
       dataW.estimatedDeliveryTime=(Math.floor(Math.random() * 120) + 10); // between 10 - 120 minutes
       dataW.distanceInKm=(Math.floor(Math.random() * 5) + 1); //between 1 - 10 km
-      dataW.price=(Math.floor(Math.random() * 15) + 5); //between 1 - 10 km
+      dataW.price=(dataW.distanceInKm*5) // distance * RM5
       dataW.rating=(Math.round(Math.floor(Math.random() * 5) + 1)); //between 1 - 5 rating
       dataW.id=(Math.round(Math.floor(Math.random() * 5000000000000) + 1)); //between 1 - 5 rating
       dataW.branchMerchants?.splice(0,1);
