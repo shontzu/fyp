@@ -8,6 +8,9 @@
       />
       RM0.00
     </header>
+    
+    <hr>
+
     <div v-if="authenticated && ready">
       <!-- Bookmarks goes here -->
       <div v-for="entry in bookmarks" :key="entry.__idx" class="cards">

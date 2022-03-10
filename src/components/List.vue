@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="cards-wrapper">
+    <div v-if="effectiveFdsData.length==0">No matching query</div>
+
+    <div v-else class="cards-wrapper">
       <div
         class="cards"
         v-for="merchant in effectiveFdsData.slice(0,10)"

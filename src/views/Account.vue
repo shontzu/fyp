@@ -7,8 +7,55 @@
         style="width: 40%; height: auto"
       />
     </header>
-    <button type="button" class="btn btn-outline-success" @click="login()">Login</button>
-    <button type="button" class="btn btn-outline-danger" @click="logout()">Logout</button>
+    <hr>
+
+    <!-- ACCORDION -->
+    <div class="accordion" role="tablist">
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-1 variant="outline-secondary">About</b-button>
+        </b-card-header>
+        <b-collapse
+          id="accordion-1"
+          visible
+          accordion="my-accordion"
+          role="tabpanel"
+        >
+          <b-card-body>
+            <b-card-text>Foodio - the best deal ever</b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-2 variant="outline-secondary"
+            >FAQ</b-button
+          >
+        </b-card-header>
+        <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+          <b-card-body>
+            <b-card-text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, perferendis?</b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-3 variant="outline-secondary"
+            >Login / Logout</b-button
+          >
+        </b-card-header>
+        <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+          <b-card-body>
+            <b-card-text>
+              <button type="button" class="btn btn-outline-success" @click="login()">Login</button>
+              <button type="button" class="btn btn-outline-danger" @click="logout()">Logout</button>
+            </b-card-text>          
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+    </div>
   </div>
 </template>
 
@@ -17,24 +64,32 @@ import * as authentication from "../auth-me.js";
 
 export default {
   name: "Account",
+  data() {
+    return {
+    };
+  },
   methods: {
     logout() {
       authentication
         .logout()
         .then(() => alert("signed out succesfully"))
-        .catch((error) => alert("sign out failed" + error))
-        console.log(authentication.logout)
+        .catch((error) => alert("sign out failed" + error));
+      console.log(authentication.logout);
     },
-    login(){
+    login() {
       authentication
-      .tryToAuth()
-      .then(() => alert("signed in succesfully"))
-      .catch((error) => alert("signed in failed" + error))
-      console.log(authentication.loggedIn)
-    }
+        .tryToAuth()
+        .then(() => alert("signed in succesfully"))
+        .catch((error) => alert("signed in failed" + error));
+      console.log(authentication.loggedIn);
+    },
   },
 };
 </script>
 
 <style scoped>
+ /* override the global styling header shadow */
+header{
+  box-shadow:none;
+}
 </style>
