@@ -73,6 +73,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(3, 30vw);
   column-gap: 5vw;
+  row-gap: 5vh;
   justify-content: center;
 }
 .card {

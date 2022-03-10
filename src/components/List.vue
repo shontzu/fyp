@@ -83,7 +83,8 @@ export default {
       this.page = page;
     },
     SeeAll(q) {
-      this.$router.push('/seeAll/'+q??"");
+      if(!q)q="";
+      this.$router.push('/seeAll/'+q);
     },
   },
   computed:{
