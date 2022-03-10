@@ -36,7 +36,7 @@
           </button>
         </div>
       </div>
-      <button type="button" @click="SeeAll()" class="btn btn-outline-secondary" id="see-all">see all</button>
+      <button type="button" @click="SeeAll(query)" class="btn btn-outline-secondary" id="see-all">see all</button>
     </div>
   </div>
 </template>
@@ -82,8 +82,8 @@ export default {
     NavigateTo(page) {
       this.page = page;
     },
-    SeeAll() {
-      this.$router.push('/seeAll');
+    SeeAll(q) {
+      this.$router.push('/seeAll/'+q??"");
     },
   },
   computed:{

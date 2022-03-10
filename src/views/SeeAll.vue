@@ -26,6 +26,11 @@ import fdsData from "../data/FdsAggregated.json";
 
 export default {
   name: "SeeAll",
+  data:function(){
+    return {
+      query:this.$route.params.query??""
+    }
+  },
   methods: {
     back() {
       this.$router.push("/");
@@ -47,7 +52,7 @@ export default {
           return p;
         }, []);
       console.log(names);
-      names = names.map((name) => {
+      names = names.filter(y=>!this.query||y.toUpperCase().includes(this.query.toUpperCase())).map((name) => {
         for (const data of fdsData) {
           if (data.name.split("-")[0].trim() == name) {
             return data;

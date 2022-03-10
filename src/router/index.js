@@ -32,8 +32,13 @@ const routes = [
         props: true,
     },
     {
-        path: '/seeAll',
+        path: '/seeAll/:query',
         name: 'seeAll',
+        component: SeeAll
+    } ,
+    {
+        path: '/seeAll',
+        name: 'seeAllNoQ',
         component: SeeAll
     }  
 ]
