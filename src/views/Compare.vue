@@ -20,7 +20,7 @@
               {{provider.rating}}✰
               RM{{provider.price.toFixed(2)}}
             </div>
-            <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(merchant)">
+            <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(provider,merchant.name)">
               Bookmark
             </button>
           </div>
@@ -58,8 +58,9 @@ export default {
     byPrice() {
       console.log(this.effectiveFdsData);
       },
-    bookmark(merchant) {
+    bookmark(merchant,merchantName) {
       const self = this;
+      console.log(merchant);
       if (!authentication.loggedIn()) {
         authentication.tryToAuth().then(async (e) => {
           replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
@@ -72,6 +73,7 @@ export default {
         alert("Please wait until the data loaded");
         return;
       }
+      merchant.merchantName=merchantName;
       this.cart._push(merchant);
       console.log(this.cart);
       console.log("added succesfully");

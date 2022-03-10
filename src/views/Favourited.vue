@@ -11,9 +11,9 @@
     <div v-if="authenticated && ready">
       <!-- Bookmarks goes here -->
       <div v-for="entry in bookmarks" :key="entry.__idx" class="cards">
-        <img :src="entry.smallPhotoHref" alt="restaurants" />
-        {{ entry.name }} <br />
-        {{ entry.distanceInKm }}km {{ entry.rating }}✰
+        <img :src="entry.photoHref" alt="restaurants" />
+        {{ entry.merchantName }} <br />
+        {{ entry.distanceInKm }}km {{ entry.rating }}✰ RM{{ entry.price.toFixed(2)}}
         <button
           class="btn btn-sm btn-outline-danger"
           @click="RemoveFromFav(entry)"
@@ -24,7 +24,7 @@
     </div>
     <div v-else-if="authenticated">Loading</div>
     <div v-else>
-      <button @click="login()" class="btn btn-outline-danger">
+      <button @click="loginPage()" class="btn btn-outline-danger">
         Please log in first :)
       </button>
     </div>
@@ -58,16 +58,18 @@ export default {
     }
   },
   methods: {
-    login() {
-      const self = this;
-      if (!Authentication.loggedIn()) {
-        Authentication.tryToAuth().then(async (e) => {
-          replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
-          await self.cart.fromRemote();
-          self.dataUp = true;
-        });
-        return;
-      }
+    loginPage() {
+      this.$router.push('/account')
+      // or code below to login on-the-spot without redirecting to account page
+      // const self = this;
+      // if (!Authentication.loggedIn()) {
+      //   Authentication.tryToAuth().then(async (e) => {
+      //     replicatedArray(dbPrototypes.doc(db, e.uid), this.cart);
+      //     await self.cart.fromRemote();
+      //     self.dataUp = true;
+      //   });
+      //   return;
+      // }
     },
     RemoveFromFav(entry) {
       this.bookmarks._splice(this.bookmarks.indexOf(entry), 1);

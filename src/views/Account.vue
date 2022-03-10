@@ -23,14 +23,14 @@ export default {
         .logout()
         .then(() => alert("signed out succesfully"))
         .catch((error) => alert("sign out failed" + error))
-        console.log(authentication)
+        console.log(authentication.logout)
     },
     login(){
       authentication
       .tryToAuth()
       .then(() => alert("signed in succesfully"))
       .catch((error) => alert("signed in failed" + error))
-      console.log(authentication)
+      console.log(authentication.loggedIn)
     }
   },
 };
