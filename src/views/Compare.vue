@@ -43,6 +43,7 @@ export default {
       cart: [],
       fdsData: fdsData,
       merchant: this.$route.params.merchant,
+      sortFunc:0
     };
   },
   methods: {
@@ -50,14 +51,14 @@ export default {
       this.$router.push("/");
     },
     byRating() {
-      console.log(this.effectiveFdsData);
+       this.sortFunc=1;
    },
     byTime() {
-      console.log(this.effectiveFdsData);
+      this.sortFunc=3;
     },
     byPrice() {
-      console.log(this.effectiveFdsData);
-      },
+      this.sortFunc=2;
+    },
     bookmark(merchant,merchantName) {
       const self = this;
       console.log(merchant);
@@ -81,9 +82,24 @@ export default {
   },
     computed:{
     effectiveFdsData:function(){
-      return this.fdsData.filter(
+      let tmp= this.fdsData.filter(
           (y) => y.name.split("-")[0].toUpperCase().includes(this.merchant.toUpperCase())
         );
+        switch(this.sortFunc){
+          case 1:
+            tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>b.rating - a.rating));
+            break;
+            case 2:
+              tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
+                console.log(a,b)
+                return a.price-b.price
+                }));
+            break;
+            case 3:
+              tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>a.estimatedDeliveryTime - b.estimatedDeliveryTime));
+            break;
+        }
+        return tmp;
     }
   },
   created:function(){
