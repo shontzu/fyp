@@ -1,0 +1,3423 @@
+{
+    "data": {
+        "result": [
+            {
+                "isNewRestaurant": 0,
+                "category": [
+                    "Others"
+                ],
+                "cuisine": [
+                    "Beverage",
+                    "Others",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": "Pre-Order Only!\nOrder RM80 and above to free delivery within 5km in 1 hour!\nFor order that a motorbike cant fit, it will be delivered by car, please wait patiently.",
+                "announce_flag": "1",
+                "restaurant_desc": "Free delivery within 5km in 1 hour for order RM80 and above.↵For order that a motorbike cant fit, it will be delivered by car, please wait patiently.",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 5561,
+                "restaurant_name": "Oppa Mart @ Taman Merdeka",
+                "restaurant_city": "Batu Berendam",
+                "restaurant_state": "Melaka",
+                "open_nw": 0,
+                "next_open_tms": "2022-03-10 09:30:00",
+                "avg_rating": "4.71",
+                "temporary_close_to": null,
+                "item": "7480",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/5561/other/z37jhc29yhownhs.jpeg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/5561/other/z37jhc29yhownhs_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "fcc63b5907437cf27b0fc36721070848",
+                    "media_id": "107909",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/5561/other/z37jhc29yhownhs_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/5561/other/z37jhc29yhownhs.jpeg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/5561/other/z37jhc29yhownhs_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "fcc63b5907437cf27b0fc36721070848",
+                        "media_id": "107909",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/5561/other/z37jhc29yhownhs_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/5561/other/yrpx49s0lqih2nl.jpeg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/5561/other/yrpx49s0lqih2nl_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "3b5e1e241fbe8569de61a712ed42d64b",
+                        "media_id": "107915",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/5561/other/yrpx49s0lqih2nl_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": [
+                        {
+                            "spend": "80.00",
+                            "cash": "3.00"
+                        }
+                    ],
+                    "automatic_discount": "[{\"orderType\":\"delivery\",\"discount\":[]},{\"orderType\":\"dine_in\",\"discount\":[]}]",
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": true,
+                    "min_order_amount": 0,
+                    "snp": true,
+                    "preorder_now": false,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "7480",
+                "total_vote": "1587",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "1",
+                        "id": "1637075"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "1",
+                        "id": "1637078"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "1",
+                        "id": "1637081"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "1",
+                        "id": "1637084"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "1",
+                        "id": "1637087"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "1",
+                        "id": "1637090"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "1",
+                        "id": "1637093"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "1",
+                        "id": "1637096"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "1",
+                        "id": "1637099"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "1",
+                        "id": "1637102"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "1",
+                        "id": "1637105"
+                    },
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "2",
+                        "id": "1637108"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "2",
+                        "id": "1637111"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "2",
+                        "id": "1637114"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "2",
+                        "id": "1637117"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "2",
+                        "id": "1637120"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "2",
+                        "id": "1637123"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "2",
+                        "id": "1637126"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "2",
+                        "id": "1637129"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "2",
+                        "id": "1637132"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "2",
+                        "id": "1637135"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "2",
+                        "id": "1637138"
+                    },
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "3",
+                        "id": "1637141"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "3",
+                        "id": "1637144"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "3",
+                        "id": "1637147"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "3",
+                        "id": "1637150"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "3",
+                        "id": "1637153"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "3",
+                        "id": "1637156"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "3",
+                        "id": "1637159"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "3",
+                        "id": "1637162"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "3",
+                        "id": "1637165"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "3",
+                        "id": "1637168"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "3",
+                        "id": "1637171"
+                    },
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "4",
+                        "id": "1637174"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "4",
+                        "id": "1637177"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "4",
+                        "id": "1637180"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "4",
+                        "id": "1637183"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "4",
+                        "id": "1637186"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "4",
+                        "id": "1637189"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "4",
+                        "id": "1637192"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "4",
+                        "id": "1637195"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "4",
+                        "id": "1637198"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "4",
+                        "id": "1637201"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "4",
+                        "id": "1637204"
+                    },
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "5",
+                        "id": "1637207"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "5",
+                        "id": "1637210"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "5",
+                        "id": "1637213"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "5",
+                        "id": "1637216"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "5",
+                        "id": "1637219"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "5",
+                        "id": "1637222"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "5",
+                        "id": "1637225"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "5",
+                        "id": "1637228"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "5",
+                        "id": "1637231"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "5",
+                        "id": "1637234"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "5",
+                        "id": "1637237"
+                    },
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "6",
+                        "id": "1637240"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "6",
+                        "id": "1637243"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "6",
+                        "id": "1637246"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "6",
+                        "id": "1637249"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "6",
+                        "id": "1637252"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "6",
+                        "id": "1637255"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "6",
+                        "id": "1637258"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "6",
+                        "id": "1637261"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "6",
+                        "id": "1637264"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "6",
+                        "id": "1637267"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "6",
+                        "id": "1637270"
+                    },
+                    {
+                        "close_tms": "11:29:00",
+                        "open_tms": "09:30:00",
+                        "working_day": "7",
+                        "id": "1637273"
+                    },
+                    {
+                        "close_tms": "12:29:00",
+                        "open_tms": "10:30:00",
+                        "working_day": "7",
+                        "id": "1637276"
+                    },
+                    {
+                        "close_tms": "13:29:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "7",
+                        "id": "1637279"
+                    },
+                    {
+                        "close_tms": "14:29:00",
+                        "open_tms": "12:30:00",
+                        "working_day": "7",
+                        "id": "1637282"
+                    },
+                    {
+                        "close_tms": "15:29:00",
+                        "open_tms": "13:30:00",
+                        "working_day": "7",
+                        "id": "1637285"
+                    },
+                    {
+                        "close_tms": "16:29:00",
+                        "open_tms": "14:30:00",
+                        "working_day": "7",
+                        "id": "1637288"
+                    },
+                    {
+                        "close_tms": "17:29:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "7",
+                        "id": "1637291"
+                    },
+                    {
+                        "close_tms": "18:29:00",
+                        "open_tms": "16:30:00",
+                        "working_day": "7",
+                        "id": "1637294"
+                    },
+                    {
+                        "close_tms": "19:29:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "7",
+                        "id": "1637297"
+                    },
+                    {
+                        "close_tms": "20:29:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "7",
+                        "id": "1637300"
+                    },
+                    {
+                        "close_tms": "21:29:00",
+                        "open_tms": "19:30:00",
+                        "working_day": "7",
+                        "id": "1637303"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 0,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "1A,Jalan MJ 32,Taman Merdeka Jaya,Batu Berendam,75350 Hang Tuah Jaya,Melaka.",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2729750000",
+                "restaurant_longitude": "102.2465810000",
+                "restaurant_contact_no": "129221585",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": "63171328",
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 4
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Chinese"
+                ],
+                "food_pref": [
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": "暂时扫码点餐只到10点半，若有不便请原谅。",
+                "announce_flag": "1",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 7853,
+                "restaurant_name": "金宝瓦煲鸡饭 Claypot Chicken Rice @ Merdeka Food Court",
+                "restaurant_city": "Batu Berendam",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.00",
+                "temporary_close_to": null,
+                "item": "8",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "media_id": "84140",
+                    "filename": "other",
+                    "path": "https://static-live.lolol.com/images/restaurant/7853/other/k6wyti6pf8tbfad.jpeg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/7853/other/k6wyti6pf8tbfad_thumb.jpg",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/7853/other/k6wyti6pf8tbfad_thumb_square.jpg",
+                    "checksum": "5dfd922e48b5319d7e0c5ac78882ccb8",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "media_id": "84140",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/7853/other/k6wyti6pf8tbfad.jpeg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/7853/other/k6wyti6pf8tbfad_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/7853/other/k6wyti6pf8tbfad_thumb_square.jpg",
+                        "checksum": "5dfd922e48b5319d7e0c5ac78882ccb8",
+                        "type": "cover"
+                    },
+                    {
+                        "media_id": "84143",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/7853/other/g1ulw0faugruty0.jpeg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/7853/other/g1ulw0faugruty0_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/7853/other/g1ulw0faugruty0_thumb_square.jpg",
+                        "checksum": "e513196250a74d91b6d3f9f751cd5386",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [],
+                "RestaurantSetting": {
+                    "delivery_discount": [
+                        {
+                            "spend": "25.00",
+                            "cash": "2.98"
+                        }
+                    ],
+                    "automatic_discount": "[{\"orderType\":\"delivery\",\"discount\":[]},{\"orderType\":\"dine_in\",\"discount\":[]}]",
+                    "reservation_fee": "0.00",
+                    "self_service": false,
+                    "halal": false,
+                    "pork_free": false,
+                    "preorder": true,
+                    "vegetarian": false,
+                    "delivery": false,
+                    "table_reserve": false,
+                    "pick_up": false,
+                    "dine_in": false,
+                    "preorder_now": true,
+                    "min_order_amount": 0,
+                    "snr": false,
+                    "snp": false,
+                    "price_per_chop": "10.00"
+                },
+                "total_rate": "8",
+                "total_vote": "2",
+                "RestaurantBusinessHours": [
+                    {
+                        "id": "1011053",
+                        "working_day": "1",
+                        "open_tms": "16:30:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1011056",
+                        "working_day": "3",
+                        "open_tms": "16:30:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1011059",
+                        "working_day": "4",
+                        "open_tms": "16:30:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1011062",
+                        "working_day": "5",
+                        "open_tms": "16:30:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1011065",
+                        "working_day": "6",
+                        "open_tms": "16:30:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1011068",
+                        "working_day": "7",
+                        "open_tms": "16:30:00",
+                        "close_tms": "22:30:00"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Merdeka Food Court\nPT14765, Jln Merdeka Permai, Tmn Merdeka Permai, 75350 Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2473051000",
+                "restaurant_longitude": "102.2391846000",
+                "restaurant_contact_no": "123916526",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [
+                    "Others"
+                ],
+                "cuisine": [
+                    "Others"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 3333,
+                "restaurant_name": "Moty Online Store 24/7",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.94",
+                "temporary_close_to": null,
+                "item": "79",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "media_id": "25528",
+                    "filename": "other",
+                    "path": "https://static-live.lolol.com/images/restaurant/3333/other/yu7euhef2ssy103.jpg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/3333/other/yu7euhef2ssy103_thumb.jpg",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/3333/other/yu7euhef2ssy103_thumb_square.jpg",
+                    "checksum": "af293a22c1ae5097b407306bffc5cf07",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "media_id": "25528",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/3333/other/yu7euhef2ssy103.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/3333/other/yu7euhef2ssy103_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/3333/other/yu7euhef2ssy103_thumb_square.jpg",
+                        "checksum": "af293a22c1ae5097b407306bffc5cf07",
+                        "type": "cover"
+                    },
+                    {
+                        "media_id": "25533",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/3333/other/xj54ssb34vcisqn.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/3333/other/xj54ssb34vcisqn_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/3333/other/xj54ssb34vcisqn_thumb_square.jpg",
+                        "checksum": "56059ceaad82eb2125e70605d3f8a6b2",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [],
+                "RestaurantSetting": {
+                    "delivery_discount": null,
+                    "automatic_discount": "[{\"orderType\":\"delivery\",\"discount\":[]},{\"orderType\":\"dine_in\",\"discount\":[]}]",
+                    "reservation_fee": "0.00",
+                    "self_service": false,
+                    "halal": false,
+                    "pork_free": false,
+                    "preorder": true,
+                    "vegetarian": false,
+                    "delivery": false,
+                    "table_reserve": false,
+                    "pick_up": false,
+                    "dine_in": true,
+                    "preorder_now": true,
+                    "min_order_amount": 0,
+                    "snr": false,
+                    "snp": false,
+                    "price_per_chop": "10.00"
+                },
+                "total_rate": "79",
+                "total_vote": "16",
+                "RestaurantBusinessHours": [
+                    {
+                        "id": "1010852",
+                        "working_day": "1",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    },
+                    {
+                        "id": "1010855",
+                        "working_day": "2",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    },
+                    {
+                        "id": "1010858",
+                        "working_day": "3",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    },
+                    {
+                        "id": "1010861",
+                        "working_day": "4",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    },
+                    {
+                        "id": "1010864",
+                        "working_day": "5",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    },
+                    {
+                        "id": "1010867",
+                        "working_day": "6",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    },
+                    {
+                        "id": "1010870",
+                        "working_day": "7",
+                        "open_tms": "00:00:00",
+                        "close_tms": "23:59:00"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [
+                    "24 Hours",
+                    "Air-Conditioner"
+                ],
+                "restaurant_address1": "42, Jalan PM6 Plaza Mahkota 75000 Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1889660000",
+                "restaurant_longitude": "102.2457150000",
+                "restaurant_contact_no": "62707888",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Malaysian"
+                ],
+                "food_pref": [
+                    "Beef",
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 34135,
+                "restaurant_name": "Satay @ M2 Food Studio",
+                "restaurant_city": "Batu Berendam",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "media_id": "122926",
+                    "filename": "other",
+                    "path": "https://static-live.lolol.com/images/restaurant/34135/other/0ss2vr7womzr6wr.jpg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34135/other/0ss2vr7womzr6wr_thumb.jpg",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34135/other/0ss2vr7womzr6wr_thumb_square.jpg",
+                    "checksum": "8b38bc26a22611ba400adf2a1d726c6f",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "media_id": "122926",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/34135/other/0ss2vr7womzr6wr.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34135/other/0ss2vr7womzr6wr_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34135/other/0ss2vr7womzr6wr_thumb_square.jpg",
+                        "checksum": "8b38bc26a22611ba400adf2a1d726c6f",
+                        "type": "cover"
+                    },
+                    {
+                        "media_id": "122929",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/34135/other/42zjy0atxz73v95.png",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34135/other/42zjy0atxz73v95_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34135/other/42zjy0atxz73v95_thumb_square.jpg",
+                        "checksum": "b9be694a9a4728b789de9b5fd199d78a",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "self_service": false,
+                    "halal": false,
+                    "pork_free": false,
+                    "preorder": true,
+                    "vegetarian": false,
+                    "delivery": true,
+                    "table_reserve": false,
+                    "pick_up": false,
+                    "dine_in": false,
+                    "preorder_now": true,
+                    "min_order_amount": 0,
+                    "reservation_fee": "0.00",
+                    "snr": false,
+                    "snp": false,
+                    "price_per_chop": "10.00"
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "id": "1984204",
+                        "working_day": "1",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    },
+                    {
+                        "id": "1984207",
+                        "working_day": "2",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    },
+                    {
+                        "id": "1984210",
+                        "working_day": "3",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    },
+                    {
+                        "id": "1984213",
+                        "working_day": "4",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    },
+                    {
+                        "id": "1984216",
+                        "working_day": "5",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    },
+                    {
+                        "id": "1984219",
+                        "working_day": "6",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    },
+                    {
+                        "id": "1984222",
+                        "working_day": "7",
+                        "open_tms": "19:00:00",
+                        "close_tms": "23:00:00"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "M2 Food Studio, Jalan MP17, Taman Merdeka Permai, Merdeka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2473380000",
+                "restaurant_longitude": "102.2390766000",
+                "restaurant_contact_no": "196528631",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Beverage",
+                    "Bubble Tea",
+                    "Snacks"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": "Thank You",
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 9179,
+                "restaurant_name": "The Whale Tea 琉璃鲸 @ Malim",
+                "restaurant_city": "Malim Jaya",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.65",
+                "temporary_close_to": null,
+                "item": "1352",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "media_id": "82118",
+                    "filename": "other",
+                    "path": "https://static-live.lolol.com/images/restaurant/9179/other/vilulx3tkze7vvp.jpeg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9179/other/vilulx3tkze7vvp_thumb.jpg",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9179/other/vilulx3tkze7vvp_thumb_square.jpg",
+                    "checksum": "e991bc104b77b3a7e15dc5d9b82e6443",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "media_id": "82118",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/9179/other/vilulx3tkze7vvp.jpeg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9179/other/vilulx3tkze7vvp_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9179/other/vilulx3tkze7vvp_thumb_square.jpg",
+                        "checksum": "e991bc104b77b3a7e15dc5d9b82e6443",
+                        "type": "cover"
+                    },
+                    {
+                        "media_id": "50282",
+                        "filename": "other",
+                        "path": "https://static-live.lolol.com/images/restaurant/9179/other/kwnd3qv60wa58x9.JPG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9179/other/kwnd3qv60wa58x9_thumb.jpg",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9179/other/kwnd3qv60wa58x9_thumb_square.jpg",
+                        "checksum": "b5cef74e1eb1f5f0ca6b398e08d6f4ba",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "self_service": false,
+                    "halal": false,
+                    "pork_free": true,
+                    "preorder": false,
+                    "vegetarian": false,
+                    "delivery": true,
+                    "table_reserve": false,
+                    "pick_up": false,
+                    "dine_in": false,
+                    "preorder_now": true,
+                    "min_order_amount": 0,
+                    "reservation_fee": "0.00",
+                    "snr": false,
+                    "snp": false,
+                    "price_per_chop": "10.00"
+                },
+                "total_rate": "1352",
+                "total_vote": "291",
+                "RestaurantBusinessHours": [
+                    {
+                        "id": "1963249",
+                        "working_day": "1",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1963252",
+                        "working_day": "2",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1963255",
+                        "working_day": "3",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1963258",
+                        "working_day": "4",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1963261",
+                        "working_day": "5",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1963264",
+                        "working_day": "6",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    },
+                    {
+                        "id": "1963267",
+                        "working_day": "7",
+                        "open_tms": "11:00:00",
+                        "close_tms": "22:30:00"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "7C, JALAN RAHMAT 1 TAMAN MALIM JAYA, 75250 MELAKA, MELAKA.",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2408750000",
+                "restaurant_longitude": "102.2333670000",
+                "restaurant_contact_no": "107866715",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Beverage",
+                    "Snacks",
+                    "Malaysian",
+                    "Chinese"
+                ],
+                "food_pref": [
+                    "Pork",
+                    "Seafood",
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": "门市开始营业 3pm 到 11.30pm malim 龍城茶餐室",
+                "announce_flag": "1",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 9455,
+                "restaurant_name": "True Spicy Stick Corner 真麻香辣串",
+                "restaurant_city": "Malim Jaya",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.74",
+                "temporary_close_to": null,
+                "item": "256",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/9455/other/6e2ek2epa0wjsoo.jpg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9455/other/6e2ek2epa0wjsoo_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "cee80b69bd1e57609dcec35f96059c7f",
+                    "media_id": "51068",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9455/other/6e2ek2epa0wjsoo_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9455/other/6e2ek2epa0wjsoo.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9455/other/6e2ek2epa0wjsoo_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "cee80b69bd1e57609dcec35f96059c7f",
+                        "media_id": "51068",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9455/other/6e2ek2epa0wjsoo_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9455/other/zppw1opxwujd0qm.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9455/other/zppw1opxwujd0qm_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "6d25e00004532953100457257c0ddc28",
+                        "media_id": "51071",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9455/other/zppw1opxwujd0qm_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 5,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": true,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "256",
+                "total_vote": "54",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "1",
+                        "id": "2015650"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "2",
+                        "id": "2015653"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "3",
+                        "id": "2015656"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "4",
+                        "id": "2015659"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "5",
+                        "id": "2015662"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "6",
+                        "id": "2015665"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "7",
+                        "id": "2015668"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "22，Jalan Rahmat 4，Taman Malim Jaya 75250，Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2398880000",
+                "restaurant_longitude": "102.2331010000",
+                "restaurant_contact_no": "176221911",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [
+                    {
+                        "min_spend": "0.00",
+                        "specialPackage_thumbnail": null,
+                        "publish_start": null,
+                        "valid_for_days": "90",
+                        "img_thumbnail": "https://static-live.lolol.com/images/rewards/674/31gsfajs8jcr62l_thumb.png",
+                        "reward_worth": null,
+                        "package_use_date_end": null,
+                        "reward_type": "Product",
+                        "reward_title": "Milk Tea 真泰茶 x1",
+                        "reward_desc": "Milk Tea 真泰茶",
+                        "item_price": null,
+                        "publish_end": null,
+                        "counter": "0",
+                        "sales": "0",
+                        "img_path": "31gsfajs8jcr62l.png",
+                        "img_checksum": "716c6c87b82fce45ca5ae1ff24d16dad",
+                        "publish": false,
+                        "limit": "0",
+                        "voucher_id": null,
+                        "reward_id": "674",
+                        "consume_chops": "10"
+                    },
+                    {
+                        "min_spend": "0.00",
+                        "specialPackage_thumbnail": null,
+                        "publish_start": null,
+                        "valid_for_days": "90",
+                        "img_thumbnail": "https://static-live.lolol.com/images/rewards/677/t5g55el1h75y97h_thumb.png",
+                        "reward_worth": null,
+                        "package_use_date_end": null,
+                        "reward_type": "Product",
+                        "reward_title": "Sticks(5pcs)串串(5支) x1",
+                        "reward_desc": "Sticks(5pcs)串串(5支)",
+                        "item_price": null,
+                        "publish_end": null,
+                        "counter": "1",
+                        "sales": "1",
+                        "img_path": "t5g55el1h75y97h.png",
+                        "img_checksum": "279ee035bcdde61d15c603484b86f380",
+                        "publish": false,
+                        "limit": "0",
+                        "voucher_id": null,
+                        "reward_id": "677",
+                        "consume_chops": "5"
+                    }
+                ],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Malaysian",
+                    "Chinese"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 22619,
+                "restaurant_id": 9311,
+                "restaurant_name": "Wan Tan Mee (Phang) 驰名古城云吞面 @ Medan Selera Huang Du Food Court Centre 玛琳新天地2美食中心",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.83",
+                "temporary_close_to": null,
+                "item": "29",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/9311/other/3do97i4qf6lmdfj.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9311/other/3do97i4qf6lmdfj_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "454bcc17446595bed49fabf0cb2609b6",
+                    "media_id": "50903",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9311/other/3do97i4qf6lmdfj_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9311/other/3do97i4qf6lmdfj.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9311/other/3do97i4qf6lmdfj_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "454bcc17446595bed49fabf0cb2609b6",
+                        "media_id": "50903",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9311/other/3do97i4qf6lmdfj_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9311/other/8n1saxp4yrdw42y.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9311/other/8n1saxp4yrdw42y_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "c2e3438d1229a7fa829959bcda2bafe2",
+                        "media_id": "50900",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9311/other/8n1saxp4yrdw42y_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": true,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "29",
+                "total_vote": "6",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "15:00:00",
+                        "working_day": "1",
+                        "id": "2015695"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "15:00:00",
+                        "working_day": "2",
+                        "id": "2015698"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "15:00:00",
+                        "working_day": "3",
+                        "id": "2015701"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "15:00:00",
+                        "working_day": "5",
+                        "id": "2015704"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "15:00:00",
+                        "working_day": "6",
+                        "id": "2015707"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "15:00:00",
+                        "working_day": "7",
+                        "id": "2015710"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Lot 777, Jalan Munshi Abdullah, 75100",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1994600000",
+                "restaurant_longitude": "102.2533100000",
+                "restaurant_contact_no": "176618082",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 1,
+                "category": [],
+                "cuisine": [
+                    "Chinese",
+                    "New Restaurant"
+                ],
+                "food_pref": [
+                    "Pork",
+                    "Beef",
+                    "Seafood",
+                    "Chicken",
+                    "Lamb",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 34678,
+                "restaurant_name": "Fast Yakitori @ TNT Medan Selera",
+                "restaurant_city": "Melaka Tengah",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/34678/other/da752xbyksu2stx.jfif",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34678/other/da752xbyksu2stx_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "3471908ce443fce197c1eedb4e9c3970",
+                    "media_id": "125089",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34678/other/da752xbyksu2stx_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/34678/other/da752xbyksu2stx.jfif",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34678/other/da752xbyksu2stx_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "3471908ce443fce197c1eedb4e9c3970",
+                        "media_id": "125089",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34678/other/da752xbyksu2stx_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/34678/other/1f4ea0k1222hjlw.jfif",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34678/other/1f4ea0k1222hjlw_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "d88b3311d67751de72d93786cf3fcebc",
+                        "media_id": "125092",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34678/other/1f4ea0k1222hjlw_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "19:00:00",
+                        "working_day": "1",
+                        "id": "2013259"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "19:00:00",
+                        "working_day": "2",
+                        "id": "2013262"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "19:00:00",
+                        "working_day": "3",
+                        "id": "2013265"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "07:00:00",
+                        "working_day": "4",
+                        "id": "2013268"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "19:00:00",
+                        "working_day": "5",
+                        "id": "2013271"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "19:00:00",
+                        "working_day": "6",
+                        "id": "2013274"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "19:00:00",
+                        "working_day": "7",
+                        "id": "2013277"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "14-1, Jalan Klebang Kechil Limbongan Klebang Kechil, 75200 Melaka.",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2070155028",
+                "restaurant_longitude": "102.2182082973",
+                "restaurant_contact_no": "143349168",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [
+                    {
+                        "publish_start": "2022-02-21 07:00:00",
+                        "specialPackage_id": "212956",
+                        "package_use_date_end": "2022-03-21 23:30:00",
+                        "publish_end": "2022-03-21 23:30:00",
+                        "unapplicable_restaurant": [],
+                        "package_type": "V",
+                        "package_title": "RM2 Discount Voucher for Fast Yakitori @ TNT Medan Selera",
+                        "package_price": "0.00",
+                        "sales": "2",
+                        "package_use_date_start": "2022-02-21 07:00:00",
+                        "applicable_restaurant": "[]",
+                        "merchant_price": "2.00",
+                        "minimum_spend_amount": "0.00",
+                        "package_flag": null,
+                        "delivery_pickup_flag": true,
+                        "applicable_item": "{\"34678\":[]}",
+                        "stackable": false,
+                        "lolol_voucher": true,
+                        "quantity": "30",
+                        "package_menu": "{\"price\":\"2.00\",\"over\":\"25\",\"overValid\":true,\"overErrorMsg\":\"\"}",
+                        "package_use_times": "[]",
+                        "item_price": "2.00",
+                        "dinein_takeaway_flag": false,
+                        "applicable": false,
+                        "package_get_limit": "2",
+                        "package_remark": null,
+                        "status": "3"
+                    }
+                ],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Beverage",
+                    "Snacks",
+                    "Malaysian",
+                    "Nyonya",
+                    "Fast Food",
+                    "Chinese"
+                ],
+                "food_pref": [
+                    "Pork",
+                    "Beef",
+                    "Seafood",
+                    "Chicken",
+                    "Lamb",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 9512,
+                "restaurant_name": "HAPPY WEI WEI KOPITIAM 开心微微",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.70",
+                "temporary_close_to": null,
+                "item": "221",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/9512/other/ij0o5ylmnmfcnqu.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9512/other/ij0o5ylmnmfcnqu_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "75ce0fade9b2062be2e6ae5ad67e19c7",
+                    "media_id": "60887",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9512/other/ij0o5ylmnmfcnqu_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9512/other/ij0o5ylmnmfcnqu.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9512/other/ij0o5ylmnmfcnqu_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "75ce0fade9b2062be2e6ae5ad67e19c7",
+                        "media_id": "60887",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9512/other/ij0o5ylmnmfcnqu_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9512/other/n543gz5xu8xbvsx.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9512/other/n543gz5xu8xbvsx_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "188e5b81c0cb072d57cd40dc886ef30a",
+                        "media_id": "60890",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9512/other/n543gz5xu8xbvsx_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": true,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "221",
+                "total_vote": "47",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "1",
+                        "id": "1860853"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "2",
+                        "id": "1860856"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "3",
+                        "id": "1860859"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "4",
+                        "id": "1860862"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "5",
+                        "id": "1860865"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "6",
+                        "id": "1860868"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "12:00:00",
+                        "working_day": "7",
+                        "id": "1860871"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "301 JALAN MELAKA RAYA , TAMAN MELAKA RAYA",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1875690000",
+                "restaurant_longitude": "102.2544940000",
+                "restaurant_contact_no": "176883639",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Malaysian",
+                    "Chinese"
+                ],
+                "food_pref": [
+                    "Pork",
+                    "Seafood",
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "The Best BBQ Chickens Wing （脆皮焼鷄翼） at Melaka↵The R&J Famous BBQ Ventures (BBQ Chicken Wings) with the original sauce marinated in the original sauce for about 6 hours, and it is crispy with a high-Heatm. Its a barbecue type that will be roasted. Grilled Charcoal while roasted, Extra oil drops, Crispy, Quick, Refreshing, Healthy finish.",
+                "food_court": 0,
+                "food_court_id": 23117,
+                "restaurant_id": 9305,
+                "restaurant_name": "R&J Famous BBQ Ventures 驰名港式(烧烤) @ Newton Food Court 牛顿美食中心",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.62",
+                "temporary_close_to": null,
+                "item": "194",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/9305/other/fwxgzocoalp8jnr.JPG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9305/other/fwxgzocoalp8jnr_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "72dbf1ca374aca655ef4b2d5022637a3",
+                    "media_id": "50891",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9305/other/fwxgzocoalp8jnr_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9305/other/fwxgzocoalp8jnr.JPG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9305/other/fwxgzocoalp8jnr_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "72dbf1ca374aca655ef4b2d5022637a3",
+                        "media_id": "50891",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9305/other/fwxgzocoalp8jnr_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/9305/other/dx9cxvzzo4rv0j0.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/9305/other/dx9cxvzzo4rv0j0_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "55d03921f693ebd16dbf9d6b370159b7",
+                        "media_id": "50837",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/9305/other/dx9cxvzzo4rv0j0_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": true,
+                    "pick_up": true,
+                    "min_order_amount": 0,
+                    "snp": true,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "194",
+                "total_vote": "42",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "1",
+                        "id": "2015590"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "2",
+                        "id": "2015593"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "3",
+                        "id": "2015596"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "4",
+                        "id": "2015599"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "5",
+                        "id": "2015602"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "6",
+                        "id": "2015605"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "15:30:00",
+                        "working_day": "7",
+                        "id": "2015608"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [
+                    "Baby Chair",
+                    "Free Parking"
+                ],
+                "restaurant_address1": "Lot 133 & 134, Bandar Hilir, Jalan Parameswara, (Makanan Bermasak) 75000 Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1890345670",
+                "restaurant_longitude": "102.2614288920",
+                "restaurant_contact_no": "166081238",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": "166081238",
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": "www.facebook.com/r_j_famousbbq",
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 1,
+                "category": [],
+                "cuisine": [
+                    "Chinese",
+                    "New Restaurant"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 34696,
+                "restaurant_name": "Oyster 蚝煎 @ LTP Riverview",
+                "restaurant_city": "Melaka Tengah",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/34696/other/316aigygyka9vbf.jfif",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34696/other/316aigygyka9vbf_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "f6541ffe9d9d9f9dadbf6415a3e2f778",
+                    "media_id": "125098",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34696/other/316aigygyka9vbf_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/34696/other/316aigygyka9vbf.jfif",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34696/other/316aigygyka9vbf_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "f6541ffe9d9d9f9dadbf6415a3e2f778",
+                        "media_id": "125098",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34696/other/316aigygyka9vbf_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/34696/other/nkqrblzo5yaxmd1.jfif",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/34696/other/nkqrblzo5yaxmd1_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "ec18496c8e5fecc233b254a8b3b63c52",
+                        "media_id": "125101",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/34696/other/nkqrblzo5yaxmd1_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "1",
+                        "id": "2020942"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "2",
+                        "id": "2020945"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "3",
+                        "id": "2020948"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "4",
+                        "id": "2020951"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "5",
+                        "id": "2020954"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "6",
+                        "id": "2020957"
+                    },
+                    {
+                        "close_tms": "23:30:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "7",
+                        "id": "2020960"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "LTP Riverview, No 51-B\nJalan Tun Sri Lanang",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2055506000",
+                "restaurant_longitude": "102.2516602000",
+                "restaurant_contact_no": "108982339",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [
+                    {
+                        "publish_start": "2022-03-07 07:00:00",
+                        "specialPackage_id": "213211",
+                        "package_use_date_end": "2022-04-07 23:30:00",
+                        "publish_end": "2022-04-07 23:30:00",
+                        "unapplicable_restaurant": [],
+                        "package_type": "V",
+                        "package_title": "RM2 Discount Voucher for Oyster 蚝煎 @ LTP Riverview",
+                        "package_price": "0.00",
+                        "sales": "0",
+                        "package_use_date_start": "2022-03-07 07:00:00",
+                        "applicable_restaurant": "[]",
+                        "merchant_price": "2.00",
+                        "minimum_spend_amount": "0.00",
+                        "package_flag": null,
+                        "delivery_pickup_flag": true,
+                        "applicable_item": "{\"34696\":[]}",
+                        "stackable": false,
+                        "lolol_voucher": true,
+                        "quantity": "30",
+                        "package_menu": "{\"price\":\"2.00\",\"over\":\"25\",\"overValid\":true,\"overErrorMsg\":\"\"}",
+                        "package_use_times": "[]",
+                        "item_price": "2.00",
+                        "dinein_takeaway_flag": false,
+                        "applicable": false,
+                        "package_get_limit": "2",
+                        "package_remark": null,
+                        "status": "3"
+                    }
+                ],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [
+                    "Casualdining",
+                    "Cafe"
+                ],
+                "cuisine": [
+                    "Beverage",
+                    "Western"
+                ],
+                "food_pref": [
+                    "Beef",
+                    "Seafood",
+                    "Chicken",
+                    "Lamb",
+                    "other"
+                ],
+                "announcement": "Good day to you! We are operate from 11.30am till 10.30pm daily. We are ready to serve you by delivery. Thanks for your understanding.",
+                "announce_flag": "0",
+                "restaurant_desc": "Our fusion restaurant that can conjure up an authentic, flavoursome Malaysian cuisine or your favourite Western delights. An exclusive Teppanyaki counter, where you will be enchanted by our flamboyant chef! We also serve international favorites like Chicken Chop, Prawn Cutlet and Mexican Salad.",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 668,
+                "restaurant_name": "Moty Hotel - Mo Tasty",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.89",
+                "temporary_close_to": null,
+                "item": "176",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/668/other/3pzzvdxamhvtseb.JPG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/668/other/3pzzvdxamhvtseb_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "ef9ddbb0584b8de8f276cf986a67cf0b",
+                    "media_id": "3648",
+                    "thumbnail_square": null,
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/668/other/3pzzvdxamhvtseb.JPG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/668/other/3pzzvdxamhvtseb_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "ef9ddbb0584b8de8f276cf986a67cf0b",
+                        "media_id": "3648",
+                        "thumbnail_square": null,
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/668/other/111039yamx5lnv7.JPG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/668/other/111039yamx5lnv7_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "96e2d253bca68dfdf095e7f49083d081",
+                        "media_id": "3653",
+                        "thumbnail_square": null,
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": true,
+                    "delivery_discount": [
+                        {
+                            "spend": "25.00",
+                            "cash": "2.98"
+                        }
+                    ],
+                    "automatic_discount": "[{\"orderType\":\"delivery\",\"discount\":[]},{\"orderType\":\"dine_in\",\"discount\":[]}]",
+                    "reservation_fee": "0.00",
+                    "dine_in": true,
+                    "pick_up": true,
+                    "min_order_amount": 0,
+                    "snp": true,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": true,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "176",
+                "total_vote": "36",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "1",
+                        "id": "1106921"
+                    },
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "2",
+                        "id": "1106924"
+                    },
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "3",
+                        "id": "1106927"
+                    },
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "4",
+                        "id": "1106930"
+                    },
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "5",
+                        "id": "1106933"
+                    },
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "6",
+                        "id": "1106936"
+                    },
+                    {
+                        "close_tms": "22:30:00",
+                        "open_tms": "11:30:00",
+                        "working_day": "7",
+                        "id": "1106939"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [
+                    "Casual, Classic, Cozy"
+                ],
+                "amenity": [
+                    "Air-Conditioner",
+                    "Free WIFI",
+                    "Accept Credit Cards"
+                ],
+                "restaurant_address1": "No. 42, Jalan PM6, Plaza Mahkota, 75000 Melaka, Malaysia.",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1888210000",
+                "restaurant_longitude": "102.2459980000",
+                "restaurant_contact_no": "62707888",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": "62707888",
+                "business_phone_country_code": "+60",
+                "restaurant_fax": "62888922",
+                "fax_country_code": "+60",
+                "restaurant_website": "https://www.motyhotel.com",
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [
+                    "Casualdining"
+                ],
+                "cuisine": [
+                    "Beverage",
+                    "Dessert",
+                    "Burger",
+                    "Western",
+                    "Vegetarian"
+                ],
+                "food_pref": [
+                    "Beef",
+                    "Seafood",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 963,
+                "restaurant_name": "Relish The Moment 一期一会",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.75",
+                "temporary_close_to": null,
+                "item": "76",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/963/other/h3s36orahk7tag6.jpg",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/963/other/h3s36orahk7tag6_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "20660941ed7c7dd96b18ecff423c33d9",
+                    "media_id": "4543",
+                    "thumbnail_square": null,
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/963/other/h3s36orahk7tag6.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/963/other/h3s36orahk7tag6_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "20660941ed7c7dd96b18ecff423c33d9",
+                        "media_id": "4543",
+                        "thumbnail_square": null,
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/963/other/tjespzfgx28l1ac.jpg",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/963/other/tjespzfgx28l1ac_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "05fbe01dd19ce7dd54f3e8441600691b",
+                        "media_id": "4538",
+                        "thumbnail_square": null,
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": "[{\"orderType\":\"delivery\",\"discount\":[]},{\"orderType\":\"dine_in\",\"discount\":[]}]",
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "76",
+                "total_vote": "16",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "11:00:00",
+                        "working_day": "1",
+                        "id": "2016904"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "11:00:00",
+                        "working_day": "2",
+                        "id": "2016907"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "11:00:00",
+                        "working_day": "3",
+                        "id": "2016910"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "11:00:00",
+                        "working_day": "5",
+                        "id": "2016913"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "11:00:00",
+                        "working_day": "6",
+                        "id": "2016916"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "11:00:00",
+                        "working_day": "7",
+                        "id": "2016919"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [
+                    "Casual"
+                ],
+                "amenity": [],
+                "restaurant_address1": "100, Jalan Kampung Pantai, 75200 Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1976037000",
+                "restaurant_longitude": "102.2482149000",
+                "restaurant_contact_no": "163492861",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Malaysian",
+                    "Chinese",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 12695,
+                "restaurant_name": "Oyster Omelette @ TNT Food Court",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/12695/other/a5c3pk6g3yubl8p.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/12695/other/a5c3pk6g3yubl8p_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "f06ce87d4e33a4d1bce995ba468545b8",
+                    "media_id": "58115",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/12695/other/a5c3pk6g3yubl8p_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/12695/other/a5c3pk6g3yubl8p.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/12695/other/a5c3pk6g3yubl8p_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "f06ce87d4e33a4d1bce995ba468545b8",
+                        "media_id": "58115",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/12695/other/a5c3pk6g3yubl8p_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/12695/other/a6w17lb7vi16y5f.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/12695/other/a6w17lb7vi16y5f_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "555ce842aef47be7d7fd2f680f69f99c",
+                        "media_id": "58109",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/12695/other/a6w17lb7vi16y5f_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "1",
+                        "id": "1993738"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "3",
+                        "id": "1993741"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "5",
+                        "id": "1993744"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "6",
+                        "id": "1993747"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:30:00",
+                        "working_day": "7",
+                        "id": "1993750"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "14-1 Jalan Klebang Kechi, Limbongan, Limbungan, 75200 Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2071344808",
+                "restaurant_longitude": "102.2182364933",
+                "restaurant_contact_no": "168786509",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Malaysian",
+                    "Chinese"
+                ],
+                "food_pref": [
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 10628,
+                "restaurant_name": "Restoran New Lim Kee Steamboat",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.73",
+                "temporary_close_to": null,
+                "item": "175",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/10628/other/yixwdtdh6fcbo9m.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/10628/other/yixwdtdh6fcbo9m_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "d13620de79e075ad970d0975a776db88",
+                    "media_id": "53924",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/10628/other/yixwdtdh6fcbo9m_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/10628/other/yixwdtdh6fcbo9m.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/10628/other/yixwdtdh6fcbo9m_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "d13620de79e075ad970d0975a776db88",
+                        "media_id": "53924",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/10628/other/yixwdtdh6fcbo9m_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/10628/other/mpdsj84v0nwk3yc.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/10628/other/mpdsj84v0nwk3yc_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "118f32ba9ab754be52fbbc93c8d5cc6c",
+                        "media_id": "53918",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/10628/other/mpdsj84v0nwk3yc_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "175",
+                "total_vote": "37",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "1",
+                        "id": "1905697"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "3",
+                        "id": "1905700"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "4",
+                        "id": "1905703"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "5",
+                        "id": "1905706"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "6",
+                        "id": "1905709"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "7",
+                        "id": "1905712"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "No. 304, Taman Melaka Raya, 75000, Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1875688000",
+                "restaurant_longitude": "102.2546730000",
+                "restaurant_contact_no": "126682550",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Malaysian",
+                    "Chinese",
+                    "Muslim Friendly",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "Seafood",
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 19535,
+                "restaurant_id": 13694,
+                "restaurant_name": "Nyonya Amiera Soo Kitchen @ Classique Food Court",
+                "restaurant_city": "Cheng",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/13694/other/7hontz50zvpypba.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13694/other/7hontz50zvpypba_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "4256af54b4793275885c11016d2a7755",
+                    "media_id": "60461",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13694/other/7hontz50zvpypba_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13694/other/7hontz50zvpypba.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13694/other/7hontz50zvpypba_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "4256af54b4793275885c11016d2a7755",
+                        "media_id": "60461",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13694/other/7hontz50zvpypba_thumb_square.jpg",
+                        "type": "cover"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": true,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "1",
+                        "id": "776750"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "3",
+                        "id": "776753"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "4",
+                        "id": "776756"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "5",
+                        "id": "776759"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "6",
+                        "id": "776762"
+                    },
+                    {
+                        "close_tms": "23:00:00",
+                        "open_tms": "17:00:00",
+                        "working_day": "7",
+                        "id": "776765"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Classique Food Court, Lot 888, Lebuh AMJ, Batu 9 1/2, Paya Rumput, 76450, Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2840136000",
+                "restaurant_longitude": "102.2141666000",
+                "restaurant_contact_no": "1118953545",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Snacks",
+                    "Malaysian",
+                    "Muslim Friendly",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 19535,
+                "restaurant_id": 13700,
+                "restaurant_name": "Dapur by Maz Sukor @ Classique Food Court",
+                "restaurant_city": "Cheng",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/13700/other/01od8ws1nxziqax.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13700/other/01od8ws1nxziqax_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "4256af54b4793275885c11016d2a7755",
+                    "media_id": "60425",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13700/other/01od8ws1nxziqax_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13700/other/01od8ws1nxziqax.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13700/other/01od8ws1nxziqax_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "4256af54b4793275885c11016d2a7755",
+                        "media_id": "60425",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13700/other/01od8ws1nxziqax_thumb_square.jpg",
+                        "type": "cover"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": true,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "3",
+                        "id": "1319286"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "4",
+                        "id": "1319289"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "5",
+                        "id": "1319292"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "6",
+                        "id": "1319295"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "7",
+                        "id": "1319298"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Classique Food Court, Lot 888, Lebuh AMJ, Batu 9 1/2, Paya Rumput, 76450, Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2840136000",
+                "restaurant_longitude": "102.2141666000",
+                "restaurant_contact_no": "167472800",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Snacks",
+                    "Malaysian",
+                    "Muslim Friendly",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 19535,
+                "restaurant_id": 13712,
+                "restaurant_name": "Guring-guring Hott Mama @ Classique Food Court",
+                "restaurant_city": "Cheng",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/13712/other/t632e0zg5xe3etg.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13712/other/t632e0zg5xe3etg_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "4256af54b4793275885c11016d2a7755",
+                    "media_id": "60464",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13712/other/t632e0zg5xe3etg_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13712/other/t632e0zg5xe3etg.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13712/other/t632e0zg5xe3etg_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "4256af54b4793275885c11016d2a7755",
+                        "media_id": "60464",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13712/other/t632e0zg5xe3etg_thumb_square.jpg",
+                        "type": "cover"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": true,
+                    "delivery_discount": [
+                        {
+                            "spend": "25.00",
+                            "cash": "2.98"
+                        }
+                    ],
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:50:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "1",
+                        "id": "854891"
+                    },
+                    {
+                        "close_tms": "23:50:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "3",
+                        "id": "854894"
+                    },
+                    {
+                        "close_tms": "23:50:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "4",
+                        "id": "854897"
+                    },
+                    {
+                        "close_tms": "23:50:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "5",
+                        "id": "854900"
+                    },
+                    {
+                        "close_tms": "23:50:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "6",
+                        "id": "854903"
+                    },
+                    {
+                        "close_tms": "23:50:00",
+                        "open_tms": "18:00:00",
+                        "working_day": "7",
+                        "id": "854906"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Classique Food Court, Lot 888, Lebuh AMJ, Batu 9 1/2, Paya Rumput, 76450, Melaka",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2840136000",
+                "restaurant_longitude": "102.2141666000",
+                "restaurant_contact_no": "46283645",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Snacks",
+                    "Dim Sum",
+                    "Malaysian",
+                    "Chinese",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "Pork",
+                    "Chicken",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 13802,
+                "restaurant_name": "Chuan Man Siang 全滿香饱饺点心-夜市",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "4.86",
+                "temporary_close_to": null,
+                "item": "34",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/13802/other/817ggswf0ze858z.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13802/other/817ggswf0ze858z_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "7f6f0a325ab52cbba674abfd1dc8a6c6",
+                    "media_id": "61439",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13802/other/817ggswf0ze858z_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13802/other/817ggswf0ze858z.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13802/other/817ggswf0ze858z_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "7f6f0a325ab52cbba674abfd1dc8a6c6",
+                        "media_id": "61439",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13802/other/817ggswf0ze858z_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13802/other/gq01c74e62u2rq6.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13802/other/gq01c74e62u2rq6_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "e1f7fa551c8e16bc1c55ef3fc9dd6738",
+                        "media_id": "61442",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13802/other/gq01c74e62u2rq6_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": false,
+                    "delivery_discount": null,
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "34",
+                "total_vote": "7",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "1",
+                        "id": "1315113"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "2",
+                        "id": "1315116"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "3",
+                        "id": "1315119"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "4",
+                        "id": "1315122"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "5",
+                        "id": "1315125"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "6",
+                        "id": "1315128"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "7",
+                        "id": "1315131"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Medan Selara MBMB, Jalan Gajah Berang, 75200 Melaka.",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.2074776000",
+                "restaurant_longitude": "102.2428126000",
+                "restaurant_contact_no": "143123121",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            },
+            {
+                "isNewRestaurant": 0,
+                "category": [],
+                "cuisine": [
+                    "Snacks",
+                    "Malaysian",
+                    "Fast Food",
+                    "Muslim Friendly",
+                    "Free Delivery"
+                ],
+                "food_pref": [
+                    "Beef",
+                    "Chicken",
+                    "Lamb",
+                    "other"
+                ],
+                "announcement": null,
+                "announce_flag": "0",
+                "restaurant_desc": "",
+                "food_court": 0,
+                "food_court_id": 0,
+                "restaurant_id": 13826,
+                "restaurant_name": "Squad Burger",
+                "restaurant_city": "Kota Laksamana",
+                "restaurant_state": "Melaka",
+                "open_nw": 1,
+                "next_open_tms": "",
+                "avg_rating": "0",
+                "temporary_close_to": null,
+                "item": "0",
+                "distance": null,
+                "ItemMenus": [],
+                "media": {
+                    "path": "https://static-live.lolol.com/images/restaurant/13826/other/44zo2fr6045nldt.JPEG",
+                    "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13826/other/44zo2fr6045nldt_thumb.jpg",
+                    "filename": "other",
+                    "checksum": "e2e6d4a10d42f6030eb35d31fe9f2c63",
+                    "media_id": "62171",
+                    "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13826/other/44zo2fr6045nldt_thumb_square.jpg",
+                    "type": "cover"
+                },
+                "Media": [
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13826/other/44zo2fr6045nldt.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13826/other/44zo2fr6045nldt_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "e2e6d4a10d42f6030eb35d31fe9f2c63",
+                        "media_id": "62171",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13826/other/44zo2fr6045nldt_thumb_square.jpg",
+                        "type": "cover"
+                    },
+                    {
+                        "path": "https://static-live.lolol.com/images/restaurant/13826/other/2tu8h1e7605vfga.JPEG",
+                        "thumbnail_path": "https://static-live.lolol.com/images/restaurant/13826/other/2tu8h1e7605vfga_thumb.jpg",
+                        "filename": "other",
+                        "checksum": "917d8cdd1640edf893c28a55956ec777",
+                        "media_id": "62174",
+                        "thumbnail_square": "https://static-live.lolol.com/images/restaurant/13826/other/2tu8h1e7605vfga_thumb_square.jpg",
+                        "type": "profile"
+                    }
+                ],
+                "delivery_temporary_close": [
+                    "07:00-08:59",
+                    "20:20-23:59"
+                ],
+                "RestaurantSetting": {
+                    "delivery": true,
+                    "table_reserve": false,
+                    "price_per_chop": "10.00",
+                    "pork_free": true,
+                    "delivery_discount": [
+                        {
+                            "spend": "25.00",
+                            "cash": "2.98"
+                        }
+                    ],
+                    "automatic_discount": null,
+                    "reservation_fee": "0.00",
+                    "dine_in": false,
+                    "pick_up": false,
+                    "min_order_amount": 0,
+                    "snp": false,
+                    "preorder_now": true,
+                    "snr": false,
+                    "vegetarian": false,
+                    "self_service": false,
+                    "halal": false,
+                    "preorder": true
+                },
+                "total_rate": "0",
+                "total_vote": "0",
+                "RestaurantBusinessHours": [
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "1",
+                        "id": "1234559"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "2",
+                        "id": "1234562"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "3",
+                        "id": "1234565"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "4",
+                        "id": "1234568"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "5",
+                        "id": "1234571"
+                    },
+                    {
+                        "close_tms": "23:59:00",
+                        "open_tms": "17:30:00",
+                        "working_day": "6",
+                        "id": "1234574"
+                    }
+                ],
+                "total_item": "",
+                "openNow": 1,
+                "ambience": [],
+                "amenity": [],
+                "restaurant_address1": "Depan Balai Polis Melaka Tengah, Jalan Banda Kaba,",
+                "restaurant_address2": "",
+                "restaurant_latitude": "2.1954578000",
+                "restaurant_longitude": "102.2514510000",
+                "restaurant_contact_no": "163713552",
+                "contact_country_code": "+60",
+                "restaurant_business_phone": null,
+                "business_phone_country_code": "+60",
+                "restaurant_fax": null,
+                "fax_country_code": "+60",
+                "restaurant_website": null,
+                "SpecialPackages": [],
+                "snrVoucher": [],
+                "bookmark": 0,
+                "score": 8
+            }
+        ],
+        "recordsTotal": 868,
+        "recordsFiltered": 20,
+        "total": 868
+    },
+    "total": 868,
+    "success": true,
+    "message": ""
+}
