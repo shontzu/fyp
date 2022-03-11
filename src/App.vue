@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <div v-if="viewport==1">AD</div> -->
     <router-view />
     <Footer />
   </div>
@@ -30,7 +29,7 @@ header {
   display:flex;
   flex-direction:column;
   padding: 15px;
-  box-shadow: -1px -5px 5px black;
+  box-shadow: 1px 2px 3px gray;
 }
 @media only screen and (min-width: 1000px) {
   body {

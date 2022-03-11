@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <Header v-on:search_query_updated="onSearchQueryUpdated"/>
     <List :fdsData="fdsData" :query="query" />
 
@@ -18,7 +18,7 @@
 
     <h1>Cuisines</h1>
     <List :fdsData="fdsData" :query="query"/>
-  </div>
+  </section>
 </template>
 
 <script>
