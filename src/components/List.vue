@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div v-if="effectiveFdsData.length==0">No matching query</div>
+    <div v-if="effectiveFdsData.length == 0">No matching query</div>
 
     <div v-else class="cards-wrapper">
       <div
         class="cards"
-        v-for="merchant in effectiveFdsData.slice(0,10)"
+        v-for="merchant in effectiveFdsData.slice(0, 10)"
         :key="merchant.id"
       >
         <div class="card" v-if="shouldRender(merchant.providers[0])">
@@ -38,7 +38,14 @@
           </button>
         </div>
       </div>
-      <button type="button" @click="SeeAll(query)" class="btn btn-outline-secondary" id="see-all">see all</button>
+      <button
+        type="button"
+        @click="SeeAll(query)"
+        class="btn btn-outline-secondary"
+        id="see-all"
+      >
+        see all
+      </button>
     </div>
   </div>
 </template>
@@ -61,12 +68,14 @@ export default {
   },
   methods: {
     shouldRender(merchant) {
-      if (this.type === "shortest_time") {
+      if (this.type === "time") {
         return merchant.estimatedDeliveryTime < 40;
       } else if (this.type === "rating") {
         return merchant.rating > 4.5;
       } else if (this.type === "distance") {
         return merchant.distanceInKm <= 2;
+      } else if (this.type === "price") {
+        return merchant.price <= 10;
       } else {
         return true;
       }
@@ -85,28 +94,38 @@ export default {
       this.page = page;
     },
     SeeAll(q) {
-      if(!q)q="";
-      this.$router.push('/seeAll/'+q);
+      if (!q) q = "";
+      this.$router.push("/seeAll/" + q);
     },
   },
-  computed:{
-    effectiveFdsData:function(){
+  computed: {
+    effectiveFdsData: function () {
       //construct the aggregated one with names merged
       //name
-      let names=this.fdsData.map(y=>y.name.split("-")[0].trim()).reduce((p,v)=>{p.indexOf(v)==-1&&p.push(v);return p;},[]);
-      names=names.filter(y=>!this.query||y.toUpperCase().includes(this.query.toUpperCase())).map(name=>{
-        for(const data of this.fdsData){
-          if(data.name.split("-")[0].trim()==name){
-            return data;
+      let names = this.fdsData
+        .map((y) => y.name.split("-")[0].trim())
+        .reduce((p, v) => {
+          p.indexOf(v) == -1 && p.push(v);
+          return p;
+        }, []);
+      names = names
+        .filter(
+          (y) =>
+            !this.query || y.toUpperCase().includes(this.query.toUpperCase())
+        )
+        .map((name) => {
+          for (const data of this.fdsData) {
+            if (data.name.split("-")[0].trim() == name) {
+              return data;
+            }
           }
-        }
-      })
+        });
       return names;
       // return this.fdsData.filter(
       //     (y) => !this.query || y.name.toUpperCase().includes(this.query.toUpperCase())
       //   );
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -115,7 +134,7 @@ export default {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  display:flex;
+  display: flex;
   align-items: center;
 }
 

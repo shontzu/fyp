@@ -7,13 +7,15 @@
         style="width: 40%; height: auto"
       />
     </header>
-    <hr>
+    <hr />
 
     <!-- ACCORDION -->
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-1 variant="outline-secondary">About</b-button>
+          <b-button block v-b-toggle.accordion-1 variant="outline-secondary"
+            >About</b-button
+          >
         </b-card-header>
         <b-collapse
           id="accordion-1"
@@ -22,7 +24,25 @@
           role="tabpanel"
         >
           <b-card-body>
-            <b-card-text>Foodio - the best deal ever</b-card-text>
+            <b-card-text>Find the best deal ever</b-card-text>
+            <b-card-text
+              >Compare prices across Food Delivery Services</b-card-text
+            >
+            <img
+              src="../assets/foodpanda.png"
+              alt="food panda"
+              style="width: 20%; height: auto"
+            />
+            <img
+              src="../assets/grabfood.png"
+              alt="grab food"
+              style="width: 20%; height: auto"
+            />
+            <img
+              src="../assets/airasia.png"
+              alt="air asia eats"
+              style="width: 20%; height: auto"
+            />
           </b-card-body>
         </b-collapse>
       </b-card>
@@ -35,7 +55,15 @@
         </b-card-header>
         <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, perferendis?</b-card-text>
+            <b-card-text>
+              <b>This app was developed as part of an academic project</b>
+            </b-card-text>
+            <b-card-text>
+              A Final Year Project (FYP) is a project or academic task that must
+              be accomplished individually by every undergraduate student to
+              obtain the attributions to graduate. Its aim is to demonstrate the
+              skills and knowledge students have acquired in their studies.
+            </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
@@ -49,9 +77,21 @@
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
-              <button type="button" class="btn btn-outline-success" @click="login()">Login</button>
-              <button type="button" class="btn btn-outline-danger" @click="logout()">Logout</button>
-            </b-card-text>          
+              <button
+                type="button"
+                class="btn btn-outline-success"
+                @click="login()"
+              >
+                Login
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                @click="logout()"
+              >
+                Logout
+              </button>
+            </b-card-text>
           </b-card-body>
         </b-collapse>
       </b-card>
@@ -65,8 +105,7 @@ import * as authentication from "../auth-me.js";
 export default {
   name: "Account",
   data() {
-    return {
-    };
+    return {};
   },
   methods: {
     logout() {
@@ -88,8 +127,8 @@ export default {
 </script>
 
 <style scoped>
- /* override the global styling header shadow */
-header{
-  box-shadow:none;
+/* override the global styling header shadow */
+header {
+  box-shadow: none;
 }
 </style>

@@ -8,11 +8,14 @@
     <h1>Popular</h1>
     <List :fdsData="fdsData" :query="query" type="rating"/>
 
-    <h1>Near Me</h1>
-    <List :fdsData="fdsData" :query="query" type="distance"/>
+    <!-- <h1>Near Me</h1>
+    <List :fdsData="fdsData" :query="query" type="distance"/> -->
 
     <h1>Shortest Time</h1>
-    <List :fdsData="fdsData" :query="query" type="shortest_time"/>
+    <List :fdsData="fdsData" :query="query" type="time"/>
+
+    <h1>Lowest Price</h1>
+    <List :fdsData="fdsData" :query="query" type="price"/>
 
     <Carousel />
 

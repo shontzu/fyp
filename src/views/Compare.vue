@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>{{merchant}}</h1>
+    <!-- <hr> -->
     <div class="btn-group" role="group" aria-label="Basic example">
       <button type="button" class="btn btn-outline-warning" @click="back()">back</button>
       <button type="button" class="btn btn-warning" @click="byRating()">by rating</button>
