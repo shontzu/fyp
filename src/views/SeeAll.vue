@@ -71,7 +71,7 @@ export default {
 <style scoped>
 #grid {
   display: grid;
-  grid-template-columns: repeat(3, 30vw);
+  grid-template-columns: repeat(3, 30%);
   column-gap: 5vw;
   row-gap: 5vh;
   justify-content: center;
@@ -85,5 +85,7 @@ export default {
 p,
 button {
   font-size: 0.6rem;
+}
+@media only screen and (min-width: 1000px) {
 }
 </style>
