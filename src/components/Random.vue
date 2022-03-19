@@ -17,7 +17,7 @@ export default {
   data: function () {
     return {
       mycolor: "#" + ((Math.random() * 0xffffff) << 0).toString(16),
-      merchantId: Math.floor(Math.random() * fdsData.length)//todo: random pick one merchant from DB
+      merchantId: Math.floor((Math.random() * 100000000)% fdsData.length)//todo: random pick one merchant from DB
     };
   },
   created() {
