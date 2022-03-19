@@ -9,15 +9,15 @@
 </template>
 
 <script>
+import fdsData from "../data/FdsAggregated.json";
 
 export default {
   name: "random",
-  components: {
-  },
+  components: {},
   data: function () {
     return {
       mycolor: "#" + ((Math.random() * 0xffffff) << 0).toString(16),
-      merchant: "", //todo: random pick one merchant from DB
+      merchantId: Math.floor(Math.random() * fdsData.length)//todo: random pick one merchant from DB
     };
   },
   created() {
@@ -32,6 +32,7 @@ export default {
         "We found something for you!";
       console.log("mycolor: " + this.mycolor);
       // RANDOM PICK MERCHANT APPEND TO #random-result DIV
+      console.log("merchant: " + this.merchantId + "\nfdsData.length: " + fdsData.length);
     },
   },
 };
