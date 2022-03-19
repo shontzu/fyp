@@ -941,7 +941,7 @@
                     {
                         "id": "cf332fce-48dc-11eb-b563-0674d6a6f416",
                         "code": "26",
-                        "name": "Sushi"
+                        "name": "Sushi", "Asian", "Seafood"
                     },
                     {
                         "id": "cf3331a1-48dc-11eb-b563-0674d6a6f416",
@@ -3519,7 +3519,7 @@
                     {
                         "id": "cf332fce-48dc-11eb-b563-0674d6a6f416",
                         "code": "26",
-                        "name": "Sushi"
+                        "name": "Sushi", "Asian", "Seafood"
                     }
                 ],
                 "promotions": [
@@ -4424,110 +4424,6 @@
                 "instant_delivery_only": 0
             },
             {
-                "id": "0fbb7ba7-21e8-4a61-96d2-aa41599e8442",
-                "name": "Che' Nab Laksa \u0026 Popiah",
-                "location": "180b, Jalan Air Itam, 10450 George Town, Pulau Pinang, Malaysia",
-                "timezone": "Asia/Kuala_Lumpur",
-                "distance": 0,
-                "trade_zone_id": "",
-                "slug": "che-nab-laksa-and-popiah",
-                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltab2c599697cc5071/61c40c379a0b3d12b53e19f5/whatsapp-image-at-pmjpg_1640238134301.jpg",
-                "advance_only": 0,
-                "store_tags": [
-                    {
-                        "id": "cf332e25-48dc-11eb-b563-0674d6a6f416",
-                        "code": "13",
-                        "name": "Noodles"
-                    },
-                    {
-                        "id": "cf332efc-48dc-11eb-b563-0674d6a6f416",
-                        "code": "20",
-                        "name": "Rice"
-                    },
-                    {
-                        "id": "cf332f5d-48dc-11eb-b563-0674d6a6f416",
-                        "code": "23",
-                        "name": "Snacks"
-                    },
-                    {
-                        "id": "cf332f71-48dc-11eb-b563-0674d6a6f416",
-                        "code": "24",
-                        "name": "Soup"
-                    },
-                    {
-                        "id": "cf33314c-48dc-11eb-b563-0674d6a6f416",
-                        "code": "30",
-                        "name": "Halal"
-                    }
-                ],
-                "promotions": [
-                    {
-                        "promotion_master_id": "223caed4-0375-4701-b4c5-bef5e38d00af",
-                        "promotion_id": "",
-                        "name": "",
-                        "code": "SUPER30",
-                        "discount_type_id": 2,
-                        "discount_value": 0,
-                        "limit_value": 0,
-                        "image": "",
-                        "description": "Use code [SUPER30] to get 30% off, capped at RM6 with min. spend RM20.",
-                        "store_ids": null,
-                        "store_group_ids": null,
-                        "assign_id": 1
-                    }
-                ],
-                "category": {
-                    "id": "b6c85795-95d7-11eb-b563-0674d6a6f416",
-                    "name": "Asian",
-                    "slug": ""
-                },
-                "is_self_pickup": 1,
-                "is_has_product": true,
-                "near_by_stores": null,
-                "near_by_name": "",
-                "near_by_categories": null,
-                "openHours": {
-                    "fri": [
-                        {
-                            "open": "11:00:00",
-                            "close": "17:00:00"
-                        }
-                    ],
-                    "mon": [
-                        {
-                            "open": "11:00:00",
-                            "close": "17:00:00"
-                        }
-                    ],
-                    "thu": [
-                        {
-                            "open": "11:00:00",
-                            "close": "17:00:00"
-                        }
-                    ],
-                    "tue": [
-                        {
-                            "open": "11:00:00",
-                            "close": "17:00:00"
-                        }
-                    ],
-                    "wed": [
-                        {
-                            "open": "11:00:00",
-                            "close": "17:00:00"
-                        }
-                    ]
-                },
-                "special_times": null,
-                "first_slot": {
-                    "date": "2022-03-10",
-                    "time_from": "11:30:00 AM",
-                    "time_to": "12:00:00 PM"
-                },
-                "type_order": "PRE_ORDER_ONDEMAND",
-                "instant_delivery_only": 0
-            },
-            {
                 "id": "19d8fe25-0614-4b01-b425-f0e6c8cdbb2b",
                 "name": "Brown Cafe - Gaya",
                 "location": "Lot 3 \u0026 4, Block 9th, Jalan Pantai, Opposite Wisma Merdeka Shopping Complex, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
@@ -4741,7 +4637,7 @@
                     {
                         "id": "cf332fce-48dc-11eb-b563-0674d6a6f416",
                         "code": "26",
-                        "name": "Sushi"
+                        "name": "Sushi", "Asian", "Seafood"
                     },
                     {
                         "id": "cf3331a1-48dc-11eb-b563-0674d6a6f416",
@@ -7319,7 +7215,7 @@
                     {
                         "id": "cf332fce-48dc-11eb-b563-0674d6a6f416",
                         "code": "26",
-                        "name": "Sushi"
+                        "name": "Sushi", "Asian", "Seafood"
                     }
                 ],
                 "promotions": [
@@ -8541,7 +8437,7 @@
                     {
                         "id": "cf332fce-48dc-11eb-b563-0674d6a6f416",
                         "code": "26",
-                        "name": "Sushi"
+                        "name": "Sushi", "Asian", "Seafood"
                     },
                     {
                         "id": "cf3331a1-48dc-11eb-b563-0674d6a6f416",
@@ -11119,7 +11015,7 @@
                     {
                         "id": "cf332fce-48dc-11eb-b563-0674d6a6f416",
                         "code": "26",
-                        "name": "Sushi"
+                        "name": "Sushi", "Asian", "Seafood"
                     }
                 ],
                 "promotions": [
