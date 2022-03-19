@@ -6,6 +6,7 @@ import isFavourited from "../views/Favourited.vue"
 import Account from "../views/Account.vue"
 import Compare from "../views/Compare.vue"
 import SeeAll from "../views/SeeAll.vue"
+import Random from "../components/Random.vue"
 
 Vue.use(VueRouter)
 
@@ -40,7 +41,12 @@ const routes = [
         path: '/seeAll',
         name: 'seeAllNoQ',
         component: SeeAll
-    }  
+    },
+    {
+        path: '/random',
+        name: 'random',
+        component: Random
+    }    
 ]
 
 const router = new VueRouter({

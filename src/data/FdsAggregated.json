@@ -71,21 +71,6 @@
                 "id": 1859376148109
             },
             {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 41,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 3,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Non-Halal",
-                    "Rice",
-                    "Noodles"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5ZTYXTGA3VWE/hero/76a64313278c4df180bb0704a988e66f_1577941709853142120.png",
-                "id": 4666320121160
-            },
-            {
                 "name": "Food Panda",
                 "estimatedDeliveryTime": 78,
                 "distanceInKm": 5,
@@ -134,20 +119,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD10203/hero/d966347ecbc54a8198597e916b1cd0c6_1622195494541778142.jpg",
                 "id": 3006527566983
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 99,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 2,
-                "cuisine": [
-                    "Local",
-                    "Malaysian",
-                    "Coffee & Tea"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD10203/hero/d966347ecbc54a8198597e916b1cd0c6_1622195494541778142.jpg",
-                "id": 3608186137548
             },
             {
                 "name": "Food Panda",
@@ -472,7 +443,7 @@
                 "id": 2393526494554
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 82,
                 "distanceInKm": 5,
                 "price": 25,
@@ -488,7 +459,7 @@
                 "id": 417059431623
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 23,
                 "distanceInKm": 5,
                 "price": 25,
@@ -502,150 +473,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
                 "id": 1943534372111
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 44,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 3294479961261
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 48,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 3,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 2171525819691
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 34,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 1,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 3423120442768
-            },
-            {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 90,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 3,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 3740042307199
-            },
-            {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 86,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 1,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 3867910347220
-            },
-            {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 97,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 4,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 1741428102790
-            },
-            {
-                "name": "Air Asia Eats",
-                "estimatedDeliveryTime": 116,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 5,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 1835587314474
-            },
-            {
-                "name": "Air Asia Eats",
-                "estimatedDeliveryTime": 78,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 2271420249691
-            },
-            {
-                "name": "Air Asia Eats",
-                "estimatedDeliveryTime": 100,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08951/hero/618fc442fada458da27d0f8efc8b43c9_1646065469051544582.jpg",
-                "id": 3066495476854
             }
         ]
     },
@@ -670,7 +497,7 @@
                 "id": 2102695758870
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 115,
                 "distanceInKm": 4,
                 "price": 20,
@@ -686,7 +513,7 @@
                 "id": 1058950622547
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 36,
                 "distanceInKm": 1,
                 "price": 5,
@@ -734,22 +561,6 @@
                 "id": 2860075744722
             },
             {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 109,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08993/hero/4deae863fa78479fb6cabf809f1de680_1646065468914566623.jpg",
-                "id": 1076350324592
-            },
-            {
                 "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 91,
                 "distanceInKm": 2,
@@ -764,22 +575,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08993/hero/4deae863fa78479fb6cabf809f1de680_1646065468914566623.jpg",
                 "id": 1942030517371
-            },
-            {
-                "name": "Air Asia Eats",
-                "estimatedDeliveryTime": 93,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 4,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08993/hero/4deae863fa78479fb6cabf809f1de680_1646065468914566623.jpg",
-                "id": 448504969667
             }
         ]
     },
@@ -934,7 +729,9 @@
                     "Asian",
                     "Fast Food",
                     "Japanese",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2E2G22XLN6FTX/hero/89647fd140724bfd87769b70d3226c90_1609922034843633641.jpg",
                 "id": 2581825479552
@@ -950,7 +747,9 @@
                     "Asian",
                     "Fast Food",
                     "Japanese",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2E2G22XLN6FTX/hero/89647fd140724bfd87769b70d3226c90_1609922034843633641.jpg",
                 "id": 2847467272760
@@ -966,7 +765,9 @@
                     "Asian",
                     "Fast Food",
                     "Japanese",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2E2G22XLN6FTX/hero/89647fd140724bfd87769b70d3226c90_1609922034843633641.jpg",
                 "id": 3457224379777
@@ -982,7 +783,9 @@
                     "Asian",
                     "Fast Food",
                     "Japanese",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2E2G22XLN6FTX/hero/89647fd140724bfd87769b70d3226c90_1609922034843633641.jpg",
                 "id": 1712064438309
@@ -1064,7 +867,7 @@
                 "id": 4349365483493
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 97,
                 "distanceInKm": 2,
                 "price": 10,
@@ -1080,7 +883,7 @@
                 "id": 3120018435472
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 55,
                 "distanceInKm": 5,
                 "price": 25,
@@ -1214,7 +1017,7 @@
                 "id": 3701573422233
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 43,
                 "distanceInKm": 3,
                 "price": 15,
@@ -1230,7 +1033,7 @@
                 "id": 2913430258273
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 89,
                 "distanceInKm": 3,
                 "price": 15,
@@ -1364,7 +1167,7 @@
                 "id": 3666434538514
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 105,
                 "distanceInKm": 4,
                 "price": 20,
@@ -1380,7 +1183,7 @@
                 "id": 1501653653123
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 76,
                 "distanceInKm": 2,
                 "price": 10,
@@ -2036,6 +1839,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06758/hero/9047f2bf770e479eac9aad617c4a9f13_1628485653732222046.jpeg",
                 "id": 3629283468267
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 15,
+                "distanceInKm": 3,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Vietnamese",
+                    "Noodles",
+                    "Coffee & Tea"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06758/hero/9047f2bf770e479eac9aad617c4a9f13_1628485653732222046.jpeg",
+                "id": 3629283468267
             }
         ]
     },
@@ -2057,6 +1875,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06758/hero/9047f2bf770e479eac9aad617c4a9f13_1628485653732222046.jpeg",
                 "id": 1365574800772
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Vietnamese",
+                    "Noodles",
+                    "Coffee & Tea"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06758/hero/9047f2bf770e479eac9aad617c4a9f13_1628485653732222046.jpeg",
+                "id": 1365574800772
             }
         ]
     },
@@ -2066,6 +1899,36 @@
         "providers": [
             {
                 "name": "GrabFood",
+                "estimatedDeliveryTime": 66,
+                "distanceInKm": 2,
+                "price": 10,
+                "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Burgers",
+                    "Fast Food",
+                    "Western"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2NYVU4JGTAVRE/hero/9b44d066c9a44c9f84df5015c2a91bde_1619599664797343484.jpeg",
+                "id": 595363121600
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Burgers",
+                    "Fast Food",
+                    "Western"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2NYVU4JGTAVRE/hero/9b44d066c9a44c9f84df5015c2a91bde_1619599664797343484.jpeg",
+                "id": 595363121600
+            },
+            {
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 66,
                 "distanceInKm": 2,
                 "price": 10,
@@ -2099,6 +1962,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03542/hero/20ae4f4381ea4059892879cbdd2e59ce_1579670011959472317.jpeg",
                 "id": 392541745794
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Western",
+                    "Fast Food",
+                    "Burgers"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03542/hero/20ae4f4381ea4059892879cbdd2e59ce_1579670011959472317.jpeg",
+                "id": 392541745794
             }
         ]
     },
@@ -2120,6 +1998,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03542/hero/20ae4f4381ea4059892879cbdd2e59ce_1579670011959472317.jpeg",
                 "id": 4925334334964
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Western",
+                    "Fast Food",
+                    "Burgers"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03542/hero/20ae4f4381ea4059892879cbdd2e59ce_1579670011959472317.jpeg",
+                "id": 4925334334964
             }
         ]
     },
@@ -2133,6 +2026,21 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Western",
+                    "Burgers",
+                    "Snack"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD11571/hero/22118e86661844f8b9353ea5af6cbf89_1588573872916800994.jpeg",
+                "id": 2177174897744
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
                 "cuisine": [
                     "In-Store Prices",
                     "Western",
@@ -2163,6 +2071,22 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD12712/hero/0e1379ea317c4b3e9928bbda74cbf054_1558688022712605153.png",
                 "id": 4677513664589
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "Halal",
+                    "Malaysian",
+                    "Mamak",
+                    "Rice",
+                    "Roti"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD12712/hero/0e1379ea317c4b3e9928bbda74cbf054_1558688022712605153.png",
+                "id": 4677513664589
             }
         ]
     },
@@ -2184,6 +2108,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03329/hero/1298719613b54e89bf17df2d1166dfeb_1577690889449824061.jpeg",
                 "id": 2467066080597
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Chinese",
+                    "Noodles",
+                    "Snack"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03329/hero/1298719613b54e89bf17df2d1166dfeb_1577690889449824061.jpeg",
+                "id": 2467066080597
             }
         ]
     },
@@ -2195,6 +2134,21 @@
                 "name": "GrabFood",
                 "estimatedDeliveryTime": 46,
                 "distanceInKm": 3,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "Asian",
+                    "Malaysian",
+                    "Seafood",
+                    "Fish & Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2UCC33JCCE3CX/hero/bd5323960db141aaba9b3375d327fb93_1622540785817642750.jpeg",
+                "id": 740006647125
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
                 "price": 15,
                 "rating": 3,
                 "cuisine": [
@@ -2226,6 +2180,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCUE22GVRJVUA/hero/a9475eac486f4492a9c70460a98c1ede_1623232273335667339.png",
                 "id": 4537666809709
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Chicken",
+                    "Fried Chicken",
+                    "Korean"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCUE22GVRJVUA/hero/a9475eac486f4492a9c70460a98c1ede_1623232273335667339.png",
+                "id": 4537666809709
             }
         ]
     },
@@ -2239,6 +2208,21 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 1,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Chicken",
+                    "Fried Chicken",
+                    "Korean"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCUE22GVRJVUA/hero/a9475eac486f4492a9c70460a98c1ede_1623232273335667339.png",
+                "id": 3468890274073
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
                 "cuisine": [
                     "In-Store Prices",
                     "Chicken",
@@ -2269,6 +2253,22 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZJHKACHJPBDHA/hero/731b7dc34c7f47bdbe4a5c1f17ef3330_1591060484675845227.jpeg",
                 "id": 345489439535
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Fast Food",
+                    "Fried Chicken",
+                    "Japanese",
+                    "Rice"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZJHKACHJPBDHA/hero/731b7dc34c7f47bdbe4a5c1f17ef3330_1591060484675845227.jpeg",
+                "id": 345489439535
             }
         ]
     },
@@ -2281,6 +2281,21 @@
                 "estimatedDeliveryTime": 125,
                 "distanceInKm": 1,
                 "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Malaysian",
+                    "Snack",
+                    "Local",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD05964/hero/ba3680bb5fdf4b3e8ae5913c5cbb1b9b_1565252829201365882.jpeg",
+                "id": 2679662714138
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
                 "rating": 3,
                 "cuisine": [
                     "Malaysian",
@@ -2303,6 +2318,21 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 1,
+                "cuisine": [
+                    "Halal",
+                    "Salad",
+                    "Western",
+                    "Wraps"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYXDJYUDFCMJNE/hero/d34239d58da74ee1ad7f87f167e73142_1568972592020128818.png",
+                "id": 1529394625319
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 202,
+                "distanceInKm": 12,
+                "price": 15,
+                "rating": 3,
                 "cuisine": [
                     "Halal",
                     "Salad",
@@ -2334,7 +2364,7 @@
                 "id": 3005461489671
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 108,
                 "distanceInKm": 3,
                 "price": 15,
@@ -2349,7 +2379,7 @@
                 "id": 1762004283209
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 10,
                 "distanceInKm": 5,
                 "price": 25,
@@ -2385,7 +2415,7 @@
                 "id": 519893163768
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 72,
                 "distanceInKm": 5,
                 "price": 25,
@@ -2400,7 +2430,7 @@
                 "id": 2026404193500
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 42,
                 "distanceInKm": 5,
                 "price": 25,
@@ -2436,7 +2466,7 @@
                 "id": 2640965152723
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 116,
                 "distanceInKm": 3,
                 "price": 15,
@@ -2451,7 +2481,7 @@
                 "id": 1433864530419
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 129,
                 "distanceInKm": 2,
                 "price": 10,
@@ -2481,7 +2511,7 @@
                 "id": 306602303112
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 10,
                 "distanceInKm": 1,
                 "price": 5,
@@ -2517,7 +2547,7 @@
                 "id": 1899211291674
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 22,
                 "distanceInKm": 5,
                 "price": 25,
@@ -2532,7 +2562,7 @@
                 "id": 2386137095942
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 80,
                 "distanceInKm": 3,
                 "price": 15,
@@ -2545,36 +2575,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2UG7DTV4M1JX/hero/70bb3a51c993449cb8e315928b3e4ed8_1571139169437065979.png",
                 "id": 4079859925135
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 127,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2UG7DTV4M1JX/hero/70bb3a51c993449cb8e315928b3e4ed8_1571139169437065979.png",
-                "id": 4338091587558
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 43,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 4,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2UG7DTV4M1JX/hero/70bb3a51c993449cb8e315928b3e4ed8_1571139169437065979.png",
-                "id": 2206149893968
             }
         ]
     },
@@ -2598,7 +2598,7 @@
                 "id": 550468377086
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 121,
                 "distanceInKm": 1,
                 "price": 5,
@@ -2613,7 +2613,7 @@
                 "id": 1353228113492
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 67,
                 "distanceInKm": 2,
                 "price": 10,
@@ -2626,66 +2626,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2ZJE3EVU2ZHE/hero/d5c5431f8efc4d03a443771e698579c7_1571826689805532424.png",
                 "id": 2639254394127
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 119,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 4,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2ZJE3EVU2ZHE/hero/d5c5431f8efc4d03a443771e698579c7_1571826689805532424.png",
-                "id": 4415151697858
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 75,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVGGLMCC2/hero/b6acdb7ef47f4bba81bd001a60ec378f_1587365383994576065.png",
-                "id": 2295366472147
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 41,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2ZJE3EVU2ZHE/hero/d5c5431f8efc4d03a443771e698579c7_1571826689805532424.png",
-                "id": 1355127816518
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 100,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2ZJE3EVU2ZHE/hero/d5c5431f8efc4d03a443771e698579c7_1571826689805532424.png",
-                "id": 4552423631242
             }
         ]
     },
@@ -2709,7 +2649,7 @@
                 "id": 4661370231280
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 47,
                 "distanceInKm": 1,
                 "price": 5,
@@ -2724,7 +2664,7 @@
                 "id": 2236747690814
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 108,
                 "distanceInKm": 1,
                 "price": 5,
@@ -2754,7 +2694,7 @@
                 "id": 3263185478704
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 100,
                 "distanceInKm": 5,
                 "price": 25,
@@ -2769,7 +2709,7 @@
                 "id": 2521363047879
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 15,
                 "distanceInKm": 1,
                 "price": 5,
@@ -2805,7 +2745,7 @@
                 "id": 1868939219722
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 65,
                 "distanceInKm": 4,
                 "price": 20,
@@ -2820,7 +2760,7 @@
                 "id": 4412836213253
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 118,
                 "distanceInKm": 3,
                 "price": 15,
@@ -2833,66 +2773,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVFRF5ABE/hero/ea3368e45b744f28be07c32f07176e2b_1587365389165873829.png",
                 "id": 4471417720840
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 79,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVFRF5ABE/hero/ea3368e45b744f28be07c32f07176e2b_1587365389165873829.png",
-                "id": 180494142314
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 56,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVFRF5ABE/hero/ea3368e45b744f28be07c32f07176e2b_1587365389165873829.png",
-                "id": 656457845901
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 85,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVGGLMCC2/hero/b6acdb7ef47f4bba81bd001a60ec378f_1587365383994576065.png",
-                "id": 382506449894
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 88,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVFRF5ABE/hero/ea3368e45b744f28be07c32f07176e2b_1587365389165873829.png",
-                "id": 2276302770384
             }
         ]
     },
@@ -2916,7 +2796,7 @@
                 "id": 4670295542503
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 81,
                 "distanceInKm": 1,
                 "price": 5,
@@ -2931,7 +2811,7 @@
                 "id": 1671573397426
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 38,
                 "distanceInKm": 4,
                 "price": 20,
@@ -2944,51 +2824,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5HDE6TJKJKBE/hero/f57ffb1208ca47dea7c12d789e709f5e_1576811467668910907.png",
                 "id": 4231899529763
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 122,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5HDE6TJKJKBE/hero/f57ffb1208ca47dea7c12d789e709f5e_1576811467668910907.png",
-                "id": 2566661956885
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 98,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 4,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5HDE6TJKJKBE/hero/f57ffb1208ca47dea7c12d789e709f5e_1576811467668910907.png",
-                "id": 4173525693128
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 97,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Salad",
-                    "Western",
-                    "Wraps"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5HDE6TJKJKBE/hero/f57ffb1208ca47dea7c12d789e709f5e_1576811467668910907.png",
-                "id": 1303018668265
             }
         ]
     },
@@ -3012,7 +2847,7 @@
                 "id": 894143688404
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 92,
                 "distanceInKm": 1,
                 "price": 5,
@@ -3027,7 +2862,7 @@
                 "id": 1247886935566
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 97,
                 "distanceInKm": 2,
                 "price": 10,
@@ -3121,6 +2956,36 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVGGLMCC2/hero/b6acdb7ef47f4bba81bd001a60ec378f_1587365383994576065.png",
                 "id": 3492990020797
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 122,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 3,
+                "cuisine": [
+                    "Halal",
+                    "Salad",
+                    "Western",
+                    "Wraps"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5HDE6TJKJKBE/hero/f57ffb1208ca47dea7c12d789e709f5e_1576811467668910907.png",
+                "id": 2566661956885
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 98,
+                "distanceInKm": 3,
+                "price": 15,
+                "rating": 4,
+                "cuisine": [
+                    "Halal",
+                    "Salad",
+                    "Western",
+                    "Wraps"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY5HDE6TJKJKBE/hero/f57ffb1208ca47dea7c12d789e709f5e_1576811467668910907.png",
+                "id": 4173525693128
             }
         ]
     },
@@ -3142,6 +3007,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVGGLMCC2/hero/b6acdb7ef47f4bba81bd001a60ec378f_1587365383994576065.png",
                 "id": 520980329216
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 200,
+                "distanceInKm": 12,
+                "price": 28,
+                "rating": 4,
+                "cuisine": [
+                    "Halal",
+                    "Salad",
+                    "Western",
+                    "Wraps"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDWNBVGGLMCC2/hero/b6acdb7ef47f4bba81bd001a60ec378f_1587365383994576065.png",
+                "id": 520980329216
             }
         ]
     },
@@ -3155,6 +3035,22 @@
                 "distanceInKm": 2,
                 "price": 10,
                 "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Halal",
+                    "Dessert",
+                    "Western",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08955/hero/2b54ba08ea054f45a1ddfc9dfc268206_1628359170493782862.jpg",
+                "id": 1866198384859
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 200,
+                "distanceInKm": 12,
+                "price": 28,
+                "rating": 4,
                 "cuisine": [
                     "In-Store Prices",
                     "Halal",
@@ -3187,10 +3083,10 @@
                 "id": 4194046648603
             },
             {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 127,
-                "distanceInKm": 2,
-                "price": 10,
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 200,
+                "distanceInKm": 12,
+                "price": 28,
                 "rating": 4,
                 "cuisine": [
                     "In-Store Prices",
@@ -3202,10 +3098,10 @@
                 "id": 3255111766800
             },
             {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 41,
-                "distanceInKm": 5,
-                "price": 25,
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 200,
+                "distanceInKm": 12,
+                "price": 28,
                 "rating": 4,
                 "cuisine": [
                     "In-Store Prices",
@@ -3240,11 +3136,11 @@
                 "id": 4468571781237
             },
             {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 30,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 3,
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 200,
+                "distanceInKm": 12,
+                "price": 28,
+                "rating": 4,
                 "cuisine": [
                     "In-Store Prices",
                     "Halal",
@@ -3256,7 +3152,7 @@
                 "id": 1364420938296
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 23,
                 "distanceInKm": 2,
                 "price": 10,
@@ -3294,7 +3190,7 @@
                 "id": 3013888590129
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 120,
                 "distanceInKm": 2,
                 "price": 10,
@@ -3310,7 +3206,7 @@
                 "id": 1550302024009
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 16,
                 "distanceInKm": 5,
                 "price": 25,
@@ -3324,38 +3220,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08968/hero/e3598f969dcf4523ab8644dee1924ca0_1628359170077353117.jpg",
                 "id": 2482854903608
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 106,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLDTKL1ABJTWE/hero/8a63987ff3bd48d28b204a1514c8f7f2_1628359170541747940.jpg",
-                "id": 1673327064218
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 14,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 4,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08968/hero/e3598f969dcf4523ab8644dee1924ca0_1628359170077353117.jpg",
-                "id": 3021586434541
             }
         ]
     },
@@ -3379,7 +3243,7 @@
                 "id": 1129467492709
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 38,
                 "distanceInKm": 4,
                 "price": 20,
@@ -3394,7 +3258,7 @@
                 "id": 4086704018880
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 76,
                 "distanceInKm": 4,
                 "price": 20,
@@ -3407,36 +3271,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08981/hero/210b1dc87b0e4013809b79a4d041f9ae_1628359170783008785.jpg",
                 "id": 4796198194728
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 120,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08981/hero/210b1dc87b0e4013809b79a4d041f9ae_1628359170783008785.jpg",
-                "id": 1200494006585
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 124,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 4,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08981/hero/210b1dc87b0e4013809b79a4d041f9ae_1628359170783008785.jpg",
-                "id": 4252026703816
             }
         ]
     },
@@ -3461,7 +3295,7 @@
                 "id": 3779586785553
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 74,
                 "distanceInKm": 4,
                 "price": 20,
@@ -3477,7 +3311,7 @@
                 "id": 2837387034992
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 56,
                 "distanceInKm": 3,
                 "price": 15,
@@ -3491,54 +3325,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYUFRTTKAJLASA/hero/e151ee3acca444eea5cb25df0ba5974f_1628359170778338372.jpg",
                 "id": 1940186380455
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 37,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 2,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYUFRTTKAJLASA/hero/e151ee3acca444eea5cb25df0ba5974f_1628359170778338372.jpg",
-                "id": 887807375105
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 51,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 5,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLDTKL1ABJTWE/hero/8a63987ff3bd48d28b204a1514c8f7f2_1628359170541747940.jpg",
-                "id": 2915055260978
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 73,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 1,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYUFRTTKAJLASA/hero/e151ee3acca444eea5cb25df0ba5974f_1628359170778338372.jpg",
-                "id": 2566237029215
             }
         ]
     },
@@ -3563,7 +3349,7 @@
                 "id": 4232396917525
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 24,
                 "distanceInKm": 2,
                 "price": 10,
@@ -3579,7 +3365,7 @@
                 "id": 485899359661
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 114,
                 "distanceInKm": 4,
                 "price": 20,
@@ -3593,38 +3379,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08856/hero/656e8918ac2d4dc791d0cd7fb0b721c3_1628359170751488591.jpg",
                 "id": 2562309189930
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 113,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 3,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08856/hero/656e8918ac2d4dc791d0cd7fb0b721c3_1628359170751488591.jpg",
-                "id": 3729424200392
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 15,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 5,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08856/hero/656e8918ac2d4dc791d0cd7fb0b721c3_1628359170751488591.jpg",
-                "id": 3319390523591
             }
         ]
     },
@@ -3649,7 +3403,7 @@
                 "id": 3342746910801
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 73,
                 "distanceInKm": 2,
                 "price": 10,
@@ -3665,7 +3419,7 @@
                 "id": 523414680701
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia",
                 "estimatedDeliveryTime": 43,
                 "distanceInKm": 3,
                 "price": 15,
@@ -3679,54 +3433,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08957/hero/a679eb949d6d489597453c41f01e9426_1628359170663541867.jpg",
                 "id": 941780511561
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 118,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 5,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08957/hero/a679eb949d6d489597453c41f01e9426_1628359170663541867.jpg",
-                "id": 701471763698
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 109,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 1,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08957/hero/a679eb949d6d489597453c41f01e9426_1628359170663541867.jpg",
-                "id": 492674060585
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 100,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 4,
-                "cuisine": [
-                    "In-Store Prices",
-                    "Halal",
-                    "Dessert",
-                    "Western",
-                    "Malaysian"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLDTKL1ABJTWE/hero/8a63987ff3bd48d28b204a1514c8f7f2_1628359170541747940.jpg",
-                "id": 2416431418583
             }
         ]
     },
@@ -3740,6 +3446,22 @@
                 "distanceInKm": 4,
                 "price": 20,
                 "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Halal",
+                    "Dessert",
+                    "Western",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLDTKL1ABJTWE/hero/8a63987ff3bd48d28b204a1514c8f7f2_1628359170541747940.jpg",
+                "id": 1421968637459
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "In-Store Prices",
                     "Halal",
@@ -3771,6 +3493,22 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLDTKL1ABJTWE/hero/8a63987ff3bd48d28b204a1514c8f7f2_1628359170541747940.jpg",
                 "id": 2234971406932
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Halal",
+                    "Dessert",
+                    "Western",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLDTKL1ABJTWE/hero/8a63987ff3bd48d28b204a1514c8f7f2_1628359170541747940.jpg",
+                "id": 2234971406932
             }
         ]
     },
@@ -3784,6 +3522,22 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Poke Bowls",
+                    "Japanese",
+                    "Rice",
+                    "Healthy"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD05662/hero/dfe6cf1b99b941c4adbe73c7b2ba3e4c_1564721218423822306.jpeg",
+                "id": 3001140703341
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "In-Store Prices",
                     "Poke Bowls",
@@ -3814,6 +3568,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZKYRGBKPGEXVE/hero/798b2c24d9cb4aca9424f297e562b12d_1594116834163778141.jpeg",
                 "id": 3870255722758
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "Chicken",
+                    "Chinese",
+                    "Fish",
+                    "Rice"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZKYRGBKPGEXVE/hero/798b2c24d9cb4aca9424f297e562b12d_1594116834163778141.jpeg",
+                "id": 3870255722758
             }
         ]
     },
@@ -3827,6 +3596,21 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Western",
+                    "Juice",
+                    "Healthy"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03346/hero/db2b789284ad457cbe2d409ed298cc27_1630008958895794642.jpg",
+                "id": 3584542255263
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "In-Store Prices",
                     "Western",
@@ -3856,6 +3640,21 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03346/hero/db2b789284ad457cbe2d409ed298cc27_1630008958895794642.jpg",
                 "id": 3435953479542
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Western",
+                    "Juice",
+                    "Healthy"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD03346/hero/db2b789284ad457cbe2d409ed298cc27_1630008958895794642.jpg",
+                "id": 3435953479542
             }
         ]
     },
@@ -3869,6 +3668,22 @@
                 "distanceInKm": 5,
                 "price": 25,
                 "rating": 1,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Healthy",
+                    "Western",
+                    "Salad",
+                    "Sandwiches"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD11102/hero/d61e5ed6fcff4ca6be82b6b127fcd56d_1644552469524733396.png",
+                "id": 1087550475127
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "In-Store Prices",
                     "Healthy",
@@ -3902,11 +3717,11 @@
                 "id": 4847832113509
             },
             {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 47,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 1,
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "In-Store Prices",
                     "Healthy",
@@ -3918,7 +3733,7 @@
                 "id": 39780487686
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 102,
                 "distanceInKm": 1,
                 "price": 5,
@@ -3954,6 +3769,22 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2CCVEAZDEA2CT/hero/c0636a37589c485d8cad98dfb227da86_1644552469623541625.png",
                 "id": 1434981384542
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Healthy",
+                    "Salad",
+                    "Sandwiches",
+                    "Western"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2CCVEAZDEA2CT/hero/c0636a37589c485d8cad98dfb227da86_1644552469623541625.png",
+                "id": 1434981384542
             }
         ]
     },
@@ -3967,6 +3798,22 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Healthy",
+                    "Salad",
+                    "Sandwiches",
+                    "Western"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2CCVEAZDEA2CT/hero/c0636a37589c485d8cad98dfb227da86_1644552469623541625.png",
+                "id": 3209366085088
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "In-Store Prices",
                     "Healthy",
@@ -3998,6 +3845,22 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2ZGUMVEK61AT/hero/dcc7985ae7854793b7a5d18ac3059f02_1572329867292241498.png",
                 "id": 2412842007906
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Thai",
+                    "Asian",
+                    "Rice",
+                    "Chicken"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CY2ZGUMVEK61AT/hero/dcc7985ae7854793b7a5d18ac3059f02_1572329867292241498.png",
+                "id": 2412842007906
             }
         ]
     },
@@ -4011,6 +3874,22 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 1,
+                "cuisine": [
+                    "Halal",
+                    "Chicken",
+                    "Fast Food",
+                    "Pizza",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZLXRZMYG4MXA6/hero/b02c2d45b25548c19799ff025bf80994_1633878470553298162.png",
+                "id": 451221053041
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
                 "cuisine": [
                     "Halal",
                     "Chicken",
@@ -4223,6 +4102,38 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2ABDBEVTTX2NN/hero/f06b392b0ee34b4881499c421ffa2a89_1633878468006781395.png",
                 "id": 3863793310423
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "Halal",
+                    "Chicken",
+                    "Fast Food",
+                    "Pizza",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2ABDBEVTTX2NN/hero/f06b392b0ee34b4881499c421ffa2a89_1633878468006781395.png",
+                "id": 3863793310423
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 90,
+                "distanceInKm": 12,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Halal",
+                    "Chicken",
+                    "Fast Food",
+                    "Pizza",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2ABDBEVTTX2NN/hero/f06b392b0ee34b4881499c421ffa2a89_1633878468006781395.png",
+                "id": 3863793310423
             }
         ]
     },
@@ -4232,6 +4143,38 @@
         "providers": [
             {
                 "name": "GrabFood",
+                "estimatedDeliveryTime": 74,
+                "distanceInKm": 5,
+                "price": 25,
+                "rating": 3,
+                "cuisine": [
+                    "Halal",
+                    "Coffee & Tea",
+                    "Dessert",
+                    "Cakes & Bakeries",
+                    "Pastries"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYNFTTEYUE4GG6/hero/f5fe4bcf594941f08231dacab9a0568d_1579687651802449076.jpeg",
+                "id": 2426734486642
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 105,
+                "distanceInKm": 7,
+                "price": 18,
+                "rating": 5,
+                "cuisine": [
+                    "Halal",
+                    "Coffee & Tea",
+                    "Dessert",
+                    "Cakes & Bakeries",
+                    "Pastries"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYNFTTEYUE4GG6/hero/f5fe4bcf594941f08231dacab9a0568d_1579687651802449076.jpeg",
+                "id": 2426734486642
+            },
+            {
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 74,
                 "distanceInKm": 5,
                 "price": 25,
@@ -4269,7 +4212,7 @@
                 "id": 1700895972345
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 123,
                 "distanceInKm": 5,
                 "price": 25,
@@ -4285,7 +4228,7 @@
                 "id": 1600964371417
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 120,
                 "distanceInKm": 3,
                 "price": 15,
@@ -4323,7 +4266,7 @@
                 "id": 3166903361107
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 66,
                 "distanceInKm": 3,
                 "price": 15,
@@ -4339,7 +4282,7 @@
                 "id": 3827979380655
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 62,
                 "distanceInKm": 2,
                 "price": 10,
@@ -4377,7 +4320,7 @@
                 "id": 2863801519230
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 52,
                 "distanceInKm": 1,
                 "price": 5,
@@ -4393,7 +4336,7 @@
                 "id": 3654818004647
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 119,
                 "distanceInKm": 5,
                 "price": 25,
@@ -4407,38 +4350,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NTVFC1LN/hero/1d4a656a67c544e89093cca4a12ccbe7_1579687760589585933.jpeg",
                 "id": 215409278528
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 96,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 4,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3N1VU3EAX/hero/566f1fe29c1d4f21a241ce0d0c145add_1579687628855896658.jpeg",
-                "id": 3406764755006
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 101,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NTVFC1LN/hero/1d4a656a67c544e89093cca4a12ccbe7_1579687760589585933.jpeg",
-                "id": 2635725339971
             }
         ]
     },
@@ -4463,7 +4374,7 @@
                 "id": 1048677400730
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 91,
                 "distanceInKm": 2,
                 "price": 10,
@@ -4479,7 +4390,7 @@
                 "id": 1364752557746
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 60,
                 "distanceInKm": 5,
                 "price": 25,
@@ -4493,38 +4404,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVYVCET/hero/bde783f82fde4e98bfa2c9e5e028e84d_1584614505674967501.jpeg",
                 "id": 4650164647271
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 44,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVYVCET/hero/bde783f82fde4e98bfa2c9e5e028e84d_1584614505674967501.jpeg",
-                "id": 2615371187738
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 59,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVYVCET/hero/bde783f82fde4e98bfa2c9e5e028e84d_1584614505674967501.jpeg",
-                "id": 4642201992646
             }
         ]
     },
@@ -4549,7 +4428,7 @@
                 "id": 1737906379710
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 46,
                 "distanceInKm": 5,
                 "price": 25,
@@ -4565,7 +4444,7 @@
                 "id": 4088267767742
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 38,
                 "distanceInKm": 5,
                 "price": 25,
@@ -4579,70 +4458,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYNFTTEYMFNWLN/hero/896107ed7d494c119cd7ae740d960c2e_1579687636606979054.jpeg",
                 "id": 1487464121146
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 72,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYNFTTEYMFNWLN/hero/896107ed7d494c119cd7ae740d960c2e_1579687636606979054.jpeg",
-                "id": 462976813521
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 61,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3N1VU3EAX/hero/566f1fe29c1d4f21a241ce0d0c145add_1579687628855896658.jpeg",
-                "id": 2782536479346
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 97,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYNFTTEYMFNWLN/hero/896107ed7d494c119cd7ae740d960c2e_1579687636606979054.jpeg",
-                "id": 914726294899
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 35,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYNFTTEYMFNWLN/hero/896107ed7d494c119cd7ae740d960c2e_1579687636606979054.jpeg",
-                "id": 1480281526556
             }
         ]
     },
@@ -4667,7 +4482,7 @@
                 "id": 1037946926886
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 69,
                 "distanceInKm": 1,
                 "price": 5,
@@ -4683,7 +4498,7 @@
                 "id": 3026893917843
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 129,
                 "distanceInKm": 3,
                 "price": 15,
@@ -4697,70 +4512,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNBDA6AT2/hero/eafa39ef45ab43a8be38848b40a1afb2_1579687622000891743.jpeg",
                 "id": 976418000607
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 22,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNBDA6AT2/hero/eafa39ef45ab43a8be38848b40a1afb2_1579687622000891743.jpeg",
-                "id": 3700665822535
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 12,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNBDA6AT2/hero/eafa39ef45ab43a8be38848b40a1afb2_1579687622000891743.jpeg",
-                "id": 768073950651
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 127,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNBDA6AT2/hero/eafa39ef45ab43a8be38848b40a1afb2_1579687622000891743.jpeg",
-                "id": 1316621436722
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 40,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 4,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNBDA6AT2/hero/eafa39ef45ab43a8be38848b40a1afb2_1579687622000891743.jpeg",
-                "id": 373731534099
             }
         ]
     },
@@ -4785,7 +4536,7 @@
                 "id": 2235541769111
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 12,
                 "distanceInKm": 3,
                 "price": 15,
@@ -4801,7 +4552,7 @@
                 "id": 1581173227409
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 54,
                 "distanceInKm": 1,
                 "price": 5,
@@ -4815,86 +4566,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CPEEGLJ/hero/0ca9844440254ae69a9c75add080a57c_1587968651156870616.jpeg",
                 "id": 82262212746
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 54,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CPEEGLJ/hero/0ca9844440254ae69a9c75add080a57c_1587968651156870616.jpeg",
-                "id": 2062680578125
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 60,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CPEEGLJ/hero/0ca9844440254ae69a9c75add080a57c_1587968651156870616.jpeg",
-                "id": 4000854991698
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 22,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3N1VU3EAX/hero/566f1fe29c1d4f21a241ce0d0c145add_1579687628855896658.jpeg",
-                "id": 1960273288432
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 15,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CPEEGLJ/hero/0ca9844440254ae69a9c75add080a57c_1587968651156870616.jpeg",
-                "id": 3757389528812
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 58,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CPEEGLJ/hero/0ca9844440254ae69a9c75add080a57c_1587968651156870616.jpeg",
-                "id": 1749881983592
             }
         ]
     },
@@ -4919,7 +4590,7 @@
                 "id": 3363768528141
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 117,
                 "distanceInKm": 2,
                 "price": 10,
@@ -4935,7 +4606,7 @@
                 "id": 4971270713473
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 101,
                 "distanceInKm": 3,
                 "price": 15,
@@ -4949,70 +4620,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CTBEVRX/hero/85de9ae4c30a48bda5f40c8ba9902118_1587968623274325451.jpeg",
                 "id": 4820023708340
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 75,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CTBEVRX/hero/85de9ae4c30a48bda5f40c8ba9902118_1587968623274325451.jpeg",
-                "id": 2235438312473
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 30,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CTBEVRX/hero/85de9ae4c30a48bda5f40c8ba9902118_1587968623274325451.jpeg",
-                "id": 4186170462125
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 15,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CTBEVRX/hero/85de9ae4c30a48bda5f40c8ba9902118_1587968623274325451.jpeg",
-                "id": 3478124940943
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 58,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZD3L35CTBEVRX/hero/85de9ae4c30a48bda5f40c8ba9902118_1587968623274325451.jpeg",
-                "id": 4320526242828
             }
         ]
     },
@@ -5037,7 +4644,7 @@
                 "id": 3970284722664
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 81,
                 "distanceInKm": 5,
                 "price": 25,
@@ -5053,7 +4660,7 @@
                 "id": 3096887843040
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 127,
                 "distanceInKm": 3,
                 "price": 15,
@@ -5067,86 +4674,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NXFF4ZJJ/hero/269c268453fb49f39a9de52517f63af3_1579687750840120364.jpeg",
                 "id": 2392184590991
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 67,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NXFF4ZJJ/hero/269c268453fb49f39a9de52517f63af3_1579687750840120364.jpeg",
-                "id": 2413677951088
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 26,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NXFF4ZJJ/hero/269c268453fb49f39a9de52517f63af3_1579687750840120364.jpeg",
-                "id": 1438460285259
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 17,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NXFF4ZJJ/hero/269c268453fb49f39a9de52517f63af3_1579687750840120364.jpeg",
-                "id": 2886580701110
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 129,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3N1VU3EAX/hero/566f1fe29c1d4f21a241ce0d0c145add_1579687628855896658.jpeg",
-                "id": 2022185986247
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 37,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 4,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3NXFF4ZJJ/hero/269c268453fb49f39a9de52517f63af3_1579687750840120364.jpeg",
-                "id": 3606671996615
             }
         ]
     },
@@ -5170,7 +4697,7 @@
                 "id": 2703993281135
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 16,
                 "distanceInKm": 1,
                 "price": 5,
@@ -5185,7 +4712,7 @@
                 "id": 1738807986105
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 57,
                 "distanceInKm": 2,
                 "price": 10,
@@ -5198,66 +4725,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZMGUEKEFFDGFA/hero/ad06157fa0224c83aa84a7795c266c59_1614070194647023729.jpeg",
                 "id": 1086965798448
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 91,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 4,
-                "cuisine": [
-                    "Cakes & Bakeries",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZMGUEKEFFDGFA/hero/ad06157fa0224c83aa84a7795c266c59_1614070194647023729.jpeg",
-                "id": 1076897255750
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 113,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 5,
-                "cuisine": [
-                    "Cakes & Bakeries",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZMGUEKEFFDGFA/hero/ad06157fa0224c83aa84a7795c266c59_1614070194647023729.jpeg",
-                "id": 3104299123426
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 88,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 5,
-                "cuisine": [
-                    "Cakes & Bakeries",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZMGUEKEFFDGFA/hero/ad06157fa0224c83aa84a7795c266c59_1614070194647023729.jpeg",
-                "id": 4658246887255
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 49,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 1,
-                "cuisine": [
-                    "Cakes & Bakeries",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZMGUEKEFFDGFA/hero/ad06157fa0224c83aa84a7795c266c59_1614070194647023729.jpeg",
-                "id": 1012164318584
             }
         ]
     },
@@ -5282,7 +4749,7 @@
                 "id": 2188565293739
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 27,
                 "distanceInKm": 4,
                 "price": 20,
@@ -5298,7 +4765,7 @@
                 "id": 651905563449
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 109,
                 "distanceInKm": 5,
                 "price": 25,
@@ -5312,86 +4779,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNAWCJAFA/hero/327ea1d009e64931a3d70a02dc71ffb4_1579687642409905390.jpeg",
                 "id": 3809383131055
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 38,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNAWCJAFA/hero/327ea1d009e64931a3d70a02dc71ffb4_1579687642409905390.jpeg",
-                "id": 3082186533081
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 61,
-                "distanceInKm": 5,
-                "price": 25,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNAWCJAFA/hero/327ea1d009e64931a3d70a02dc71ffb4_1579687642409905390.jpeg",
-                "id": 1167250438636
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 53,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNAWCJAFA/hero/327ea1d009e64931a3d70a02dc71ffb4_1579687642409905390.jpeg",
-                "id": 981487122592
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 94,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYVZNNNAWCJAFA/hero/327ea1d009e64931a3d70a02dc71ffb4_1579687642409905390.jpeg",
-                "id": 4875212359297
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 111,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYTDG3N1VU3EAX/hero/566f1fe29c1d4f21a241ce0d0c145add_1579687628855896658.jpeg",
-                "id": 718003751696
             }
         ]
     },
@@ -5416,7 +4803,7 @@
                 "id": 527281540340
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 98,
                 "distanceInKm": 1,
                 "price": 5,
@@ -5432,7 +4819,7 @@
                 "id": 1774795231626
             },
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 26,
                 "distanceInKm": 3,
                 "price": 15,
@@ -5446,70 +4833,6 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVUTEWA/hero/97415981ea5a4e0299ef62d5377516df_1629684206268399907.jpeg",
                 "id": 2907486450982
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 78,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 2,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVUTEWA/hero/97415981ea5a4e0299ef62d5377516df_1629684206268399907.jpeg",
-                "id": 2004898432698
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 31,
-                "distanceInKm": 4,
-                "price": 20,
-                "rating": 1,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVUTEWA/hero/97415981ea5a4e0299ef62d5377516df_1629684206268399907.jpeg",
-                "id": 1191125314368
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 89,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 5,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVUTEWA/hero/97415981ea5a4e0299ef62d5377516df_1629684206268399907.jpeg",
-                "id": 2860607087298
-            },
-            {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 64,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 3,
-                "cuisine": [
-                    "Halal",
-                    "Coffee & Tea",
-                    "Dessert",
-                    "Cakes & Bakeries",
-                    "Pastries"
-                ],
-                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZCFEJAGVUTEWA/hero/97415981ea5a4e0299ef62d5377516df_1629684206268399907.jpeg",
-                "id": 1428819288847
             }
         ]
     },
@@ -5540,7 +4863,7 @@
         "name": "Starbucks - Nu Tower",
         "providers": [
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 76,
                 "distanceInKm": 3,
                 "price": 15,
@@ -5562,7 +4885,7 @@
         "name": "Shawarma King - Bangsar",
         "providers": [
             {
-                "name": "GrabFood",
+                "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 20,
                 "distanceInKm": 3,
                 "price": 15,
@@ -5597,6 +4920,38 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06697/hero/fbb9905c5c75456cb0d9b8eab10380cd_1564655308679171237.jpeg",
                 "id": 1396229318492
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "Western",
+                    "Steak",
+                    "Burger",
+                    "Chicken",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06697/hero/fbb9905c5c75456cb0d9b8eab10380cd_1564655308679171237.jpeg",
+                "id": 1396229318492
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "Western",
+                    "Steak",
+                    "Burger",
+                    "Chicken",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06697/hero/fbb9905c5c75456cb0d9b8eab10380cd_1564655308679171237.jpeg",
+                "id": 1396229318492
             }
         ]
     },
@@ -5610,6 +4965,38 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 1,
+                "cuisine": [
+                    "Western",
+                    "Steak",
+                    "Burger",
+                    "Chicken",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06697/hero/fbb9905c5c75456cb0d9b8eab10380cd_1564655308679171237.jpeg",
+                "id": 423111006386
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "Western",
+                    "Steak",
+                    "Burger",
+                    "Chicken",
+                    "Pasta"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD06697/hero/fbb9905c5c75456cb0d9b8eab10380cd_1564655308679171237.jpeg",
+                "id": 423111006386
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
                 "cuisine": [
                     "Western",
                     "Steak",
@@ -5637,7 +5024,45 @@
                     "Japanese",
                     "Non-Halal",
                     "Ramen",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BG2UDTT/hero/f24dc7d58bb9401fa7b5bedab2688b6c_1586230385958392908.png",
+                "id": 4903262951573
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Japanese",
+                    "Non-Halal",
+                    "Ramen",
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BG2UDTT/hero/f24dc7d58bb9401fa7b5bedab2688b6c_1586230385958392908.png",
+                "id": 4903262951573
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Japanese",
+                    "Non-Halal",
+                    "Ramen",
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BG2UDTT/hero/f24dc7d58bb9401fa7b5bedab2688b6c_1586230385958392908.png",
                 "id": 4903262951573
@@ -5659,7 +5084,45 @@
                     "Japanese",
                     "Non-Halal",
                     "Ramen",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BRJXJJT/hero/83eef1d174684f20be1b83880c9b0c02_1586230387657166414.png",
+                "id": 3742263591952
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Japanese",
+                    "Non-Halal",
+                    "Ramen",
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BRJXJJT/hero/83eef1d174684f20be1b83880c9b0c02_1586230387657166414.png",
+                "id": 3742263591952
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Japanese",
+                    "Non-Halal",
+                    "Ramen",
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BRJXJJT/hero/83eef1d174684f20be1b83880c9b0c02_1586230387657166414.png",
                 "id": 3742263591952
@@ -5681,7 +5144,45 @@
                     "Japanese",
                     "Non-Halal",
                     "Ramen",
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BRJXJJT/hero/83eef1d174684f20be1b83880c9b0c02_1586230387657166414.png",
+                "id": 801889496222
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Japanese",
+                    "Non-Halal",
+                    "Ramen",
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BRJXJJT/hero/83eef1d174684f20be1b83880c9b0c02_1586230387657166414.png",
+                "id": 801889496222
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Japanese",
+                    "Non-Halal",
+                    "Ramen",
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZC3AE5BRJXJJT/hero/83eef1d174684f20be1b83880c9b0c02_1586230387657166414.png",
                 "id": 801889496222
@@ -5706,6 +5207,36 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2JEE72JR3NCGA/hero/bdfcb90542354be884d4f2df5c60fc1c_1610439731884318329.jpeg",
                 "id": 942131495742
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Cheese",
+                    "Italian",
+                    "Pizza"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2JEE72JR3NCGA/hero/bdfcb90542354be884d4f2df5c60fc1c_1610439731884318329.jpeg",
+                "id": 942131495742
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Cheese",
+                    "Italian",
+                    "Pizza"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2JEE72JR3NCGA/hero/bdfcb90542354be884d4f2df5c60fc1c_1610439731884318329.jpeg",
+                "id": 942131495742
             }
         ]
     },
@@ -5719,6 +5250,34 @@
                 "distanceInKm": 4,
                 "price": 20,
                 "rating": 4,
+                "cuisine": [
+                    "Coffee & Tea",
+                    "Local",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C25VVJLGHEJUFA/logo/c1787387c9e84c1f8a740ad086575aa3_1637293781397195866.jpeg",
+                "id": 829629327564
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 84,
+                "distanceInKm": 8,
+                "price": 12,
+                "rating": 4,
+                "cuisine": [
+                    "Coffee & Tea",
+                    "Local",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C25VVJLGHEJUFA/logo/c1787387c9e84c1f8a740ad086575aa3_1637293781397195866.jpeg",
+                "id": 829629327564
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
                 "cuisine": [
                     "Coffee & Tea",
                     "Local",
@@ -5748,7 +5307,7 @@
                 "id": 275946321456
             },
             {
-                "name": "GrabFood",
+                "name": "Food Panda",
                 "estimatedDeliveryTime": 105,
                 "distanceInKm": 1,
                 "price": 5,
@@ -5762,11 +5321,11 @@
                 "id": 3705436722591
             },
             {
-                "name": "GrabFood",
-                "estimatedDeliveryTime": 36,
-                "distanceInKm": 3,
-                "price": 15,
-                "rating": 1,
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
                 "cuisine": [
                     "Coffee & Tea",
                     "Local",
@@ -5794,6 +5353,34 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDBJ6J3RPM1HE/hero/b434c71a42f245f8b151fc1d889e5950_1622195494008409383.jpg",
                 "id": 1508217347886
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 100,
+                "distanceInKm": 15,
+                "price": 9,
+                "rating": 5,
+                "cuisine": [
+                    "Coffee & Tea",
+                    "Local",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDBJ6J3RPM1HE/hero/b434c71a42f245f8b151fc1d889e5950_1622195494008409383.jpg",
+                "id": 1508217347886
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "Coffee & Tea",
+                    "Local",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDBJ6J3RPM1HE/hero/b434c71a42f245f8b151fc1d889e5950_1622195494008409383.jpg",
+                "id": 1508217347886
             }
         ]
     },
@@ -5814,6 +5401,34 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDBJ6J3RPM1HE/hero/b434c71a42f245f8b151fc1d889e5950_1622195494008409383.jpg",
                 "id": 1972649011766
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "Coffee & Tea",
+                    "Local",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDBJ6J3RPM1HE/hero/b434c71a42f245f8b151fc1d889e5950_1622195494008409383.jpg",
+                "id": 1972649011766
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 15,
+                "distanceInKm": 3,
+                "price": 20,
+                "rating": 4,
+                "cuisine": [
+                    "Coffee & Tea",
+                    "Local",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CZDBJ6J3RPM1HE/hero/b434c71a42f245f8b151fc1d889e5950_1622195494008409383.jpg",
+                "id": 1972649011766
             }
         ]
     },
@@ -5827,6 +5442,36 @@
                 "distanceInKm": 4,
                 "price": 20,
                 "rating": 5,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Asian",
+                    "Japanese",
+                    "Noodles"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2KCNE3EWB2DL6/hero/1775f161badf4e98b7ec53973086ba73_1612331046031643047.jpeg",
+                "id": 3118303912782
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Asian",
+                    "Japanese",
+                    "Noodles"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2KCNE3EWB2DL6/hero/1775f161badf4e98b7ec53973086ba73_1612331046031643047.jpeg",
+                "id": 3118303912782
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "In-Store Prices",
                     "Asian",
@@ -5856,6 +5501,36 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2KCNE3EWB2DL6/hero/1775f161badf4e98b7ec53973086ba73_1612331046031643047.jpeg",
                 "id": 3725840141767
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 25,
+                "distanceInKm": 6,
+                "price": 8,
+                "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Asian",
+                    "Japanese",
+                    "Noodles"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2KCNE3EWB2DL6/hero/1775f161badf4e98b7ec53973086ba73_1612331046031643047.jpeg",
+                "id": 3725840141767
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Asian",
+                    "Japanese",
+                    "Noodles"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2KCNE3EWB2DL6/hero/1775f161badf4e98b7ec53973086ba73_1612331046031643047.jpeg",
+                "id": 3725840141767
             }
         ]
     },
@@ -5869,6 +5544,34 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 2,
+                "cuisine": [
+                    "Rice",
+                    "Snack",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2UBDFNCMFNUC2/hero/8de2496a51f846a9947d45bf994eea92_1622443975728688853.png",
+                "id": 1022721086350
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 20,
+                "distanceInKm": 2,
+                "price": 16,
+                "rating": 25,
+                "cuisine": [
+                    "Rice",
+                    "Snack",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2UBDFNCMFNUC2/hero/8de2496a51f846a9947d45bf994eea92_1622443975728688853.png",
+                "id": 1022721086350
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Rice",
                     "Snack",
@@ -5896,6 +5599,33 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2UBDFNCMFNUC2/hero/8de2496a51f846a9947d45bf994eea92_1622443975728688853.png",
                 "id": 1043980039611
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 20,
+                "distanceInKm": 2,
+                "price": 16,
+                "cuisine": [
+                    "Rice",
+                    "Snack",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2UBDFNCMFNUC2/hero/8de2496a51f846a9947d45bf994eea92_1622443975728688853.png",
+                "id": 1043980039611
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Rice",
+                    "Snack",
+                    "Malaysian"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-C2UBDFNCMFNUC2/hero/8de2496a51f846a9947d45bf994eea92_1622443975728688853.png",
+                "id": 1043980039611
             }
         ]
     },
@@ -5909,6 +5639,37 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 4,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Coffee & Tea",
+                    "Indian",
+                    "Rice",
+                    "Snack"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD00082/hero/9cd9d265faa344eeb3cbda6b04e94565_1565254919625782203.jpeg",
+                "id": 2031876279886
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Coffee & Tea",
+                    "Indian",
+                    "Rice",
+                    "Snack"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD00082/hero/9cd9d265faa344eeb3cbda6b04e94565_1565254919625782203.jpeg",
+                "id": 2031876279886
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 20,
+                "distanceInKm": 2,
+                "price": 16,
                 "cuisine": [
                     "In-Store Prices",
                     "Coffee & Tea",
@@ -5940,6 +5701,38 @@
                 ],
                 "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08265/hero/f116ee616ef24f5ca9619ff711907a57_1588574155637866344.jpeg",
                 "id": 1072695833371
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Halal",
+                    "Korean",
+                    "Fried Chicken",
+                    "Rice"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08265/hero/f116ee616ef24f5ca9619ff711907a57_1588574155637866344.jpeg",
+                "id": 1072695833371
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Halal",
+                    "Korean",
+                    "Fried Chicken",
+                    "Rice"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/MYDD08265/hero/f116ee616ef24f5ca9619ff711907a57_1588574155637866344.jpeg",
+                "id": 1072695833371
             }
         ]
     },
@@ -5953,6 +5746,38 @@
                 "distanceInKm": 4,
                 "price": 20,
                 "rating": 2,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Indian",
+                    "Vegetarian",
+                    "Breakfast",
+                    "Rice"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYWWVK4DABAEC6/hero/2644c5a0c4aa4971b8df42c7de5ea6a6_1569318110150076396.png",
+                "id": 3998193327697
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "In-Store Prices",
+                    "Indian",
+                    "Vegetarian",
+                    "Breakfast",
+                    "Rice"
+                ],
+                "photoHref": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/1-CYWWVK4DABAEC6/hero/2644c5a0c4aa4971b8df42c7de5ea6a6_1569318110150076396.png",
+                "id": 3998193327697
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "In-Store Prices",
                     "Indian",
@@ -5981,6 +5806,32 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9245de4b61f4ba1d/614045287104816e34aacb4e/whatsapp-image-at-jpeg_1631601958998.jpeg",
                 "id": 839926461752
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9245de4b61f4ba1d/614045287104816e34aacb4e/whatsapp-image-at-jpeg_1631601958998.jpeg",
+                "id": 839926461752
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9245de4b61f4ba1d/614045287104816e34aacb4e/whatsapp-image-at-jpeg_1631601958998.jpeg",
+                "id": 839926461752
             }
         ]
     },
@@ -5994,6 +5845,34 @@
                 "distanceInKm": 5,
                 "price": 25,
                 "rating": 4,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 552684273855
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 552684273855
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Bubble Tea",
                     "Juices Smoothies",
@@ -6023,6 +5902,38 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltc0ab42e0ab2fd515/6214c6b9fd9b4409bbc885fb/fadaebaddcjpeg_1645528760392.jpeg",
                 "id": 3641971449764
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Noodles",
+                    "Pasta",
+                    "Rice",
+                    "Sandwiches",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltc0ab42e0ab2fd515/6214c6b9fd9b4409bbc885fb/fadaebaddcjpeg_1645528760392.jpeg",
+                "id": 3641971449764
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Noodles",
+                    "Pasta",
+                    "Rice",
+                    "Sandwiches",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltc0ab42e0ab2fd515/6214c6b9fd9b4409bbc885fb/fadaebaddcjpeg_1645528760392.jpeg",
+                "id": 3641971449764
             }
         ]
     },
@@ -6036,6 +5947,34 @@
                 "distanceInKm": 5,
                 "price": 25,
                 "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Salad",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte7f5b643f9368ee9/6195d10f9216a558aaea1f8d/whatsapp-image-at-amjpeg_1637208334612.jpeg",
+                "id": 1749689937195
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Salad",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte7f5b643f9368ee9/6195d10f9216a558aaea1f8d/whatsapp-image-at-amjpeg_1637208334612.jpeg",
+                "id": 1749689937195
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Chicken",
                     "Salad",
@@ -6063,6 +6002,34 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt6fd1135f1261cf97/621481f10683130e24bf080b/njpg_1645511152078.jpg",
                 "id": 2325997706441
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 60,
+                "distanceInKm": 1,
+                "price": 5,
+                "rating": 5,
+                "cuisine": [
+                    "Snacks",
+                    "Soup",
+                    "Vegetarian"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt6fd1135f1261cf97/621481f10683130e24bf080b/njpg_1645511152078.jpg",
+                "id": 2325997706441
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Snacks",
+                    "Soup",
+                    "Vegetarian"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt6fd1135f1261cf97/621481f10683130e24bf080b/njpg_1645511152078.jpg",
+                "id": 2325997706441
             }
         ]
     },
@@ -6081,6 +6048,30 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte9c5f615a037d23d/61f61c3bd2483f75d846f097/njpg_1643519034625.jpg",
                 "id": 776373752768
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Noodles"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte9c5f615a037d23d/61f61c3bd2483f75d846f097/njpg_1643519034625.jpg",
+                "id": 776373752768
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Noodles"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte9c5f615a037d23d/61f61c3bd2483f75d846f097/njpg_1643519034625.jpg",
+                "id": 776373752768
             }
         ]
     },
@@ -6091,9 +6082,41 @@
             {
                 "name": "GrabFood",
                 "estimatedDeliveryTime": 91,
-                "distanceInKm": 3,
+                "distanceInKm": 5,
                 "price": 15,
+                "rating": 5,
+                "cuisine": [
+                    "Noodles",
+                    "Rice",
+                    "Snacks",
+                    "Soup",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltab2c599697cc5071/61c40c379a0b3d12b53e19f5/whatsapp-image-at-pmjpg_1640238134301.jpg",
+                "id": 485745471566
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 30,
+                "distanceInKm": 3,
+                "price": 18,
                 "rating": 2,
+                "cuisine": [
+                    "Noodles",
+                    "Rice",
+                    "Snacks",
+                    "Soup",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltab2c599697cc5071/61c40c379a0b3d12b53e19f5/whatsapp-image-at-pmjpg_1640238134301.jpg",
+                "id": 485745471566
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 4,
+                "price": 10,
+                "rating": 3,
                 "cuisine": [
                     "Noodles",
                     "Rice",
@@ -6119,6 +6142,26 @@
                 "cuisine": [],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9c22a02c384bd5d7/610d0f1016b9e7493f600c0f/malaysiaartworkset-brown-cafejpg_1628245775119.jpg",
                 "id": 1779814096847
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 12,
+                "distanceInKm": 2,
+                "price": 10,
+                "rating": 3,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9c22a02c384bd5d7/610d0f1016b9e7493f600c0f/malaysiaartworkset-brown-cafejpg_1628245775119.jpg",
+                "id": 1779814096847
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9c22a02c384bd5d7/610d0f1016b9e7493f600c0f/malaysiaartworkset-brown-cafejpg_1628245775119.jpg",
+                "id": 1779814096847
             }
         ]
     },
@@ -6131,6 +6174,34 @@
                 "estimatedDeliveryTime": 122,
                 "distanceInKm": 5,
                 "price": 25,
+                "rating": 3,
+                "cuisine": [
+                    "Burgers",
+                    "Pasta",
+                    "Snacks"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt1235d630d692d662/6217513e47a8ba6f36f82e5d/whatsapp-image-at-pmjpeg_1645695293796.jpeg",
+                "id": 2996841084764
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Burgers",
+                    "Pasta",
+                    "Snacks"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt1235d630d692d662/6217513e47a8ba6f36f82e5d/whatsapp-image-at-pmjpeg_1645695293796.jpeg",
+                "id": 2996841084764
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
                 "rating": 3,
                 "cuisine": [
                     "Burgers",
@@ -6156,6 +6227,46 @@
                     "Noodles",
                     "Rice",
                     "Sushi",
+                    "Asian",
+                    "Seafood",
+                    "Non Halal",
+                    "Vegan",
+                    "Vegetarian"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt685c2993cbbbf50e/6221d0f8960c53749300b62a/untitled-design-tpng_1646383351360.png",
+                "id": 1904726513347
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Noodles",
+                    "Rice",
+                    "Sushi",
+                    "Asian",
+                    "Seafood",
+                    "Non Halal",
+                    "Vegan",
+                    "Vegetarian"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt685c2993cbbbf50e/6221d0f8960c53749300b62a/untitled-design-tpng_1646383351360.png",
+                "id": 1904726513347
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Noodles",
+                    "Rice",
+                    "Sushi",
+                    "Asian",
+                    "Seafood",
                     "Non Halal",
                     "Vegan",
                     "Vegetarian"
@@ -6175,6 +6286,34 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Rice",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9134c5db0f38f68c/621dddd5bc1c82424ba6ad76/sotong-masak-kunyitjpeg_1646124500093.jpeg",
+                "id": 670215568107
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Rice",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9134c5db0f38f68c/621dddd5bc1c82424ba6ad76/sotong-masak-kunyitjpeg_1646124500093.jpeg",
+                "id": 670215568107
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Chicken",
                     "Rice",
@@ -6203,6 +6342,36 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltcb8e235bdf0edfc1/60aca08fdecc934a9d0f7fd2/lajpg_1621926029939.jpg",
                 "id": 3641610103209
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Juices Smoothies",
+                    "Snacks",
+                    "Soup",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltcb8e235bdf0edfc1/60aca08fdecc934a9d0f7fd2/lajpg_1621926029939.jpg",
+                "id": 3641610103209
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Juices Smoothies",
+                    "Snacks",
+                    "Soup",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltcb8e235bdf0edfc1/60aca08fdecc934a9d0f7fd2/lajpg_1621926029939.jpg",
+                "id": 3641610103209
             }
         ]
     },
@@ -6215,6 +6384,34 @@
                 "estimatedDeliveryTime": 13,
                 "distanceInKm": 3,
                 "price": 15,
+                "rating": 3,
+                "cuisine": [
+                    "Icecream",
+                    "Juices Smoothies",
+                    "Bubble Tea"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt488593a091300a4f/6216162bfaad0144897d62a9/coco-locapng_1645614634194.png",
+                "id": 1571760558620
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Icecream",
+                    "Juices Smoothies",
+                    "Bubble Tea"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt488593a091300a4f/6216162bfaad0144897d62a9/coco-locapng_1645614634194.png",
+                "id": 1571760558620
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
                 "rating": 3,
                 "cuisine": [
                     "Icecream",
@@ -6239,6 +6436,26 @@
                 "cuisine": [],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt4a815fef3c38d20a/60da9c0436f81453ce3a578f/menueditoritemcccaaceaaffaejpg_1624939524106.jpg",
                 "id": 790134019078
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt4a815fef3c38d20a/60da9c0436f81453ce3a578f/menueditoritemcccaaceaaffaejpg_1624939524106.jpg",
+                "id": 790134019078
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt4a815fef3c38d20a/60da9c0436f81453ce3a578f/menueditoritemcccaaceaaffaejpg_1624939524106.jpg",
+                "id": 790134019078
             }
         ]
     },
@@ -6252,6 +6469,26 @@
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 5,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltef818f9a9a409fdf/6180e930dd83971371101998/kook-thaipng_1635838255774.png",
+                "id": 1566662793474
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltef818f9a9a409fdf/6180e930dd83971371101998/kook-thaipng_1635838255774.png",
+                "id": 1566662793474
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltef818f9a9a409fdf/6180e930dd83971371101998/kook-thaipng_1635838255774.png",
                 "id": 1566662793474
@@ -6271,6 +6508,26 @@
                 "cuisine": [],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9be4a05a5a34ef98/61a44cf1391f5a14d8fae44b/whatsapp-image-at-pmjpeg_1638157552925.jpeg",
                 "id": 4147124504660
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9be4a05a5a34ef98/61a44cf1391f5a14d8fae44b/whatsapp-image-at-pmjpeg_1638157552925.jpeg",
+                "id": 4147124504660
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9be4a05a5a34ef98/61a44cf1391f5a14d8fae44b/whatsapp-image-at-pmjpeg_1638157552925.jpeg",
+                "id": 4147124504660
             }
         ]
     },
@@ -6284,6 +6541,30 @@
                 "distanceInKm": 4,
                 "price": 20,
                 "rating": 1,
+                "cuisine": [
+                    "Chicken"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt42d1a0941333c27c/6214d883dc8a894488eba763/molaha-stationjpeg_1645533314236.jpeg",
+                "id": 2987962375947
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt42d1a0941333c27c/6214d883dc8a894488eba763/molaha-stationjpeg_1645533314236.jpeg",
+                "id": 2987962375947
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Chicken"
                 ],
@@ -6310,6 +6591,36 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0693a25c44064226/6205bba52ae12078ee3ec553/mix-yes-signature-dish-chloe-chen-jpg_1644542884634.jpg",
                 "id": 3201241342800
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Burgers",
+                    "Chicken",
+                    "Pasta",
+                    "Salad"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0693a25c44064226/6205bba52ae12078ee3ec553/mix-yes-signature-dish-chloe-chen-jpg_1644542884634.jpg",
+                "id": 3201241342800
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Burgers",
+                    "Chicken",
+                    "Pasta",
+                    "Salad"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0693a25c44064226/6205bba52ae12078ee3ec553/mix-yes-signature-dish-chloe-chen-jpg_1644542884634.jpg",
+                "id": 3201241342800
             }
         ]
     },
@@ -6323,6 +6634,30 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 5,
+                "cuisine": [
+                    "Nasi Lemak"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt63551734bad8ac62/60b44dc34934cd5cc68ebb82/nasi-lemakjpg_1622429122674.jpg",
+                "id": 939583740591
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Nasi Lemak"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt63551734bad8ac62/60b44dc34934cd5cc68ebb82/nasi-lemakjpg_1622429122674.jpg",
+                "id": 939583740591
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Nasi Lemak"
                 ],
@@ -6350,6 +6685,38 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt5103bb24fd7bcfd0/61284c3853cce215d30d4cfd/whatsapp-image-at-amjpeg_1630030903580.jpeg",
                 "id": 1132960253601
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "",
+                    "Noodles",
+                    "Rice",
+                    "Snacks",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt5103bb24fd7bcfd0/61284c3853cce215d30d4cfd/whatsapp-image-at-amjpeg_1630030903580.jpeg",
+                "id": 1132960253601
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "",
+                    "Noodles",
+                    "Rice",
+                    "Snacks",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt5103bb24fd7bcfd0/61284c3853cce215d30d4cfd/whatsapp-image-at-amjpeg_1630030903580.jpeg",
+                "id": 1132960253601
             }
         ]
     },
@@ -6366,6 +6733,26 @@
                 "cuisine": [],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta57daf317d6916d4/61692e3ff1f9620f5449538f/hyderabad-recipespng_1634283070645.png",
                 "id": 3296624872415
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta57daf317d6916d4/61692e3ff1f9620f5449538f/hyderabad-recipespng_1634283070645.png",
+                "id": 3296624872415
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta57daf317d6916d4/61692e3ff1f9620f5449538f/hyderabad-recipespng_1634283070645.png",
+                "id": 3296624872415
             }
         ]
     },
@@ -6379,6 +6766,38 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 5,
+                "cuisine": [
+                    "Chicken",
+                    "Meal Kits",
+                    "Noodles",
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0e4ed58635b16af9/61ca8e6516a18515bee563fd/brand-imagejpg_1640664676252.jpg",
+                "id": 734784339
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Meal Kits",
+                    "Noodles",
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0e4ed58635b16af9/61ca8e6516a18515bee563fd/brand-imagejpg_1640664676252.jpg",
+                "id": 734784339
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Chicken",
                     "Meal Kits",
@@ -6407,6 +6826,32 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt7fab5e203018539a/61ad58dcc6dc603d3ff832e7/whatsapp-image-at-amjpeg_1638750427056.jpeg",
                 "id": 4890306502943
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Rice",
+                    "Vegetarian"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt7fab5e203018539a/61ad58dcc6dc603d3ff832e7/whatsapp-image-at-amjpeg_1638750427056.jpeg",
+                "id": 4890306502943
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Rice",
+                    "Vegetarian"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt7fab5e203018539a/61ad58dcc6dc603d3ff832e7/whatsapp-image-at-amjpeg_1638750427056.jpeg",
+                "id": 4890306502943
             }
         ]
     },
@@ -6419,6 +6864,36 @@
                 "estimatedDeliveryTime": 87,
                 "distanceInKm": 5,
                 "price": 25,
+                "rating": 3,
+                "cuisine": [
+                    "Chicken",
+                    "Meal Kits",
+                    "Noodles",
+                    "Rice"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9da62eb6bde3d812/620466d4424fd73578f0d361/drycurrychickenwantanmeejpegjpeg_1644455635680.jpeg",
+                "id": 3295999247828
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Meal Kits",
+                    "Noodles",
+                    "Rice"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9da62eb6bde3d812/620466d4424fd73578f0d361/drycurrychickenwantanmeejpegjpeg_1644455635680.jpeg",
+                "id": 3295999247828
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
                 "rating": 3,
                 "cuisine": [
                     "Chicken",
@@ -6447,6 +6922,32 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0841762427dcd64f/60f3a195c019ad2aaa3a23eb/whatsapp-image-at-amjpeg_1626579348455.jpeg",
                 "id": 3874730933856
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Noodles",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0841762427dcd64f/60f3a195c019ad2aaa3a23eb/whatsapp-image-at-amjpeg_1626579348455.jpeg",
+                "id": 3874730933856
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Noodles",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt0841762427dcd64f/60f3a195c019ad2aaa3a23eb/whatsapp-image-at-amjpeg_1626579348455.jpeg",
+                "id": 3874730933856
             }
         ]
     },
@@ -6460,6 +6961,36 @@
                 "distanceInKm": 5,
                 "price": 25,
                 "rating": 5,
+                "cuisine": [
+                    "Chicken",
+                    "Noodles",
+                    "Snacks",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt971dd1151596197d/621483bce314e90bd894abcd/whitecoffeechenduljpgjpg_1645511611078.jpg",
+                "id": 4154694041738
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Noodles",
+                    "Snacks",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt971dd1151596197d/621483bce314e90bd894abcd/whitecoffeechenduljpgjpg_1645511611078.jpg",
+                "id": 4154694041738
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Chicken",
                     "Noodles",
@@ -6486,6 +7017,30 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt59a20974c4cc8193/61b08dae40699513e0774004/ken-burger-priscilla-nissie-andrew-unal-jpeg_1638960557804.jpeg",
                 "id": 1090576436426
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Burgers"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt59a20974c4cc8193/61b08dae40699513e0774004/ken-burger-priscilla-nissie-andrew-unal-jpeg_1638960557804.jpeg",
+                "id": 1090576436426
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Burgers"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt59a20974c4cc8193/61b08dae40699513e0774004/ken-burger-priscilla-nissie-andrew-unal-jpeg_1638960557804.jpeg",
+                "id": 1090576436426
             }
         ]
     },
@@ -6499,6 +7054,36 @@
                 "distanceInKm": 1,
                 "price": 5,
                 "rating": 4,
+                "cuisine": [
+                    "Chicken",
+                    "Noodles",
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltaba87843eeb6bc87/60e58e64a2cdd54a581d4cac/air-asia-store-imagepng_1625656931005.png",
+                "id": 4511662278855
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Noodles",
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltaba87843eeb6bc87/60e58e64a2cdd54a581d4cac/air-asia-store-imagepng_1625656931005.png",
+                "id": 4511662278855
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Chicken",
                     "Noodles",
@@ -6529,6 +7114,38 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt94f84af679f32489/61c2ae13b167c97f92eecd50/spaghetti-pek-yee-lim-jpg_1640148499274.jpg",
                 "id": 744920465094
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Noodles",
+                    "Pasta",
+                    "Snacks",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt94f84af679f32489/61c2ae13b167c97f92eecd50/spaghetti-pek-yee-lim-jpg_1640148499274.jpg",
+                "id": 744920465094
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Chicken",
+                    "Noodles",
+                    "Pasta",
+                    "Snacks",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt94f84af679f32489/61c2ae13b167c97f92eecd50/spaghetti-pek-yee-lim-jpg_1640148499274.jpg",
+                "id": 744920465094
             }
         ]
     },
@@ -6542,6 +7159,26 @@
                 "distanceInKm": 5,
                 "price": 25,
                 "rating": 1,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt1b929b29c04999cc/619cb0c68e5a4d509f9477ff/logolightpng_1637658821541.png",
+                "id": 3487013488924
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt1b929b29c04999cc/619cb0c68e5a4d509f9477ff/logolightpng_1637658821541.png",
+                "id": 3487013488924
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt1b929b29c04999cc/619cb0c68e5a4d509f9477ff/logolightpng_1637658821541.png",
                 "id": 3487013488924
@@ -6564,6 +7201,32 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf0372b88ed736b82/6225a1d6a5edcd746b78c3e0/takoyaki-png_1646633429953.png",
                 "id": 3375066238443
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Snacks",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf0372b88ed736b82/6225a1d6a5edcd746b78c3e0/takoyaki-png_1646633429953.png",
+                "id": 3375066238443
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Snacks",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf0372b88ed736b82/6225a1d6a5edcd746b78c3e0/takoyaki-png_1646633429953.png",
+                "id": 3375066238443
             }
         ]
     },
@@ -6576,6 +7239,34 @@
                 "estimatedDeliveryTime": 21,
                 "distanceInKm": 2,
                 "price": 10,
+                "rating": 3,
+                "cuisine": [
+                    "Rice",
+                    "Noodles",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltfa850aeaa60d43ac/612e5c2f5300b71e81500af7/roasted-chicken-rice-bbq-chickenjpg_1630428205705.JPG",
+                "id": 3909922007343
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Rice",
+                    "Noodles",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltfa850aeaa60d43ac/612e5c2f5300b71e81500af7/roasted-chicken-rice-bbq-chickenjpg_1630428205705.JPG",
+                "id": 3909922007343
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
                 "rating": 3,
                 "cuisine": [
                     "Rice",
@@ -6606,6 +7297,38 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt07041e38165d65ca/60d99a000b9d5a6684b7cfc1/logojpg_1624873470451.jpg",
                 "id": 3497412260518
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Chicken",
+                    "Snacks",
+                    "Steak",
+                    "Bubble Tea",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt07041e38165d65ca/60d99a000b9d5a6684b7cfc1/logojpg_1624873470451.jpg",
+                "id": 3497412260518
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Chicken",
+                    "Snacks",
+                    "Steak",
+                    "Bubble Tea",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt07041e38165d65ca/60d99a000b9d5a6684b7cfc1/logojpg_1624873470451.jpg",
+                "id": 3497412260518
             }
         ]
     },
@@ -6620,7 +7343,37 @@
                 "price": 25,
                 "rating": 2,
                 "cuisine": [
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf21c16c25f9846e5/620f3a1985d4ce219dcf0ec3/untitled-design-tpng_1645165080395.png",
+                "id": 1547294218345
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf21c16c25f9846e5/620f3a1985d4ce219dcf0ec3/untitled-design-tpng_1645165080395.png",
+                "id": 1547294218345
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf21c16c25f9846e5/620f3a1985d4ce219dcf0ec3/untitled-design-tpng_1645165080395.png",
                 "id": 1547294218345
@@ -6644,6 +7397,34 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt815b1e6ae8d1b51c/621612d1ef901d2feb9320fd/ding-teajpg_1645613776406.jpg",
                 "id": 4382525475521
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Juices Smoothies",
+                    "Snacks",
+                    "Bubble Tea"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt815b1e6ae8d1b51c/621612d1ef901d2feb9320fd/ding-teajpg_1645613776406.jpg",
+                "id": 4382525475521
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
+                "cuisine": [
+                    "Juices Smoothies",
+                    "Snacks",
+                    "Bubble Tea"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt815b1e6ae8d1b51c/621612d1ef901d2feb9320fd/ding-teajpg_1645613776406.jpg",
+                "id": 4382525475521
             }
         ]
     },
@@ -6652,11 +7433,35 @@
         "name": "CHOP TONG GUAN SDN BHD ( USJ branch ) ",
         "providers": [
             {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Healthy"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt99241bac2a3f1f20/6203817ef05013765e2481ab/usa-autumn-crisp-gjpg_1644396925864.jpg",
+                "id": 4310034832042
+            },
+            {
                 "name": "GrabFood",
                 "estimatedDeliveryTime": 117,
                 "distanceInKm": 3,
                 "price": 15,
                 "rating": 2,
+                "cuisine": [
+                    "Healthy"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt99241bac2a3f1f20/6203817ef05013765e2481ab/usa-autumn-crisp-gjpg_1644396925864.jpg",
+                "id": 4310034832042
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Healthy"
                 ],
@@ -6670,11 +7475,37 @@
         "name": "King Catfish Flagship (泥鳅王）",
         "providers": [
             {
-                "name": "Air Asia Eats",
+                "name": "GrabFood",
                 "estimatedDeliveryTime": 29,
                 "distanceInKm": 4,
                 "price": 20,
                 "rating": 5,
+                "cuisine": [
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9245de4b61f4ba1d/614045287104816e34aacb4e/whatsapp-image-at-jpeg_1631601958998.jpeg",
+                "id": 2147135846582
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 14,
+                "distanceInKm": 4,
+                "price": 20,
+                "rating": 1,
+                "cuisine": [
+                    "Rice",
+                    "Non Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt9245de4b61f4ba1d/614045287104816e34aacb4e/whatsapp-image-at-jpeg_1631601958998.jpeg",
+                "id": 2147135846582
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 10,
+                "distanceInKm": 2,
+                "price": 5,
+                "rating": 3,
                 "cuisine": [
                     "Rice",
                     "Non Halal"
@@ -6689,10 +7520,38 @@
         "name": "Daboba Lip Sin - Pekaka Square",
         "providers": [
             {
+                "name": "GrabFood",
+                "estimatedDeliveryTime": 20,
+                "distanceInKm": 12,
+                "price": 105,
+                "rating": 4,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 4577129877721
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 12,
+                "distanceInKm": 5,
+                "price": 8,
+                "rating": 24,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 4577129877721
+            },
+            {
                 "name": "Air Asia Eats",
                 "estimatedDeliveryTime": 69,
                 "distanceInKm": 5,
-                "price": 25,
+                "price": 8,
                 "rating": 4,
                 "cuisine": [
                     "Bubble Tea",
@@ -6709,7 +7568,7 @@
         "name": "Spices-Furama Bukit Bintang",
         "providers": [
             {
-                "name": "Air Asia Eats",
+                "name": "GrabFood",
                 "estimatedDeliveryTime": 89,
                 "distanceInKm": 3,
                 "price": 15,
@@ -6723,6 +7582,34 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltc0ab42e0ab2fd515/6214c6b9fd9b4409bbc885fb/fadaebaddcjpeg_1645528760392.jpeg",
                 "id": 4537290551521
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 12,
+                "distanceInKm": 5,
+                "price": 8,
+                "rating": 24,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 4577129877721
+            },
+            {
+                "name": "Air Asia Eats",
+                "estimatedDeliveryTime": 69,
+                "distanceInKm": 5,
+                "price": 8,
+                "rating": 4,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 4577129877721
             }
         ]
     },
@@ -6731,7 +7618,7 @@
         "name": "Bob Ayam Gunting Cheese",
         "providers": [
             {
-                "name": "Air Asia Eats",
+                "name": "GrabFood",
                 "estimatedDeliveryTime": 18,
                 "distanceInKm": 3,
                 "price": 15,
@@ -6743,26 +7630,34 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte7f5b643f9368ee9/6195d10f9216a558aaea1f8d/whatsapp-image-at-amjpeg_1637208334612.jpeg",
                 "id": 4457327769535
-            }
-        ]
-    },
-    {
-        "merchantId": 150,
-        "name": "Yum Thong Sui - Bangsar The Sphere",
-        "providers": [
+            },
+            {
+                "name": "Food Panda",
+                "estimatedDeliveryTime": 12,
+                "distanceInKm": 5,
+                "price": 8,
+                "rating": 24,
+                "cuisine": [
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
+                ],
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 4577129877721
+            },
             {
                 "name": "Air Asia Eats",
-                "estimatedDeliveryTime": 32,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 1,
+                "estimatedDeliveryTime": 69,
+                "distanceInKm": 5,
+                "price": 8,
+                "rating": 4,
                 "cuisine": [
-                    "Snacks",
-                    "Soup",
-                    "Vegetarian"
+                    "Bubble Tea",
+                    "Juices Smoothies",
+                    "Halal"
                 ],
-                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt6fd1135f1261cf97/621481f10683130e24bf080b/njpg_1645511152078.jpg",
-                "id": 71987652126
+                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blta3c852ab72a57185/617242069db1d6405b158bd6/matcha-frappejpg_1634877957714.jpg",
+                "id": 4577129877721
             }
         ]
     },
@@ -6781,28 +7676,6 @@
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte9c5f615a037d23d/61f61c3bd2483f75d846f097/njpg_1643519034625.jpg",
                 "id": 4287096027912
-            }
-        ]
-    },
-    {
-        "merchantId": 152,
-        "name": "Che' Nab Laksa & Popiah",
-        "providers": [
-            {
-                "name": "Air Asia Eats",
-                "estimatedDeliveryTime": 31,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 1,
-                "cuisine": [
-                    "Noodles",
-                    "Rice",
-                    "Snacks",
-                    "Soup",
-                    "Halal"
-                ],
-                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltab2c599697cc5071/61c40c379a0b3d12b53e19f5/whatsapp-image-at-pmjpg_1640238134301.jpg",
-                "id": 3564298474186
             }
         ]
     },
@@ -6856,6 +7729,8 @@
                     "Noodles",
                     "Rice",
                     "Sushi",
+                    "Asian",
+                    "Seafood",
                     "Non Halal",
                     "Vegan",
                     "Vegetarian"
@@ -7320,7 +8195,9 @@
                 "price": 15,
                 "rating": 5,
                 "cuisine": [
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf21c16c25f9846e5/620f3a1985d4ce219dcf0ec3/untitled-design-tpng_1645165080395.png",
                 "id": 4204394970775
@@ -7447,66 +8324,6 @@
         ]
     },
     {
-        "merchantId": 186,
-        "name": "Yum Thong Sui - Bangsar The Sphere",
-        "providers": [
-            {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 99,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 3,
-                "cuisine": [
-                    "Snacks",
-                    "Soup",
-                    "Vegetarian"
-                ],
-                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt6fd1135f1261cf97/621481f10683130e24bf080b/njpg_1645511152078.jpg",
-                "id": 4434845005271
-            }
-        ]
-    },
-    {
-        "merchantId": 187,
-        "name": "CHAR KOEY TEOW POWER",
-        "providers": [
-            {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 18,
-                "distanceInKm": 2,
-                "price": 10,
-                "rating": 4,
-                "cuisine": [
-                    "Noodles"
-                ],
-                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blte9c5f615a037d23d/61f61c3bd2483f75d846f097/njpg_1643519034625.jpg",
-                "id": 2993364767340
-            }
-        ]
-    },
-    {
-        "merchantId": 188,
-        "name": "Che' Nab Laksa & Popiah",
-        "providers": [
-            {
-                "name": "Food Panda",
-                "estimatedDeliveryTime": 118,
-                "distanceInKm": 1,
-                "price": 5,
-                "rating": 1,
-                "cuisine": [
-                    "Noodles",
-                    "Rice",
-                    "Snacks",
-                    "Soup",
-                    "Halal"
-                ],
-                "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltab2c599697cc5071/61c40c379a0b3d12b53e19f5/whatsapp-image-at-pmjpg_1640238134301.jpg",
-                "id": 3979374165462
-            }
-        ]
-    },
-    {
         "merchantId": 189,
         "name": "Brown Cafe - Gaya",
         "providers": [
@@ -7556,6 +8373,8 @@
                     "Noodles",
                     "Rice",
                     "Sushi",
+                    "Asian",
+                    "Seafood",
                     "Non Halal",
                     "Vegan",
                     "Vegetarian"
@@ -8020,7 +8839,9 @@
                 "price": 20,
                 "rating": 4,
                 "cuisine": [
-                    "Sushi"
+                    "Sushi",
+                    "Asian",
+                    "Seafood"
                 ],
                 "photoHref": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltf21c16c25f9846e5/620f3a1985d4ce219dcf0ec3/untitled-design-tpng_1645165080395.png",
                 "id": 3781086077781
