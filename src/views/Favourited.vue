@@ -6,7 +6,6 @@
         alt="Bookmark"
         style="width: 50%; height: auto"
       />
-      RM0.00
     </header>
     
     <hr>
