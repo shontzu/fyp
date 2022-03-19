@@ -1,7 +1,7 @@
 <template>
   <div id="random">
     <h1 id="alert"><img src="../assets/hmm.gif" alt="hmm" /></h1>
-    <h1 id="random-result" @click="findDeals()"></h1>
+    <p id="random-result" @click="findDeals()"></p>
     <button id="button" @click="findSomething()" class="btn btn-warning btn-lg">
       Find something for me
     </button>
@@ -60,8 +60,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 39px;
+h1, p{
   font-weight: bold;
   color: #fff;
 }
