@@ -39,7 +39,7 @@ export default {
 
       var img = document.createElement("img");
       img.style.width = '100%';
-      img.style.height = 'auto'
+      img.style.height = '50vh'
       img.src = fdsData[this.merchantId].providers[0].photoHref;
       var src = document.getElementById("random-result");
       src.appendChild(img);
@@ -95,6 +95,7 @@ body {
   width: 100%;
 }
 #random-result {
+  width:50vw;
   cursor: pointer;
 }
 </style>
