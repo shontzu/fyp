@@ -71,10 +71,36 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-3 variant="outline-secondary"
+            >Feedback</b-button
+          >
+        </b-card-header>
+        <b-collapse
+          id="accordion-3"
+          visible
+          accordion="my-accordion"
+          role="tabpanel"
+        >
+          <b-card-body>
+            <b-card-text></b-card-text>
+            <b-card-text
+              ><a
+                href="https://forms.gle/CEFk9a4s8YtW9qoj6"
+                alt="user acceptance form"
+                target="blank"
+                >Fill up a survey for me :)</a
+              ></b-card-text
+            >
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-4 variant="outline-secondary"
             >Login / Logout</b-button
           >
         </b-card-header>
-        <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+        <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
               <button
@@ -130,5 +156,9 @@ export default {
 /* override the global styling header shadow */
 header {
   box-shadow: none;
+}
+a {
+  text-decoration: none;
+  color:orange;
 }
 </style>
