@@ -1,6 +1,7 @@
 <template>
   <footer>
     <router-link to="/isFavourited"><img src="../assets/icon-bookmark.png" alt="isFavourited"></router-link>
+    <router-link to="/Feed"><img src="../assets/icon-feed.png" alt="Feed"></router-link>
     <router-link to="/"><img src="../assets/icon-home.png" alt="Home"></router-link>
     <router-link to="/random"><img src="../assets/icon-random.png" alt="Account"></router-link>
     <router-link to="/Account"><img src="../assets/icon-acc.png" alt="Account"></router-link>

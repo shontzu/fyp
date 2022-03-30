@@ -7,6 +7,7 @@ import Account from "../views/Account.vue"
 import Compare from "../views/Compare.vue"
 import SeeAll from "../views/SeeAll.vue"
 import Random from "../components/Random.vue"
+import Feed from "../views/Feed.vue"
 
 Vue.use(VueRouter)
 
@@ -46,7 +47,13 @@ const routes = [
         path: '/random',
         name: 'random',
         component: Random
+    },
+    {
+        path: '/feed',
+        name: 'feed',
+        component: Feed
     }    
+    
 ]
 
 const router = new VueRouter({
