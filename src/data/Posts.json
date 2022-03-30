@@ -1,0 +1,14 @@
+[
+    {
+        "author": "yuuchin",
+        "postTitle": "Title #1",
+        "postMsg": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe odit velit amet et quo commodi atque iste veniam ipsam quidem?",
+        "postedOn": "03/03/2022"
+    },
+    {
+        "author": "yuuchin",
+        "postTitle": "Title #2",
+        "postMsg": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam necessitatibus cupiditate nostrum vero? Tempora porro tenetur ex dolores quasi veniam, voluptas voluptate iste dolor illum, expedita quidem accusamus explicabo?",
+        "postedOn": "04/03/2022"
+    }
+]
