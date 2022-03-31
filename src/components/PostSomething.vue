@@ -9,7 +9,7 @@
         "
       >
         <input type="text" v-model="newPost.author" placeholder="author" />
-        <div>{{ newPost.postedOn }}</div>
+        <i>{{ newPost.postedOn }}</i>
         <button
           class="btn btn-outline-warning"
           type="button"
@@ -18,7 +18,18 @@
           Post
         </button>
       </span>
-      <input type="text" v-model="newPost.postTitle" placeholder="Title" />
+
+      <span
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <input type="text" v-model="newPost.postTitle" placeholder="Title" />
+        <i> {{ merchant }}</i>
+      </span>
+
       <textarea
         class="md-textarea form-control"
         rows="3"
@@ -27,39 +38,44 @@
       />
     </div>
 
+    <br /><br /><br />
 
     <div class="card" v-for="post in posts" :key="post.id">
       <h2 class="card-title">{{ post.postTitle }}</h2>
       <p class="card-text">
-        {{ post.author }} on {{ post.postedOn }} <br />
-        {{ post.postMsg }}
-      </p>
+      <button v-if="post.merchant" type="button" class="btn btn-outline-warning" @click="findDeals(post)">{{post.merchant}}</button>
+      <p>{{ post.postMsg }}</p>
+      <i>by {{ post.author }} on {{ post.postedOn }} </i> <br>
+
       <hr />
     </div>
   </div>
 </template>
 
 <script>
-import postsData from "../data/Posts.json"
-// const fs = require('fs');
+import postsData from "../data/Posts.json";
 
 var date = new Date();
 
 export default {
   name: "PostSomething",
-  components: {
-  },
+  components: {},
   data() {
     return {
+      merchant: this.$route.params.merchant,
       newPost: {
         author: "",
         postTitle: "",
         postMsg: "",
-        postedOn: date.getDate() +"/" + (date.getMonth() + 1) + "/" + date.getFullYear(),
+        postedOn:
+          date.getDate() +
+          "/" +
+          (date.getMonth() + 1) +
+          "/" +
+          date.getFullYear(),
+          merchant: this.$route.params.merchant,
       },
       posts: postsData,
-    // posts: fs.readFileSync('../data/Posts.json'),
-    // object: JSON.parse(this.posts),
     };
   },
   methods: {
@@ -71,19 +87,34 @@ export default {
       } else if (this.newPost.postMsg == "") {
         alert("post cannot be empty");
       } else {
-        // this.object.push({ ...this.newPost });
-        // console.log(this.object);
         this.posts.push({ ...this.newPost });
         console.log(this.posts);
-        this.newPost.author == "";
-        this.newPost.postTitle == "";
-        this.newPost.postMsg == "";
+        this.newPost.author = "";
+        this.newPost.postTitle = "";
+        this.newPost.postMsg = "";
       }
+    },
+    findDeals(post) {
+      console.log("find deals in " + post.merchant);
+      this.$router.push({
+        path: "/compare/" + post.merchant,
+      });
     },
   },
 };
 </script>
 
 <style scoped>
-
+h2{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.badge{
+  padding:10px;
+  color:black;
+  border: 1px solid yellow;
+  width:50%;
+  overflow:hidden;
+}
 </style>

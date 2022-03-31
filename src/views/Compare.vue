@@ -1,27 +1,33 @@
 <template>
   <div>
     <h1>{{merchant}}</h1>
-    <!-- <hr> -->
-    <div class="btn-group" role="group" aria-label="Basic example">
+    <!-- <div v-for="merchant in effectiveFdsData.splice(0,1)" :key="merchant.id">
+      <img :src="merchant.providers[0].photoHref" alt="restaurants" style="width:100%; height:auto;" />
+    </div> -->
+    <div class="btn-group" role="group">
       <button type="button" class="btn btn-outline-warning" @click="back()">back</button>
-      <button type="button" class="btn btn-warning" @click="byRating()">by rating</button>
-      <button type="button" class="btn btn-warning" @click="byTime()">by time</button>
-      <button type="button" class="btn btn-warning" @click="byPrice()">by price</button>
+      <button type="button" class="btn btn-warning" @click="byRating()">rating</button>
+      <button type="button" class="btn btn-warning" @click="byTime()">time</button>
+      <button type="button" class="btn btn-warning" @click="byPrice()">price</button>
+      <button type="button" class="btn btn-warning" @click="feedThis(merchant)">feed</button>
     </div>
     <div>
+
+
       <div v-for="merchant in effectiveFdsData" :key="merchant.id" class="card">
+          <img :src="merchant.providers[0].photoHref" alt="restaurants" style="width:100%; height:auto;" />
           <h3 class="card-title">{{merchant.name.split("-")[1]}}</h3>
           <div v-for="provider in merchant.providers" :key="provider.id"  class="card-body">
             <span v-if="provider.name=='GrabFood'"><img src="../assets/grabfood.png" alt="grab food"></span>
-            <span v-else-if="provider.name=='Food Panda'"><img src="../assets/foodpanda.png" alt="grab food"></span>
-            <span v-else-if="provider.name=='Air Asia Eats'"><img src="../assets/airasia.png" alt="grab food"></span>
+            <span v-else-if="provider.name=='Food Panda'"><img src="../assets/foodpanda.png" alt="food panda"></span>
+            <span v-else-if="provider.name=='Air Asia Eats'"><img src="../assets/airasia.png" alt="air asia"></span>
             <div>
               {{provider.estimatedDeliveryTime}}mins
               {{provider.distanceInKm}}km
               {{provider.rating}}✰
               RM{{provider.price.toFixed(2)}}
             </div>
-            <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(provider,merchant.name)">
+            <button type="button" class="btn btn-sm btn-outline-secondary" @click="bookmark(provider,merchant.name, merchant.providers[0].photoHref)">
               Bookmark
             </button>
           </div>
@@ -60,7 +66,12 @@ export default {
     byPrice() {
       this.sortFunc=2;
     },
-    bookmark(merchant,merchantName) {
+    feedThis() {
+       this.$router.push({
+        path: "/feed/" + this.merchant});
+        console.log("post in feed about " + this.merchant);
+    },
+    bookmark(merchant,merchantName, merchantPhotoHref) {
       const self = this;
       console.log(merchant);
       if (!authentication.loggedIn()) {
@@ -76,6 +87,7 @@ export default {
         return;
       }
       merchant.merchantName=merchantName;
+      merchant.photoHref=merchantPhotoHref;
       this.cart._push(merchant);
       console.log(this.cart);
       console.log("added succesfully");
@@ -88,16 +100,22 @@ export default {
         );
         switch(this.sortFunc){
           case 1:
-            tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>b.rating - a.rating));
+            tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
+              console.log("sorted by rating " + a,b)
+              return b.rating - a.rating
+            }));
             break;
             case 2:
               tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
-                console.log(a,b)
+                console.log("sorted by price " + a,b)
                 return a.price-b.price
                 }));
             break;
             case 3:
-              tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>a.estimatedDeliveryTime - b.estimatedDeliveryTime));
+              tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
+                console.log("sorted by time " + a,b)
+                return a.estimatedDeliveryTime - b.estimatedDeliveryTime
+              }));
             break;
         }
         return tmp;

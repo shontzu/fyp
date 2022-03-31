@@ -37,7 +37,7 @@ const routes = [
         path: '/seeAll/:query',
         name: 'seeAll',
         component: SeeAll
-    } ,
+    },
     {
         path: '/seeAll',
         name: 'seeAllNoQ',
@@ -49,8 +49,13 @@ const routes = [
         component: Random
     },
     {
-        path: '/feed',
+        path: '/feed/:merchant',
         name: 'feed',
+        component: Feed
+    }, 
+    {
+        path: '/feed',
+        name: 'feedNoQ',
         component: Feed
     }    
     

@@ -7,7 +7,9 @@ const auth = getAuth(app);
 export async function tryToAuth(){
   let result=auth.currentUser??(await signInWithPopup(auth, provider)).user;
   return {
-    uid:result.uid
+    uid:result.uid,
+    email:result.email,
+    username: result.displayName
   }
 }
 export function logout(){
