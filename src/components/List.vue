@@ -81,6 +81,7 @@ export default {
       }
     },
     findDeals(merchant) {
+      console.log("find deals in " + merchant.name);
       this.$router.push({
         path: "/compare/" + merchant.name.split("-")[0],
       });

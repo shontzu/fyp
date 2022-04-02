@@ -24,7 +24,7 @@
           role="tabpanel"
         >
           <b-card-body>
-            <b-card-text>Find the best deal ever</b-card-text>
+            <b-card-text><b>FIND THE BEST DEAL EVER</b></b-card-text>
             <b-card-text
               >Compare prices across Food Delivery Services</b-card-text
             >
@@ -44,20 +44,8 @@
               style="width: 20%; height: auto"
             />
           </b-card-body>
-        </b-collapse>
-      </b-card>
-
-      <b-card no-body class="mb-1">
-        <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-2 variant="outline-secondary"
-            >FAQ</b-button
-          >
-        </b-card-header>
-        <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text>
-              <b>This app was developed as part of an academic project</b>
-            </b-card-text>
+            <b-card-text>This app was developed as part of an academic assessment</b-card-text>
             <b-card-text>
               A Final Year Project (FYP) is a project or academic task that must
               be accomplished individually by every undergraduate student to
@@ -97,10 +85,43 @@
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-4 variant="outline-secondary"
-            >Login / Logout</b-button
+            >Manage my posts</b-button
           >
         </b-card-header>
         <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+          <b-card-body>
+            <b-card-text v-for="post in posts" :key="post.id">
+              <h2 class="card-title">{{ post.postTitle }}</h2>
+              <button
+                v-if="post.merchant"
+                type="button"
+                class="btn btn-outline-warning"
+                @click="findDeals(post)"
+              >
+                {{ post.merchant }}
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-warning"
+                @click="Delete(post)"
+              >
+                Delete
+              </button>
+              <p>{{ post.postMsg }}</p>
+              <i>by {{ post.author }} on {{ post.postedOn }} </i> <br />
+              <hr />
+            </b-card-text>
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+
+      <b-card no-body class="mb-1">
+        <b-card-header header-tag="header" class="p-1" role="tab">
+          <b-button block v-b-toggle.accordion-5 variant="outline-secondary"
+            >Login / Logout</b-button
+          >
+        </b-card-header>
+        <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
           <b-card-body>
             <b-card-text>
               <button
@@ -127,11 +148,14 @@
 
 <script>
 import * as authentication from "../auth-me.js";
+import postsData from "../data/Posts.json";
 
 export default {
   name: "Account",
   data() {
-    return {};
+    return {
+      posts: postsData,
+    };
   },
   methods: {
     logout() {
@@ -148,6 +172,15 @@ export default {
         .catch((error) => alert("signed in failed" + error));
       console.log(authentication.loggedIn);
     },
+    findDeals(post) {
+      console.log("find deals in " + post.merchant);
+      this.$router.push({
+        path: "/compare/" + post.merchant,
+      });
+    },
+    Delete() {
+      console.log("delete button triggered");
+    },
   },
 };
 </script>
@@ -159,6 +192,6 @@ header {
 }
 a {
   text-decoration: none;
-  color:orange;
+  color: orange;
 }
 </style>

@@ -7,6 +7,7 @@ import Account from "../views/Account.vue"
 import Compare from "../views/Compare.vue"
 import SeeAll from "../views/SeeAll.vue"
 import Random from "../components/Random.vue"
+import Feed from "../views/Feed.vue"
 
 Vue.use(VueRouter)
 
@@ -36,7 +37,7 @@ const routes = [
         path: '/seeAll/:query',
         name: 'seeAll',
         component: SeeAll
-    } ,
+    },
     {
         path: '/seeAll',
         name: 'seeAllNoQ',
@@ -46,7 +47,18 @@ const routes = [
         path: '/random',
         name: 'random',
         component: Random
+    },
+    {
+        path: '/feed/:merchant',
+        name: 'feed',
+        component: Feed
+    }, 
+    {
+        path: '/feed',
+        name: 'feedNoQ',
+        component: Feed
     }    
+    
 ]
 
 const router = new VueRouter({

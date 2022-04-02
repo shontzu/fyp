@@ -1,0 +1,18 @@
+[
+    {
+        "author": "Local food blogger",
+        "postTitle": "Reccomended for coffee enthusiasts!!",
+        "postMsg": "The drinks and foods were all tasty and worthwhile. They offered the best coffee and showed the best attitude to its costumers. I would probably say that this coffee shop is a must for coffee lovers!",
+        "postedOn": "01/03/2022",
+        "merchant":"Old Town White Coffee",
+        "isPrivate": false
+    },
+    {
+        "author": "Restaurant reviewer",
+        "postTitle": "Affordable 👍👍",
+        "postMsg": "The coffee and pastries that they had were so delicious. They had the most affordable and delicious coffee in town.",
+        "postedOn": "04/03/2022",
+        "merchant":"Brown Cafe",
+        "isPrivate": false
+    }
+]
