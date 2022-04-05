@@ -36,28 +36,30 @@ export const dbUsers = {
   add: firestore.addDoc.bind(null, _ptr),
 }
 
-// ADD BOOKMARKED ITEM
 export function replicatedArray(ref, arr) {
   arr._push = function (item) {
-    //overwite push
+    //WRITE BOOKMARKED ITEM
     //add the item async to the data base and dispatch
     const ptr = Object.assign(item, {})
     ptr.__idx = arr.length
     arr.push(ptr)
     console.log(`Writing using id=${ptr.__idx}`)
     firestore
-      .updateDoc(ref, { items: firestore.arrayUnion(ptr) })
-      .catch((e) => {
-        if (e.toString().includes('No document to update')) {
-          return firestore.setDoc(ref, { items: [ptr] })
-        }
-        throw e
-      })
+    .updateDoc(ref, { items: firestore.arrayUnion(ptr) })
+    .catch((e) => {
+      if (e.toString().includes('No document to update')) {
+        return firestore.setDoc(ref, { items: [ptr] })
+      }
+      throw e
+    })
   }
+
+  // DELETE BOOKMARKED ITEM
   arr._splice = function (idx) {
     firestore.updateDoc(ref, { items: firestore.arrayRemove(this[idx]) })
     arr.splice(idx, 1)
   }
+
   arr.sync = function () {
     const obj = this.map(function (e) {
       return Object.assign(e, {})
@@ -67,6 +69,8 @@ export function replicatedArray(ref, arr) {
     })
     firestore.setDoc(ref, { items: obj })
   }
+
+  //GET BOOKMARKED ITEMS
   arr.fromRemote = async function () {
     this.length > 0 && this.splice(0)
     const doc = await firestore.getDoc(ref)
@@ -80,26 +84,26 @@ export function replicatedArray(ref, arr) {
 // CREATE POST
 export const createPost = ( post ) => {
   console.log('create post ' + JSON.stringify(post))
-  // return _ptr.add(post)
+  return _ptr.update({post:post})
 }
 
 // READ POST
-export const getPost = async (/*id*/) => {
+export const getPost = async (id) => {
   console.log('read post')
-  // const post = await _ptr.doc(id).get()
-  // return post.exist ? post.data() : null
+  const post = await _ptr.post(id).get()
+  return post.exist ? post.data() : null
 }
 
 // UPDATE POST
-export const updatePost = (postTitle, postMsg) => {
+export const updatePost = (id, postTitle, postMsg) => {
   console.log('update post ' + postTitle + " " + postMsg)
-  // return _ptr.doc(id).update(post)
+  return _ptr.post(id).update(postTitle, postMsg)
 }
 
 // DELETE POST
-export const deletePost = (post) => {
+export const deletePost = (post, id) => {
   console.log('delete post' + JSON.stringify(post))
-  // return _ptr.doc(id).delete()
+  return _ptr.post(id).delete()
 }
 
 export const dbPrototypes = firestore

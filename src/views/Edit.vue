@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="btn-group" role="group">
+      <!-- <h1>Edit</h1> -->
       <button type="button" class="btn btn-outline-warning" @click="back()">
         Back
       </button>
-      <h1>Edit</h1>
       <button type="button" class="btn btn-outline-warning" @click="update()">
         save
       </button>
@@ -16,26 +16,30 @@
       type="text"
       id="postTitle"
       v-model="title"
-      :placeholder="post.slice(0, 15) + '...'"
+      :placeholder="post.postTitle"
     />
-    <textarea v-model="msg" :placeholder="post" id="postMsg"></textarea>
+    <textarea v-model="msg" :placeholder="post.postMsg" id="postMsg"></textarea>
   </div>
 </template>
 
 <script>
 import { updatePost } from "../firebase";
-
+import postsData from "../data/Posts.json";
 export default {
   name: "edit",
   data() {
     return {
-      post: this.$route.params.post,
+      post: postsData[this.$route.params.post]||{postTitle:"Invalid",postMsg:"Invalid"},
       title: "",
       msg: ""
     };
   },
   created() {
-    console.log("updating post " + this.post);
+    // debugging
+    console.log("Edit.vue cerated() updating post")
+    console.log(this.post.postTitle)
+    console.log(this.post.postMsg)
+    console.log(this.post)
   },
   methods: {
     back() {

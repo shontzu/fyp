@@ -21,3 +21,7 @@ export function loggedIn(){
 export function getUID(){
   return auth.currentUser?.uid;
 }
+
+export function getCurrentLoggedInUser(){
+  return auth.currentUser?.displayName;
+  }
