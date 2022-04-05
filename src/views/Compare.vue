@@ -101,19 +101,19 @@ export default {
         switch(this.sortFunc){
           case 1:
             tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
-              console.log("sorted by rating " + a,b)
+              console.log("sorted by rating " + JSON.stringify(a,b))
               return b.rating - a.rating
             }));
             break;
             case 2:
               tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
-                console.log("sorted by price " + a,b)
+                console.log("sorted by price " + JSON.stringify(a,b))
                 return a.price-b.price
                 }));
             break;
             case 3:
               tmp.forEach(y=>y.providers=y.providers.sort((a,b)=>{
-                console.log("sorted by time " + a,b)
+                console.log("sorted by time " + JSON.stringify(a,b))
                 return a.estimatedDeliveryTime - b.estimatedDeliveryTime
               }));
             break;

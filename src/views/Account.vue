@@ -103,6 +103,13 @@
               <button
                 type="button"
                 class="btn btn-outline-warning"
+                @click="Update(post)"
+              >
+                Edit
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-warning"
                 @click="Delete(post)"
               >
                 Delete
@@ -149,6 +156,7 @@
 <script>
 import * as authentication from "../auth-me.js";
 import postsData from "../data/Posts.json";
+import { deletePost } from "../firebase"
 
 export default {
   name: "Account",
@@ -178,8 +186,11 @@ export default {
         path: "/compare/" + post.merchant,
       });
     },
-    Delete() {
-      console.log("delete button triggered");
+    Update(post){
+      this.$router.push('/edit/' + {title:post.postTitle , msg:post.postMsg})
+    },
+    Delete(post) {
+      deletePost(post)
     },
   },
 };

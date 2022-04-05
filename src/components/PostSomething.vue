@@ -54,6 +54,7 @@
 
 <script>
 import postsData from "../data/Posts.json";
+import { createPost } from "../firebase"
 
 var date = new Date();
 
@@ -78,6 +79,9 @@ export default {
       posts: postsData,
     };
   },
+  mounted() {
+    console.log("getPost")
+  },
   methods: {
     addNewPost() {
       if (this.newPost.author == "") {
@@ -87,11 +91,14 @@ export default {
       } else if (this.newPost.postMsg == "") {
         alert("post cannot be empty");
       } else {
+        // local json db
         this.posts.push({ ...this.newPost });
         console.log(this.posts);
         this.newPost.author = "";
         this.newPost.postTitle = "";
         this.newPost.postMsg = "";
+        //firestore db
+        createPost(this.posts);
       }
     },
     findDeals(post) {
