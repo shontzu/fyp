@@ -8,10 +8,11 @@
           align-items: center;
         "
       >
-        <i>author: {{ this.$user }}</i>
+        <input type="text" disabled v-model="newPost.author" :placeholder=this.$user.toString() />
+        <!-- <i>{{ this.$user }}</i> -->
         <i>{{ newPost.postedOn }}</i>
         <button
-        v-if="authenticated && ready"
+          v-if="this.$user"
           class="btn btn-outline-warning"
           type="button"
           @click="addNewPost()"
@@ -19,7 +20,7 @@
           Post
         </button>
         <button
-        v-else
+          v-else
           class="btn btn-outline-danger"
           type="button"
           @click="addNewPost()"
@@ -84,7 +85,7 @@ export default {
   data() {
     return {
       merchant: this.$route.params.merchant,
-      author: this.$user,
+      // author: this.$user,
       newPost: {
         author: this.$user,
         postTitle: "",
@@ -107,16 +108,18 @@ export default {
       // alert("please log in to see the feed");
       // this.$router.push("/");
     }
-    // console.log("$user: "+ this.$user.toString());
+      console.log("$user:" + this.$user)
+    console.log("$user.toString(): "+ this.$user.toString());
   },
   methods: {
     addNewPost() {
+      //check if not logged in
       if (!this.$user) {
         alert("please log in to post in feed");
       } else {
-        if (this.newPost.author == "") {
-          alert("please enter your alias");
-        } else if (this.newPost.postTitle == "") {
+        //logged in
+        //validate input
+        if (this.newPost.postTitle == "") {
           alert("Post title cannot be empty");
         } else if (this.newPost.postMsg == "") {
           alert("post cannot be empty");
@@ -124,7 +127,7 @@ export default {
           // local json db
           this.posts.push({ ...this.newPost });
           console.log(this.posts);
-          this.newPost.author = "";
+          //reset the form
           this.newPost.postTitle = "";
           this.newPost.postMsg = "";
           //firestore db

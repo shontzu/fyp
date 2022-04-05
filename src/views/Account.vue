@@ -24,6 +24,12 @@
           role="tabpanel"
         >
           <b-card-body>
+            <b-card-text
+              ><h1>
+                Hello {{ this.$user }}!
+                <span v-if="!this.$user">psst, please log in~ :D</span>
+              </h1></b-card-text
+            >
             <b-card-text><b>FIND THE BEST DEAL EVER</b></b-card-text>
             <b-card-text
               >Compare prices across Food Delivery Services</b-card-text
@@ -43,15 +49,7 @@
               alt="air asia eats"
               style="width: 20%; height: auto"
             />
-          </b-card-body>
-          <b-card-body>
-            <b-card-text>This app was developed as part of an academic assessment</b-card-text>
-            <b-card-text>
-              A Final Year Project (FYP) is a project or academic task that must
-              be accomplished individually by every undergraduate student to
-              obtain the attributions to graduate. Its aim is to demonstrate the
-              skills and knowledge students have acquired in their studies.
-            </b-card-text>
+            <b-card-text />
           </b-card-body>
         </b-collapse>
       </b-card>
@@ -82,7 +80,7 @@
         </b-collapse>
       </b-card>
 
-      <b-card no-body class="mb-1">
+      <b-card v-if="this.$user" no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
           <b-button block v-b-toggle.accordion-4 variant="outline-secondary"
             >Manage my posts</b-button
@@ -90,7 +88,7 @@
         </b-card-header>
         <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
           <b-card-body>
-            <b-card-text v-for="(post,idx) in posts" :key="`${idx}-ax`">
+            <b-card-text v-for="(post, idx) in posts" :key="`${idx}-ax`">
               <h2 class="card-title">{{ post.postTitle }}</h2>
               <button
                 v-if="post.merchant"
@@ -150,25 +148,42 @@
         </b-collapse>
       </b-card>
     </div>
+    <br />
+    <hr />
+    <br />
   </div>
 </template>
 
 <script>
 import * as authentication from "../auth-me.js";
 import postsData from "../data/Posts.json";
-import { deletePost } from "../firebase"
+import { deletePost } from "../firebase";
+import { getCurrentLoggedInUser } from "../auth-me.js";
+
 export default {
   name: "Account",
   data() {
     return {
+      authenticated: false,
+
       posts: postsData,
     };
+  },
+  created: function () {
+    this.authenticated = authentication.loggedIn();
+    this.$user = getCurrentLoggedInUser();
+    if (!this.$user) {
+      // alert("please log in to see the feed");
+      // this.$router.push("/");
+    }
+    // console.log("$user: "+ this.$user.toString());
   },
   methods: {
     logout() {
       authentication
         .logout()
         .then(() => alert("signed out succesfully"))
+        .then(() => this.refreshPage())
         .catch((error) => alert("sign out failed" + error));
       console.log(authentication.logout);
     },
@@ -185,12 +200,15 @@ export default {
         path: "/compare/" + post.merchant,
       });
     },
-    Update(post){
-      console.log(post)
-      this.$router.push('/edit/' + post)
+    Update(post) {
+      console.log(post);
+      this.$router.push("/edit/" + post);
     },
     Delete(post) {
-      deletePost(post)
+      deletePost(post);
+    },
+    refreshPage() {
+      this.$router.go(0);
     },
   },
 };
