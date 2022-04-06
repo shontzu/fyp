@@ -8,14 +8,24 @@
           align-items: center;
         "
       >
-        <input type="text" v-model="newPost.author" placeholder="author" />
+        <input type="text" disabled v-model="newPost.author" :placeholder=this.$user.toString() />
+        <!-- <i>{{ this.$user }}</i> -->
         <i>{{ newPost.postedOn }}</i>
         <button
+          v-if="this.$user"
           class="btn btn-outline-warning"
           type="button"
           @click="addNewPost()"
         >
           Post
+        </button>
+        <button
+          v-else
+          class="btn btn-outline-danger"
+          type="button"
+          @click="addNewPost()"
+        >
+          log in to post
         </button>
       </span>
 
@@ -43,9 +53,18 @@
     <div class="card" v-for="post in posts" :key="post.id">
       <h2 class="card-title">{{ post.postTitle }}</h2>
       <p class="card-text">
-      <button v-if="post.merchant" type="button" class="btn btn-outline-warning" @click="findDeals(post)">{{post.merchant}}</button>
+        <button
+          v-if="post.merchant"
+          type="button"
+          class="btn btn-outline-warning"
+          @click="findDeals(post)"
+        >
+          {{ post.merchant }}
+        </button>
+      </p>
+
       <p>{{ post.postMsg }}</p>
-      <i>by {{ post.author }} on {{ post.postedOn }} </i> <br>
+      <i>by {{ post.author }} on {{ post.postedOn }} </i> <br />
 
       <hr />
     </div>
@@ -54,6 +73,9 @@
 
 <script>
 import postsData from "../data/Posts.json";
+import { createPost } from "../firebase";
+import { getCurrentLoggedInUser } from "../auth-me.js";
+// import * as authentication from "../auth-me.js";
 
 var date = new Date();
 
@@ -63,8 +85,9 @@ export default {
   data() {
     return {
       merchant: this.$route.params.merchant,
+      // author: this.$user,
       newPost: {
-        author: "",
+        author: this.$user,
         postTitle: "",
         postMsg: "",
         postedOn:
@@ -73,25 +96,43 @@ export default {
           (date.getMonth() + 1) +
           "/" +
           date.getFullYear(),
-          merchant: this.$route.params.merchant,
+        merchant: this.$route.params.merchant,
       },
       posts: postsData,
     };
   },
+  created: function () {
+    // this.authenticated = authentication.loggedIn();
+    this.$user = getCurrentLoggedInUser();
+    if (!this.$user) {
+      // alert("please log in to see the feed");
+      // this.$router.push("/");
+    }
+      console.log("$user:" + this.$user)
+    console.log("$user.toString(): "+ this.$user.toString());
+  },
   methods: {
     addNewPost() {
-      if (this.newPost.author == "") {
-        alert("please enter your alias");
-      } else if (this.newPost.postTitle == "") {
-        alert("Post title cannot be empty");
-      } else if (this.newPost.postMsg == "") {
-        alert("post cannot be empty");
+      //check if not logged in
+      if (!this.$user) {
+        alert("please log in to post in feed");
       } else {
-        this.posts.push({ ...this.newPost });
-        console.log(this.posts);
-        this.newPost.author = "";
-        this.newPost.postTitle = "";
-        this.newPost.postMsg = "";
+        //logged in
+        //validate input
+        if (this.newPost.postTitle == "") {
+          alert("Post title cannot be empty");
+        } else if (this.newPost.postMsg == "") {
+          alert("post cannot be empty");
+        } else {
+          // local json db
+          this.posts.push({ ...this.newPost });
+          console.log(this.posts);
+          //reset the form
+          this.newPost.postTitle = "";
+          this.newPost.postMsg = "";
+          //firestore db
+          createPost(this.posts);
+        }
       }
     },
     findDeals(post) {
@@ -105,16 +146,16 @@ export default {
 </script>
 
 <style scoped>
-h2{
-  display:flex;
+h2 {
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.badge{
-  padding:10px;
-  color:black;
+.badge {
+  padding: 10px;
+  color: black;
   border: 1px solid yellow;
-  width:50%;
-  overflow:hidden;
+  width: 50%;
+  overflow: hidden;
 }
 </style>

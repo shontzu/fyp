@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Home from "../views/Home.vue"
 import isFavourited from "../views/Favourited.vue"
 import Account from "../views/Account.vue"
+import Edit from "../views/Edit.vue"
 import Compare from "../views/Compare.vue"
 import SeeAll from "../views/SeeAll.vue"
 import Random from "../components/Random.vue"
@@ -26,6 +27,11 @@ const routes = [
         path: '/account',
         name: 'Account',
         component: Account
+    },
+    {
+        path: '/edit/:post',
+        name: 'Edit',
+        component: Edit
     },
     {
         path: '/compare/:merchant',

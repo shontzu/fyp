@@ -5,8 +5,11 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, /* IconsPlugin */ } from 'bootstrap-vue'
-// import { getFirestore } from "firebase/firestore";
-// Import the functions you need from the SDKs you need
+
+// global variable??
+Vue.prototype.$user;
+// import { tryToAuth } from "../auth-me.js";
+// Vue.prototype.$user = tryToAuth().then(e=>user=e.username);
 
 const firebaseConfig = {
   apiKey:process.env.apiKey,
