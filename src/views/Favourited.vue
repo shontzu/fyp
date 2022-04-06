@@ -61,7 +61,8 @@ export default {
   },
   methods: {
     loginPage() {
-      this.$router.push('/account')
+      alert("login to use this feature")
+      // this.$router.push('/account')
       // or code below to login on-the-spot without redirecting to account page
       // const self = this;
       // if (!Authentication.loggedIn()) {
