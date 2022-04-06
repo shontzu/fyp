@@ -8,8 +8,9 @@
           align-items: center;
         "
       >
-        <input type="text" disabled v-model="newPost.author" :placeholder=this.$user.toString() />
-        <!-- <i>{{ this.$user }}</i> -->
+        <!-- <input type="text" disabled v-model="newPost.author" :placeholder=this.$user.toString() /> -->
+        <i v-if="this.$user">poster: {{ this.$user }}</i>
+        <i v-else>not signed in</i>
         <i>{{ newPost.postedOn }}</i>
         <button
           v-if="this.$user"
